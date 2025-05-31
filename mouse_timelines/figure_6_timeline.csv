@@ -1,0 +1,16 @@
+day,group,antibiotics,gavage,challenge,sample_collection,important,treatment
+44,BpSCSK,,,,yes,yes,off_antibiotics
+45,BpSCSK,,,,,,off_antibiotics
+46,BpSCSK,,,,yes,,off_antibiotics
+47,BpSCSK,,,,,,off_antibiotics
+48,BpSCSK,,,,yes,,off_antibiotics
+49,BpSCSK,,,,,,off_antibiotics
+50,BpSCSK,,,,yes,,off_antibiotics
+51,BpSCSK,,,,,yes,off_antibiotics
+52,BpSCSK,,,,yes,,off_antibiotics
+53,BpSCSK,,,,,,off_antibiotics
+54,BpSCSK,,,,yes,,off_antibiotics
+55,BpSCSK,,,,,,off_antibiotics
+56,BpSCSK,,,,yes,,off_antibiotics
+57,BpSCSK,,,,,,off_antibiotics
+58,BpSCSK,,,,yes,yes,off_antibiotics

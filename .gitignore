@@ -1,0 +1,19 @@
+.DS_Store
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# Ignore folders
+plots/
+tables/
+fasta_files/

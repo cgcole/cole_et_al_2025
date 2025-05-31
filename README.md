@@ -1,0 +1,27 @@
+# Data Repo for Cole et al., 2025
+
+Title: Lantibiotic-producing bacteria impact microbiome resilience and colonization resistance
+
+## Folder structure
+
+1. **code**: contains all R scripts for generating figures. 
+2. **data**: data used to generate figures
+- `human_clinical_donor_table.csv`: Shotgun sequencing results of clinical donor fecal samples paired with lanthipeptides detected.
+- `human_healthy_donor_table.csv`: Shotgun sequencing results of healthy human donor fecal samples paired with lanthipeptides detected.
+- `mouse_16S_sequencing.csv`: 16S rRNA gene sequencing data for all mouse experiments.
+- `mouse_bile_acid_quant_metabolomics.csv`: Quantitative metabolomics for bile acids in mouse fecal pellets.
+- `mouse_c_diff_cfu.csv`: CFU counts for C. difficile in the fecal pellets of challenged mice.
+- `mouse_c_diff_weights.csv`: Mouse weights for mice challenged with C. difficile.
+- `mouse_kleb_cfu.csv`: CFU counts for K. pneumoniae in the fecal pellets of challenged mice.
+- `mouse_pfbbr_quant_metaboloimcs.csv`: Quantitative metabolomics from PFBBr panel in mouse fecal pellets.
+- `previously_published_lanthipeptides.csv`: Lanthipeptides that have been characterized and previously published on.
+- `unique_identified_lanthipeptides.csv`: All unique lanthipeptides identified in this study.
+3. **mouse_timelines**: timelines for mouse experiments
+
+
+## How to Run
+
+1. Open `sandbox.Rproj` in RStudio.
+2. Run the `code/00_master.R` file, or run the scripts individually.
+3. Output will generate the `plots/` and `tables/` folders that contain all of the plots and tables used in the paper.
+
