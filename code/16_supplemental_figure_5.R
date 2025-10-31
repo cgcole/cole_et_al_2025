@@ -30,7 +30,7 @@ bile_acid_quant_subset <- bile_acid_quant %>%
   mutate(compound = factor(compound, levels =  unique(compound))) 
 
 
-# Figure S6A
+# Figure S5A
 pfbbr_quant_subset %>%
   ggplot(aes(x=day, y=concentration_mM)) +
   geom_bar(aes(fill = compound),stat="summary", alpha = .9, fun = "mean") +
@@ -41,13 +41,13 @@ pfbbr_quant_subset %>%
   xlab("Day") +
   theme(legend.position = "none") +
   scale_fill_manual(values = metabolite_figure_colors)
-ggsave("./plots/supplemental_figure6a.pdf",
+ggsave("./plots/supplemental_figure5a.pdf",
        height=2.75, 
        width=4,
        units = "in")
 
 
-# Figure S6B
+# Figure S5B
 bile_acid_quant_subset %>%
   ggplot(aes(x=day, y=concentration_µM)) +
   geom_bar(aes(fill = compound),stat="summary", alpha = .9, fun = "mean") +
@@ -57,7 +57,7 @@ bile_acid_quant_subset %>%
   xlab("Day") +
   theme(legend.position = "none") +
   scale_fill_manual(values = metabolite_figure_colors)
-ggsave("./plots/supplemental_figure6b.pdf", 
+ggsave("./plots/supplemental_figure5b.pdf", 
        height=4.75, 
        width=5, 
        units = "in")

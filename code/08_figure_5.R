@@ -153,12 +153,12 @@ f5c <- alpha_diversity %>%
                 width = 1.25, linewidth = error_bar_linewidth, alpha = .75) +
   guides(color = guide_legend(title="Group"))  +
   labs(x = "Day", y = "Unique ASVs") +
-  scale_x_continuous(limits = c(27, 45), breaks = c(28,31,33,37,44)) +
+  scale_x_continuous(limits = c(27, 48), breaks = c(28,31,33,37,44)) +
   scale_y_continuous(limits = c(0, 125), breaks = seq(0, 125, 50)) +
   scale_color_manual(values=figure_colors) 
 ggsave("./plots/figure5c.pdf", 
        device = "pdf",
-       width = 4.8,
+       width = 5.2,
        height = 3.1,
        units = "cm")
 
@@ -185,12 +185,12 @@ f5d <- alpha_diversity %>%
                 width = 1.25, linewidth = error_bar_linewidth, alpha = .75) +
   guides(color = guide_legend(title="Group"))  +
   labs(x = "Day", y = "Shannon Diversity") +
-  scale_x_continuous(limits = c(27, 45), breaks = c(28,31,33,37,44)) +
+  scale_x_continuous(limits = c(27, 48), breaks = c(28,31,33,37,44)) +
   scale_y_continuous(limits = c(0, 5), breaks = seq(0, 4.5, 1)) +
   scale_color_manual(values=figure_colors) 
 ggsave("./plots/figure5d.pdf", 
        device = "pdf",
-       width = 4.7,
+       width = 5.2,
        height = 3.1,
        units = "cm")
 
@@ -206,12 +206,12 @@ phy_subset <- transform_sample_counts(phy_subset, function(x) 1E6 * x/sum(x))
 
 ord <- ordinate(phy_subset, "PCoA", "bray")
 ord_data <- plot_ordination(phy_subset, 
-                ordinate(phy_subset, "PCoA", "bray"), 
-                color="group")$data
+                            ordinate(phy_subset, "PCoA", "bray"), 
+                            color="group")$data
 eigvec <- ord$values$Eigenvalues
 fracvar <- eigvec[1:2] / sum(eigvec)  # Get first two axes' variance
 percvar <- round(100 * fracvar, 1)  # Convert to percentage
-  
+
 f5e <- ord_data %>% 
   ggplot(aes(x=Axis.1, y=Axis.2, color=group)) +  
   geom_point(size=point_size) +
@@ -231,3 +231,65 @@ ggsave("./plots/figure5e.pdf",
 rm(f5b_1, f5b_2, f5c, f5d, f5e, t_subset, phy_subset, ggstack, 
    ord, ord_data, eigvec, fracvar, percvar, group_1_timeline, group_1_range, timeline)
 
+
+
+
+#Subsetting the data
+t_subset <- seq_table_filtered %>% 
+  filter(experiment %in% c("CCME11")) %>% 
+  filter(sample.type == "Fecal") %>% 
+  filter(day == 44) %>% 
+  filter(!(group == "SPF" & day == 44)) %>% 
+  filter(group %in% c("PBS", "BpKH6", "BpSCSK")) %>% 
+  mutate(group = factor(group, levels = c("PBS", "BpKH6", "BpSCSK"))) %>% 
+  arrange(day) %>% 
+  mutate(day = factor(day, levels = unique(day))) %>% 
+  group_by(group, day) %>% 
+  mutate(mouse.total = n_distinct(mouse.number)) %>% 
+  ungroup()
+
+
+figure5_alpha_diversity <- alpha_diversity %>% 
+  mutate(group = factor(group, levels = c("PBS", "BpKH6", "BpSCSK"))) %>% 
+  filter(samplename %in% t_subset$samplename) 
+
+
+#Figure 5C stats
+
+lm_model <- lm(Observed ~ group, figure5_alpha_diversity)
+residuals <- residuals(lm_model)
+shapiro.test(residuals)
+qqnorm(residuals)
+qqline(residuals, col = "red") #Is normal
+
+bartlett.test(Observed ~ group, figure5_alpha_diversity)
+
+#Normal but unequal variance
+oneway.test(Observed ~ group, data = figure5_alpha_diversity, var.equal = FALSE)
+figure_5c_welch <- pairwise.t.test(figure5_alpha_diversity$Observed, figure5_alpha_diversity$group, p.adjust.method = "none", pool.sd = FALSE)
+
+
+p.adjust(c(0.39520717, 0.03632503, 0.01372334), method = "BH")
+
+
+#Figure 5D stats
+
+lm_model <- lm(Shannon ~ group, figure5_alpha_diversity)
+residuals <- residuals(lm_model)
+shapiro.test(residuals)
+qqnorm(residuals)
+qqline(residuals, col = "red") #Is normal
+
+bartlett.test(Shannon ~ group, figure5_alpha_diversity)
+
+#Normal and equal variance
+aov_model <- aov(figure5_alpha_diversity$Shannon ~ figure5_alpha_diversity$group)
+summary(aov_model)
+TukeyHSD(aov_model)
+
+
+oneway.test(Shannon ~ group, data = figure5_alpha_diversity, var.equal = FALSE)
+figure_5d_welch <- pairwise.t.test(figure5_alpha_diversity$Shannon, figure5_alpha_diversity$group, p.adjust.method = "none", pool.sd = FALSE)
+
+
+p.adjust(c(0.198013789, 0.002374019, 1.599e-05), method = "BH")

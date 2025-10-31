@@ -2,7 +2,7 @@
 ## read sequencing data in
 seq_table <- read_csv("./data/mouse_16S_sequencing.csv") 
 
-  
+
 ## filter for bacteria and sequences with above .0001 relative abundance
 seq_table_filtered <- seq_table %>% 
   select(samplename, sampleid, experiment, group, treatment, day, mouse.number, sample.type, sample.weight, reads.in, 
@@ -168,7 +168,7 @@ write.fasta(as.list(healthy_lanA_sequences$aa_sequence), healthy_lanA_sequences$
 
 
 
-#
+# Information on data tables
 n_distinct(clinical_donor_t$patient_ID)
 n_distinct(clinical_donor_t$lan_gene)
 n_distinct(clinical_donor_t$shotgunSeq_id) + n_distinct(healthy_donor_t$shotgunSeq_id)

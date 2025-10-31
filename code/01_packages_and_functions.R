@@ -28,13 +28,14 @@ pacman::p_load(
   ComplexUpset,
   seqinr,
   umap,
-  msa
+  msa,
+  pheatmap
 )
 pacman::p_load_gh("ying14/yingtools2")
 
 rm(bioc_pkgs, pkg)
 
-
+# Visit https://github.com/omixer/omixer-rpmR for instructions to install Omixer
 
 
 ## Generate folders to store generated tables and plots

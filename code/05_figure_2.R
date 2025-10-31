@@ -1,63 +1,183 @@
 
-# Determine fitness ratio
+
+figure2A_stats_results <- data.frame()
+
+
 producing_strains <- clinical_donor_t %>% 
   mutate(blast_genus_species = if_else(str_detect(blast_genus_species," sp\\."), paste0(blast_genus_species, " ", 
                                                                                         blast_taxid), blast_genus_species)) %>% 
   mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
-                                                                             blast_taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+                                                                             taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+  mutate(blast_genus_species = if_else(str_detect(blast_genus_species," bacterium"), paste0(blast_genus_species, " ", 
+                                                                                            blast_taxid), blast_genus_species)) %>% 
+  mutate(genus_species = if_else(str_detect(genus_species, " bacterium"), paste0(genus_species, " ", 
+                                                                                 taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
   filter(blast_genus_species == genus_species) %>% 
-  group_by(lan_gene, blast_genus_species, genus_species) %>% 
+  select(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs, lan_gene) %>% 
+  distinct() %>% 
+  group_by(lan_gene, genus_species) %>% 
   mutate(n = n()) %>% 
   ungroup() %>% 
-  filter(n >= 5)
+  filter(n >= 5) %>% 
+  mutate(species_lan = paste0(genus_species, " ", lan_gene))
 
 
-nonproducing_strains <- clinical_donor_t %>% 
-  mutate(blast_genus_species = if_else(blast_species == " sp\\.", paste0(blast_genus_species, " ", 
-                                                                         blast_taxid), blast_genus_species)) %>% 
-  mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
-                                                                             taxid), genus_species)) %>%
-  filter(blast_genus_species != genus_species | is.na(blast_genus_species) | is.na(genus_species)) %>%
-  select(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs) %>% 
-  distinct() %>% 
-  group_by(genus_species) %>% 
-  summarise(mean_nonproducer_pctseqs = mean(pctseqs),
-            n_nonproducer = n()) %>% 
+for (lan in unique(producing_strains$species_lan)) {
+  lanthipeptide_producers <- clinical_donor_t %>% 
+    mutate(blast_genus_species = if_else(str_detect(blast_genus_species," sp\\."), paste0(blast_genus_species, " ", 
+                                                                                          blast_taxid), blast_genus_species)) %>% 
+    mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
+                                                                               taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+    mutate(blast_genus_species = if_else(str_detect(blast_genus_species," bacterium"), paste0(blast_genus_species, " ", 
+                                                                                              blast_taxid), blast_genus_species)) %>% 
+    mutate(genus_species = if_else(str_detect(genus_species, " bacterium"), paste0(genus_species, " ", 
+                                                                                   taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+    filter(blast_genus_species == genus_species) %>% 
+    select(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs, lan_gene, predicted_class,label, lanthipeptide) %>% 
+    distinct() %>% 
+    group_by(lan_gene, genus_species) %>% 
+    mutate(n = n()) %>% 
+    ungroup() %>% 
+    filter(n >= 5) %>% 
+    mutate(species_lan = paste0(genus_species, " ", lan_gene)) %>% 
+    filter(species_lan == lan) %>% 
+    mutate(category = "producer")
+  
+  nonproducing_strains <- clinical_donor_t %>% 
+    mutate(blast_genus_species = if_else(str_detect(blast_genus_species," sp\\."), paste0(blast_genus_species, " ", 
+                                                                                          blast_taxid), blast_genus_species)) %>% 
+    mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
+                                                                               taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+    mutate(blast_genus_species = if_else(str_detect(blast_genus_species," bacterium"), paste0(blast_genus_species, " ", 
+                                                                                              blast_taxid), blast_genus_species)) %>% 
+    mutate(genus_species = if_else(str_detect(genus_species, " bacterium"), paste0(genus_species, " ", 
+                                                                                   taxid), genus_species)) %>% 
+    mutate(lan_gene = if_else(is.na(lan_gene), "none", lan_gene)) %>% 
+    mutate(species_lan = paste0(genus_species, " ", lan_gene, ",")) %>% 
+    filter(genus_species %in% lanthipeptide_producers$genus_species) %>% 
+    select(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs, lan_gene, species_lan) %>% 
+    group_by(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs) %>% 
+    summarise(all_species_lan = paste0(species_lan, collapse = "")) %>% 
+    ungroup() %>% 
+    filter(!str_detect(all_species_lan, paste0(lan, ","))) %>% 
+    mutate(category = "nonproducer")
+  
+  producer_nonproducer_table <- lanthipeptide_producers %>% 
+    full_join(nonproducing_strains) 
+  
+  # Dunn's test with control comparisons only
+  dunn_result <- dunn_test(producer_nonproducer_table, pctseqs ~ category, p.adjust.method = "none") %>% 
+    mutate(species_lan = lan)
+  
+  figure2A_stats_results <- bind_rows(figure2A_stats_results, dunn_result)
+}
+
+
+figure2A_stats_results <- figure2A_stats_results %>%
+  mutate(adj_p_value = p.adjust(p, method = "BH")) %>% 
+  mutate(significance = case_when(
+    adj_p_value < .0001 ~ "****",
+    adj_p_value < .001 ~ "***",
+    adj_p_value < .01 ~ "**",
+    adj_p_value < .05 ~ "*",
+    adj_p_value >= .05 ~ NA,
+  ))
+
+
+
+
+
+fitness_data <- data.frame()
+
+
+for (lan in unique(producing_strains$species_lan)) {
+  lanthipeptide_producers <- clinical_donor_t %>% 
+    mutate(blast_genus_species = if_else(str_detect(blast_genus_species," sp\\."), paste0(blast_genus_species, " ", 
+                                                                                          blast_taxid), blast_genus_species)) %>% 
+    mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
+                                                                               taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+    mutate(blast_genus_species = if_else(str_detect(blast_genus_species," bacterium"), paste0(blast_genus_species, " ", 
+                                                                                              blast_taxid), blast_genus_species)) %>% 
+    mutate(genus_species = if_else(str_detect(genus_species, " bacterium"), paste0(genus_species, " ", 
+                                                                                   taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+    filter(blast_genus_species == genus_species) %>% 
+    select(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs, lan_gene, predicted_class,label, lanthipeptide) %>% 
+    distinct() %>% 
+    group_by(lan_gene, genus_species) %>% 
+    mutate(n = n()) %>% 
+    ungroup() %>% 
+    filter(n >= 5) %>% 
+    mutate(species_lan = paste0(genus_species, " ", lan_gene)) %>% 
+    filter(species_lan == lan) %>% 
+    mutate(category = "producer")
+  
+  nonproducing_strains <- clinical_donor_t %>% 
+    mutate(blast_genus_species = if_else(str_detect(blast_genus_species," sp\\."), paste0(blast_genus_species, " ", 
+                                                                                          blast_taxid), blast_genus_species)) %>% 
+    mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
+                                                                               taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+    mutate(blast_genus_species = if_else(str_detect(blast_genus_species," bacterium"), paste0(blast_genus_species, " ", 
+                                                                                              blast_taxid), blast_genus_species)) %>% 
+    mutate(genus_species = if_else(str_detect(genus_species, " bacterium"), paste0(genus_species, " ", 
+                                                                                   taxid), genus_species)) %>% 
+    mutate(lan_gene = if_else(is.na(lan_gene), "none", lan_gene)) %>% 
+    mutate(species_lan = paste0(genus_species, " ", lan_gene, ",")) %>% 
+    filter(genus_species %in% lanthipeptide_producers$genus_species) %>% 
+    select(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs, lan_gene, species_lan) %>% 
+    group_by(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs) %>% 
+    summarise(all_species_lan = paste0(species_lan, collapse = "")) %>% 
+    ungroup() %>% 
+    filter(!str_detect(all_species_lan, paste0(lan, ","))) %>% 
+    mutate(category = "nonproducer") %>% 
+    group_by(genus_species) %>% 
+    summarise(mean_nonproducer_pctseqs = mean(pctseqs),
+              n_nonproducers = n()) %>% 
+    ungroup()
+  
+  fc_table <- lanthipeptide_producers %>% 
+    left_join(nonproducing_strains) %>% 
+    mutate(fold_change = pctseqs/mean_nonproducer_pctseqs) 
+  
+  fitness_data <- bind_rows(fitness_data, fc_table)
+}
+
+
+fitness_results <- fitness_data %>% 
+  group_by(genus_species, lan_gene, predicted_class, label, lanthipeptide, n, n_nonproducers, mean_nonproducer_pctseqs, species_lan) %>% 
+  summarise(mean_fold_change = mean(fold_change)) %>% 
   ungroup() %>% 
-  filter(n_nonproducer >= 5)
-
-
-fitness_data <- producing_strains %>% 
-  left_join(nonproducing_strains) %>% 
-  filter(!is.na(mean_nonproducer_pctseqs)) %>% 
-  mutate(fold_change = pctseqs/mean_nonproducer_pctseqs) %>% 
-  group_by(lan_gene, predicted_class,label, lanthipeptide) %>% 
-  summarise(mean_fold_change = mean(fold_change),
-            n_lan_gene = n()) %>% 
-  ungroup() %>% 
-  mutate(lan_gene = if_else(!is.na(label), label, lan_gene)) %>% 
   mutate(log2_mean_fold_change = log2(mean_fold_change)) %>% 
-  arrange(desc(log2_mean_fold_change)) %>% 
-  mutate(lan_gene = factor(lan_gene, levels = unique(lan_gene)))  %>% 
-  mutate(predicted_class = if_else(is.na(predicted_class), "Unknown", as.character(predicted_class))) %>% 
-  mutate(predicted_class = factor(predicted_class, levels = c("I", "II", "III", "Unknown"))) %>% 
-  mutate(advantage = if_else(log2_mean_fold_change > 0, "yes", "no")) 
+  left_join(figure2A_stats_results) %>% 
+  mutate(species_lan_label = paste0("<i>", genus_species, "</i> ", lan_gene))
+
+
+
 
 
 #Figure 2A
-f2a <- fitness_data %>% 
+f2a <- fitness_results %>% 
   arrange(log2_mean_fold_change) %>% 
-  mutate(lan_gene = factor(lan_gene, levels = unique(lan_gene))) %>% 
-  ggplot(aes(x = log2_mean_fold_change, y = lan_gene, fill = predicted_class)) +
+  mutate(species_lan_label = factor(species_lan_label, levels = unique(species_lan_label))) %>% 
+  ggplot(aes(x = log2_mean_fold_change, y = species_lan_label, fill = predicted_class)) +
   geom_bar(stat= "identity", alpha = .85) +
+  geom_text(aes(label = significance,
+                hjust = ifelse(log2_mean_fold_change > 0, -0.1, 1.1),
+                vjust = .75), 
+            size = 3, na.rm = TRUE) +
   guides(fill = guide_legend(title="Lan Class"))  +
   labs(x  = expression(bold(Log[2] ~ "(Fold Change)")),) +
   theme(legend.position = "right",
-        axis.title.y = element_blank()) +
-  scale_fill_manual(values = lantibiotic_class_colors) 
-ggsave("./plots/figure2a.pdf", 
+        axis.title.y = element_blank(),
+        axis.text.y = element_markdown() ) +
+  scale_fill_manual(values = lantibiotic_class_colors)  +
+  scale_x_continuous(
+    breaks = c(-2, -1, 0, 1, 2, 3, 4),
+    limits = c(-2.5, 4),
+    expand = expansion(mult = c(0.05, .1))  # add 5% space on left, 20% on right
+  )
+ggsave("./plots/figure2a_updated.pdf", 
        device = "pdf",
-       width = 7,
+       width = 10,
        height = 18,
        units = "cm")
 
@@ -135,4 +255,81 @@ ggsave("./plots/figure2b.pdf",
 rm(f2a, f2b,
    producing_strains, nonproducing_strains, fitness_data, 
    lanA_sequences, sequences, alignment, alignment_converted,
-   dist_matrix, umap_result, umap_data)
+   dist_matrix, umap_result, umap_data, dunn_result, figure2A_stats_results,
+   fitness_data, fc_table)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Determine fitness ratio
+producing_strains <- clinical_donor_t %>% 
+  mutate(blast_genus_species = if_else(str_detect(blast_genus_species," sp\\."), paste0(blast_genus_species, " ", 
+                                                                                        blast_taxid), blast_genus_species)) %>% 
+  mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
+                                                                             taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
+  filter(blast_genus_species == genus_species) %>% 
+  group_by(lan_gene, blast_genus_species, genus_species) %>% 
+  mutate(n = n()) %>% 
+  ungroup() %>% 
+  filter(n >= 5)
+
+
+nonproducing_strains <- clinical_donor_t %>% 
+  mutate(blast_genus_species = if_else(blast_species == " sp\\.", paste0(blast_genus_species, " ", 
+                                                                         blast_taxid), blast_genus_species)) %>% 
+  mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
+                                                                             taxid), genus_species)) %>%
+  filter(blast_genus_species != genus_species | is.na(blast_genus_species) | is.na(genus_species)) %>%
+  select(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs) %>% 
+  distinct() %>% 
+  group_by(genus_species) %>% 
+  summarise(mean_nonproducer_pctseqs = mean(pctseqs),
+            n_nonproducer = n()) %>% 
+  ungroup() %>% 
+  filter(n_nonproducer >= 5)
+
+
+fitness_data <- producing_strains %>% 
+  left_join(nonproducing_strains) %>% 
+  filter(!is.na(mean_nonproducer_pctseqs)) %>% 
+  mutate(fold_change = pctseqs/mean_nonproducer_pctseqs) %>% 
+  group_by(lan_gene, predicted_class,label, lanthipeptide) %>% 
+  summarise(mean_fold_change = mean(fold_change),
+            n_lan_gene = n()) %>% 
+  ungroup() %>% 
+  mutate(lan_gene = if_else(!is.na(label), label, lan_gene)) %>% 
+  mutate(log2_mean_fold_change = log2(mean_fold_change)) %>% 
+  arrange(desc(log2_mean_fold_change)) %>% 
+  mutate(lan_gene = factor(lan_gene, levels = unique(lan_gene)))  %>% 
+  mutate(predicted_class = if_else(is.na(predicted_class), "Unknown", as.character(predicted_class))) %>% 
+  mutate(predicted_class = factor(predicted_class, levels = c("I", "II", "III", "Unknown"))) %>% 
+  mutate(advantage = if_else(log2_mean_fold_change > 0, "yes", "no")) 
+
+
+
+

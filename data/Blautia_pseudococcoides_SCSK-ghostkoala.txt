@@ -1,0 +1,5154 @@
+locus_tag	KO
+contig_1_pilon_1
+contig_1_pilon_2
+contig_1_pilon_3
+contig_1_pilon_4
+contig_1_pilon_5
+contig_1_pilon_6
+contig_1_pilon_7
+contig_1_pilon_8
+contig_1_pilon_9
+contig_1_pilon_10
+contig_1_pilon_11
+contig_1_pilon_12
+contig_1_pilon_13
+contig_1_pilon_14
+contig_1_pilon_15
+contig_1_pilon_16	K01784
+contig_1_pilon_17
+contig_1_pilon_18	K03798
+contig_1_pilon_19	K03703
+contig_1_pilon_20	K06023
+contig_1_pilon_21	K25026
+contig_1_pilon_22	K05366
+contig_1_pilon_23
+contig_1_pilon_24	K03768
+contig_1_pilon_25	K06925
+contig_1_pilon_26	K14742
+contig_1_pilon_27	K03789
+contig_1_pilon_28
+contig_1_pilon_29	K00784
+contig_1_pilon_30	K25706
+contig_1_pilon_31	K00991
+contig_1_pilon_32
+contig_1_pilon_33
+contig_1_pilon_34
+contig_1_pilon_35	K01462
+contig_1_pilon_36
+contig_1_pilon_37
+contig_1_pilon_38	K01990
+contig_1_pilon_39
+contig_1_pilon_40
+contig_1_pilon_41
+contig_1_pilon_42
+contig_1_pilon_43
+contig_1_pilon_44
+contig_1_pilon_45
+contig_1_pilon_46
+contig_1_pilon_47
+contig_1_pilon_48
+contig_1_pilon_49
+contig_1_pilon_50
+contig_1_pilon_51
+contig_1_pilon_52
+contig_1_pilon_53
+contig_1_pilon_54
+contig_1_pilon_55	K00574
+contig_1_pilon_56
+contig_1_pilon_57
+contig_1_pilon_58	K01990
+contig_1_pilon_59
+contig_1_pilon_60
+contig_1_pilon_61
+contig_1_pilon_62
+contig_1_pilon_63	K02003
+contig_1_pilon_64	K02004
+contig_1_pilon_65
+contig_1_pilon_66	K01990
+contig_1_pilon_67
+contig_1_pilon_68
+contig_1_pilon_69
+contig_1_pilon_70	K09702
+contig_1_pilon_71	K25156
+contig_1_pilon_72
+contig_1_pilon_73	K25154
+contig_1_pilon_74
+contig_1_pilon_75
+contig_1_pilon_76
+contig_1_pilon_77
+contig_1_pilon_78
+contig_1_pilon_79
+contig_1_pilon_80	K06973
+contig_1_pilon_81	K19333
+contig_1_pilon_82
+contig_1_pilon_83	K02172
+contig_1_pilon_84
+contig_1_pilon_85
+contig_1_pilon_86
+contig_1_pilon_87
+contig_1_pilon_88	K02529
+contig_1_pilon_89	K02027
+contig_1_pilon_90	K02025
+contig_1_pilon_91
+contig_1_pilon_92
+contig_1_pilon_93
+contig_1_pilon_94	K09988
+contig_1_pilon_95
+contig_1_pilon_96	K10540
+contig_1_pilon_97	K10542
+contig_1_pilon_98	K10541
+contig_1_pilon_99
+contig_1_pilon_100
+contig_1_pilon_101
+contig_1_pilon_102	K10540
+contig_1_pilon_103
+contig_1_pilon_104	K02003
+contig_1_pilon_105
+contig_1_pilon_106
+contig_1_pilon_107
+contig_1_pilon_108	K00010
+contig_1_pilon_109
+contig_1_pilon_110	K03292
+contig_1_pilon_111	K03335
+contig_1_pilon_112	K06605
+contig_1_pilon_113
+contig_1_pilon_114
+contig_1_pilon_115	K03088
+contig_1_pilon_116
+contig_1_pilon_117	K01990
+contig_1_pilon_118
+contig_1_pilon_119
+contig_1_pilon_120
+contig_1_pilon_121	K20490
+contig_1_pilon_122
+contig_1_pilon_123
+contig_1_pilon_124
+contig_1_pilon_125
+contig_1_pilon_126
+contig_1_pilon_127
+contig_1_pilon_128	K22900
+contig_1_pilon_129
+contig_1_pilon_130	K01953
+contig_1_pilon_131	K06411
+contig_1_pilon_132
+contig_1_pilon_133
+contig_1_pilon_134	K01778
+contig_1_pilon_135
+contig_1_pilon_136	K10188
+contig_1_pilon_137
+contig_1_pilon_138
+contig_1_pilon_139	K01190
+contig_1_pilon_140	K12308
+contig_1_pilon_141
+contig_1_pilon_142
+contig_1_pilon_143
+contig_1_pilon_144
+contig_1_pilon_145	K07240
+contig_1_pilon_146	K07240
+contig_1_pilon_147	K00995
+contig_1_pilon_148	K02529
+contig_1_pilon_149	K02529
+contig_1_pilon_150	K02493
+contig_1_pilon_151	K02027
+contig_1_pilon_152
+contig_1_pilon_153
+contig_1_pilon_154
+contig_1_pilon_155	K02529
+contig_1_pilon_156
+contig_1_pilon_157	K00615
+contig_1_pilon_158	K00615
+contig_1_pilon_159	K00864
+contig_1_pilon_160
+contig_1_pilon_161
+contig_1_pilon_162
+contig_1_pilon_163
+contig_1_pilon_164	K18889
+contig_1_pilon_165	K18890
+contig_1_pilon_166
+contig_1_pilon_167
+contig_1_pilon_168
+contig_1_pilon_169
+contig_1_pilon_170	K00259
+contig_1_pilon_171	K03310
+contig_1_pilon_172	K04763
+contig_1_pilon_173
+contig_1_pilon_174
+contig_1_pilon_175
+contig_1_pilon_176
+contig_1_pilon_177	K03699
+contig_1_pilon_178	K07098
+contig_1_pilon_179	K04759
+contig_1_pilon_180	K02003
+contig_1_pilon_181
+contig_1_pilon_182	K07657
+contig_1_pilon_183	K19081
+contig_1_pilon_184	K09768
+contig_1_pilon_185
+contig_1_pilon_186
+contig_1_pilon_187
+contig_1_pilon_188
+contig_1_pilon_189
+contig_1_pilon_190
+contig_1_pilon_191
+contig_1_pilon_192
+contig_1_pilon_193
+contig_1_pilon_194
+contig_1_pilon_195
+contig_1_pilon_196	K04759
+contig_1_pilon_197
+contig_1_pilon_198
+contig_1_pilon_199	K03523
+contig_1_pilon_200
+contig_1_pilon_201
+contig_1_pilon_202
+contig_1_pilon_203
+contig_1_pilon_204
+contig_1_pilon_205
+contig_1_pilon_206
+contig_1_pilon_207
+contig_1_pilon_208
+contig_1_pilon_209
+contig_1_pilon_210
+contig_1_pilon_211
+contig_1_pilon_212
+contig_1_pilon_213
+contig_1_pilon_214	K00012
+contig_1_pilon_215
+contig_1_pilon_216
+contig_1_pilon_217	K13018
+contig_1_pilon_218
+contig_1_pilon_219	K15894
+contig_1_pilon_220	K19068
+contig_1_pilon_221	K24258
+contig_1_pilon_222	K01712
+contig_1_pilon_223
+contig_1_pilon_224
+contig_1_pilon_225	K01745
+contig_1_pilon_226
+contig_1_pilon_227	K02025
+contig_1_pilon_228
+contig_1_pilon_229
+contig_1_pilon_230
+contig_1_pilon_231
+contig_1_pilon_232
+contig_1_pilon_233
+contig_1_pilon_234	K03438
+contig_1_pilon_235	K03703
+contig_1_pilon_236
+contig_1_pilon_237	K03292
+contig_1_pilon_238
+contig_1_pilon_239
+contig_1_pilon_240
+contig_1_pilon_241
+contig_1_pilon_242
+contig_1_pilon_243
+contig_1_pilon_244	K00633
+contig_1_pilon_245	K00705
+contig_1_pilon_246	K01187
+contig_1_pilon_247
+contig_1_pilon_248	K05349
+contig_1_pilon_249
+contig_1_pilon_250	K08600
+contig_1_pilon_251	K12410
+contig_1_pilon_252
+contig_1_pilon_253	K02990
+contig_1_pilon_254	K03111
+contig_1_pilon_255	K02963
+contig_1_pilon_256
+contig_1_pilon_257
+contig_1_pilon_258	K22927
+contig_1_pilon_259	K02939
+contig_1_pilon_260	K02314
+contig_1_pilon_261
+contig_1_pilon_262	K07729
+contig_1_pilon_263	K02669
+contig_1_pilon_264
+contig_1_pilon_265
+contig_1_pilon_266
+contig_1_pilon_267
+contig_1_pilon_268	K02653
+contig_1_pilon_269
+contig_1_pilon_270	K02237
+contig_1_pilon_271	K07668
+contig_1_pilon_272
+contig_1_pilon_273
+contig_1_pilon_274	K02238
+contig_1_pilon_275
+contig_1_pilon_276	K02968
+contig_1_pilon_277	K06012
+contig_1_pilon_278	K06385
+contig_1_pilon_279	K03596
+contig_1_pilon_280
+contig_1_pilon_281
+contig_1_pilon_282	K03701
+contig_1_pilon_283	K03569
+contig_1_pilon_284	K03581
+contig_1_pilon_285
+contig_1_pilon_286
+contig_1_pilon_287
+contig_1_pilon_288	K18672
+contig_1_pilon_289
+contig_1_pilon_290
+contig_1_pilon_291	K26605
+contig_1_pilon_292
+contig_1_pilon_293
+contig_1_pilon_294
+contig_1_pilon_295
+contig_1_pilon_296	K10012
+contig_1_pilon_297
+contig_1_pilon_298
+contig_1_pilon_299	K02805
+contig_1_pilon_300
+contig_1_pilon_301
+contig_1_pilon_302
+contig_1_pilon_303	K01854
+contig_1_pilon_304	K07271
+contig_1_pilon_305
+contig_1_pilon_306
+contig_1_pilon_307
+contig_1_pilon_308
+contig_1_pilon_309
+contig_1_pilon_310	K07258
+contig_1_pilon_311	K01790
+contig_1_pilon_312	K09692
+contig_1_pilon_313	K09691
+contig_1_pilon_314
+contig_1_pilon_315
+contig_1_pilon_316
+contig_1_pilon_317
+contig_1_pilon_318
+contig_1_pilon_319	K10012
+contig_1_pilon_320
+contig_1_pilon_321
+contig_1_pilon_322
+contig_1_pilon_323	K09809
+contig_1_pilon_324
+contig_1_pilon_325
+contig_1_pilon_326	K00980
+contig_1_pilon_327
+contig_1_pilon_328	K09691
+contig_1_pilon_329	K09809
+contig_1_pilon_330	K09809
+contig_1_pilon_331	K07497
+contig_1_pilon_332
+contig_1_pilon_333	K01002
+contig_1_pilon_334
+contig_1_pilon_335
+contig_1_pilon_336
+contig_1_pilon_337
+contig_1_pilon_338	K03427
+contig_1_pilon_339
+contig_1_pilon_340
+contig_1_pilon_341
+contig_1_pilon_342
+contig_1_pilon_343
+contig_1_pilon_344	K02335
+contig_1_pilon_345
+contig_1_pilon_346
+contig_1_pilon_347
+contig_1_pilon_348
+contig_1_pilon_349
+contig_1_pilon_350	K07451
+contig_1_pilon_351
+contig_1_pilon_352
+contig_1_pilon_353
+contig_1_pilon_354
+contig_1_pilon_355
+contig_1_pilon_356	K03387
+contig_1_pilon_357
+contig_1_pilon_358
+contig_1_pilon_359
+contig_1_pilon_360
+contig_1_pilon_361
+contig_1_pilon_362
+contig_1_pilon_363
+contig_1_pilon_364
+contig_1_pilon_365
+contig_1_pilon_366
+contig_1_pilon_367	K03701
+contig_1_pilon_368
+contig_1_pilon_369
+contig_1_pilon_370
+contig_1_pilon_371
+contig_1_pilon_372
+contig_1_pilon_373
+contig_1_pilon_374	K19158
+contig_1_pilon_375
+contig_1_pilon_376
+contig_1_pilon_377
+contig_1_pilon_378
+contig_1_pilon_379
+contig_1_pilon_380
+contig_1_pilon_381
+contig_1_pilon_382
+contig_1_pilon_383
+contig_1_pilon_384
+contig_1_pilon_385
+contig_1_pilon_386
+contig_1_pilon_387	K01956
+contig_1_pilon_388	K01955
+contig_1_pilon_389	K06153
+contig_1_pilon_390
+contig_1_pilon_391
+contig_1_pilon_392
+contig_1_pilon_393
+contig_1_pilon_394	K00926
+contig_1_pilon_395	K01928
+contig_1_pilon_396	K04066
+contig_1_pilon_397	K01462
+contig_1_pilon_398	K00604
+contig_1_pilon_399	K03500
+contig_1_pilon_400	K06941
+contig_1_pilon_401	K20074
+contig_1_pilon_402	K12132
+contig_1_pilon_403	K06949
+contig_1_pilon_404	K01783
+contig_1_pilon_405
+contig_1_pilon_406	K00949
+contig_1_pilon_407	K06942
+contig_1_pilon_408	K13292
+contig_1_pilon_409
+contig_1_pilon_410	K03925
+contig_1_pilon_411	K03438
+contig_1_pilon_412
+contig_1_pilon_413	K08384
+contig_1_pilon_414	K08384
+contig_1_pilon_415	K01000
+contig_1_pilon_416	K01925
+contig_1_pilon_417	K03588
+contig_1_pilon_418	K00790
+contig_1_pilon_419
+contig_1_pilon_420	K03531
+contig_1_pilon_421	K03637
+contig_1_pilon_422	K03831
+contig_1_pilon_423	K03088
+contig_1_pilon_424
+contig_1_pilon_425
+contig_1_pilon_426	K03785
+contig_1_pilon_427
+contig_1_pilon_428	K03091
+contig_1_pilon_429
+contig_1_pilon_430	K01625
+contig_1_pilon_431	K00874
+contig_1_pilon_432	K00874
+contig_1_pilon_433
+contig_1_pilon_434
+contig_1_pilon_435	K01209
+contig_1_pilon_436	K06153
+contig_1_pilon_437	K01868
+contig_1_pilon_438	K03091
+contig_1_pilon_439
+contig_1_pilon_440
+contig_1_pilon_441
+contig_1_pilon_442	K01269
+contig_1_pilon_443	K09125
+contig_1_pilon_444
+contig_1_pilon_445	K07738
+contig_1_pilon_446	K02035
+contig_1_pilon_447	K02033
+contig_1_pilon_448	K02034
+contig_1_pilon_449
+contig_1_pilon_450	K02031
+contig_1_pilon_450	K02032
+contig_1_pilon_451	K14260
+contig_1_pilon_452	K26937
+contig_1_pilon_453
+contig_1_pilon_454	K18887
+contig_1_pilon_455	K18888
+contig_1_pilon_456	K14393
+contig_1_pilon_457	K03856
+contig_1_pilon_458	K03169
+contig_1_pilon_459	K21903
+contig_1_pilon_460	K01659
+contig_1_pilon_461	K07015
+contig_1_pilon_462	K02356
+contig_1_pilon_463
+contig_1_pilon_464
+contig_1_pilon_465
+contig_1_pilon_466
+contig_1_pilon_467
+contig_1_pilon_468
+contig_1_pilon_469
+contig_1_pilon_470	K22278
+contig_1_pilon_471	K06182
+contig_1_pilon_472	K01972
+contig_1_pilon_473	K06131
+contig_1_pilon_474	K00651
+contig_1_pilon_475	K03664
+contig_1_pilon_476
+contig_1_pilon_477
+contig_1_pilon_478
+contig_1_pilon_479
+contig_1_pilon_480
+contig_1_pilon_481
+contig_1_pilon_482
+contig_1_pilon_483
+contig_1_pilon_484
+contig_1_pilon_485
+contig_1_pilon_486
+contig_1_pilon_487
+contig_1_pilon_488
+contig_1_pilon_489
+contig_1_pilon_490
+contig_1_pilon_491
+contig_1_pilon_492
+contig_1_pilon_493
+contig_1_pilon_494
+contig_1_pilon_495
+contig_1_pilon_496
+contig_1_pilon_497
+contig_1_pilon_498
+contig_1_pilon_499
+contig_1_pilon_500
+contig_1_pilon_501	K00525
+contig_1_pilon_502	K00526
+contig_1_pilon_503	K25026
+contig_1_pilon_504	K26937
+contig_1_pilon_505
+contig_1_pilon_506
+contig_1_pilon_507
+contig_1_pilon_508
+contig_1_pilon_509	K01586
+contig_1_pilon_510
+contig_1_pilon_511
+contig_1_pilon_512	K03737
+contig_1_pilon_513	K03217
+contig_1_pilon_514	K01126
+contig_1_pilon_515
+contig_1_pilon_516
+contig_1_pilon_517	K06972
+contig_1_pilon_518	K03595
+contig_1_pilon_519
+contig_1_pilon_520	K01880
+contig_1_pilon_521	K02529
+contig_1_pilon_522	K01193
+contig_1_pilon_523	K02027
+contig_1_pilon_524	K02025
+contig_1_pilon_525	K02026
+contig_1_pilon_526
+contig_1_pilon_527
+contig_1_pilon_528	K21071
+contig_1_pilon_529	K07718
+contig_1_pilon_530
+contig_1_pilon_531
+contig_1_pilon_532
+contig_1_pilon_533	K10119
+contig_1_pilon_534
+contig_1_pilon_535
+contig_1_pilon_536	K01439
+contig_1_pilon_537
+contig_1_pilon_538	K01006
+contig_1_pilon_539
+contig_1_pilon_540
+contig_1_pilon_541
+contig_1_pilon_542
+contig_1_pilon_543
+contig_1_pilon_544	K01613
+contig_1_pilon_545	K03660
+contig_1_pilon_546	K07507
+contig_1_pilon_547
+contig_1_pilon_548
+contig_1_pilon_549
+contig_1_pilon_550	K03767
+contig_1_pilon_551
+contig_1_pilon_552	K05592
+contig_1_pilon_553
+contig_1_pilon_554	K06889
+contig_1_pilon_555	K07079
+contig_1_pilon_556
+contig_1_pilon_557
+contig_1_pilon_558	K04565
+contig_1_pilon_559	K06334
+contig_1_pilon_560
+contig_1_pilon_561
+contig_1_pilon_562
+contig_1_pilon_563	K07053
+contig_1_pilon_564
+contig_1_pilon_565
+contig_1_pilon_566	K26937
+contig_1_pilon_567
+contig_1_pilon_568
+contig_1_pilon_569	K01534
+contig_1_pilon_570
+contig_1_pilon_571	K08323
+contig_1_pilon_572	K11688
+contig_1_pilon_573
+contig_1_pilon_574	K11690
+contig_1_pilon_575	K08322
+contig_1_pilon_576	K00065
+contig_1_pilon_577
+contig_1_pilon_578
+contig_1_pilon_579	K06333
+contig_1_pilon_580
+contig_1_pilon_581	K01912
+contig_1_pilon_582
+contig_1_pilon_583
+contig_1_pilon_584	K01126
+contig_1_pilon_585	K03588
+contig_1_pilon_586	K02078
+contig_1_pilon_587	K00645
+contig_1_pilon_588	K00059
+contig_1_pilon_589	K09458
+contig_1_pilon_590	K02160
+contig_1_pilon_591	K02372
+contig_1_pilon_592	K01961
+contig_1_pilon_593
+contig_1_pilon_594	K00459
+contig_1_pilon_595
+contig_1_pilon_596	K12373
+contig_1_pilon_597
+contig_1_pilon_598
+contig_1_pilon_599
+contig_1_pilon_600
+contig_1_pilon_601
+contig_1_pilon_602	K01811
+contig_1_pilon_603
+contig_1_pilon_604	K01487
+contig_1_pilon_605	K00087
+contig_1_pilon_606
+contig_1_pilon_607	K13483
+contig_1_pilon_608
+contig_1_pilon_609
+contig_1_pilon_610	K02027
+contig_1_pilon_611	K02025
+contig_1_pilon_612	K02026
+contig_1_pilon_613
+contig_1_pilon_614
+contig_1_pilon_615
+contig_1_pilon_616	K01885
+contig_1_pilon_617	K03657
+contig_1_pilon_618	K06133
+contig_1_pilon_619	K19265
+contig_1_pilon_620
+contig_1_pilon_621
+contig_1_pilon_622	K09955
+contig_1_pilon_623
+contig_1_pilon_624	K06390
+contig_1_pilon_625
+contig_1_pilon_626
+contig_1_pilon_627
+contig_1_pilon_628
+contig_1_pilon_629
+contig_1_pilon_630
+contig_1_pilon_631
+contig_1_pilon_632	K02837
+contig_1_pilon_633
+contig_1_pilon_634
+contig_1_pilon_635	K03625
+contig_1_pilon_636	K03601
+contig_1_pilon_637
+contig_1_pilon_638	K13789
+contig_1_pilon_639	K01662
+contig_1_pilon_640	K06442
+contig_1_pilon_641	K00858
+contig_1_pilon_642	K03402
+contig_1_pilon_643	K03631
+contig_1_pilon_644	K06399
+contig_1_pilon_645	K07699
+contig_1_pilon_646	K00703
+contig_1_pilon_647
+contig_1_pilon_648
+contig_1_pilon_649	K15987
+contig_1_pilon_650
+contig_1_pilon_651	K02004
+contig_1_pilon_652
+contig_1_pilon_653
+contig_1_pilon_654	K03553
+contig_1_pilon_655
+contig_1_pilon_656	K18682
+contig_1_pilon_657
+contig_1_pilon_658	K04763
+contig_1_pilon_659	K01626
+contig_1_pilon_660
+contig_1_pilon_661
+contig_1_pilon_662
+contig_1_pilon_663	K06409
+contig_1_pilon_664	K17472
+contig_1_pilon_665	K04487
+contig_1_pilon_666	K04488
+contig_1_pilon_667	K00566
+contig_1_pilon_668	K04486
+contig_1_pilon_669	K00134
+contig_1_pilon_670	K00927
+contig_1_pilon_671	K01803
+contig_1_pilon_672	K04070
+contig_1_pilon_673
+contig_1_pilon_674	K02030
+contig_1_pilon_675
+contig_1_pilon_676	K23060
+contig_1_pilon_677	K15633
+contig_1_pilon_678
+contig_1_pilon_679
+contig_1_pilon_680
+contig_1_pilon_681
+contig_1_pilon_682
+contig_1_pilon_683	K13280
+contig_1_pilon_684	K01338
+contig_1_pilon_685	K01689
+contig_1_pilon_686
+contig_1_pilon_687	K12573
+contig_1_pilon_688	K03664
+contig_1_pilon_689
+contig_1_pilon_690
+contig_1_pilon_691
+contig_1_pilon_692
+contig_1_pilon_693
+contig_1_pilon_694	K07776
+contig_1_pilon_695	K07486
+contig_1_pilon_696	K07699
+contig_1_pilon_697
+contig_1_pilon_698
+contig_1_pilon_699
+contig_1_pilon_700	K03648
+contig_1_pilon_701
+contig_1_pilon_702
+contig_1_pilon_703	K00773
+contig_1_pilon_704	K03210
+contig_1_pilon_705	K01752
+contig_1_pilon_706	K01752
+contig_1_pilon_707	K13653
+contig_1_pilon_708
+contig_1_pilon_709
+contig_1_pilon_710
+contig_1_pilon_711
+contig_1_pilon_712
+contig_1_pilon_713
+contig_1_pilon_714	K00052
+contig_1_pilon_715	K01687
+contig_1_pilon_716	K01652
+contig_1_pilon_717	K00831
+contig_1_pilon_718	K00058
+contig_1_pilon_719
+contig_1_pilon_720	K01012
+contig_1_pilon_721	K03150
+contig_1_pilon_722
+contig_1_pilon_723
+contig_1_pilon_724
+contig_1_pilon_725	K00335
+contig_1_pilon_726	K00334
+contig_1_pilon_727
+contig_1_pilon_728
+contig_1_pilon_729	K00088
+contig_1_pilon_730	K00700
+contig_1_pilon_731	K03442
+contig_1_pilon_732
+contig_1_pilon_733
+contig_1_pilon_734
+contig_1_pilon_735
+contig_1_pilon_736	K01971
+contig_1_pilon_737	K10979
+contig_1_pilon_738	K11072
+contig_1_pilon_739	K11071
+contig_1_pilon_740	K11074
+contig_1_pilon_741	K11069
+contig_1_pilon_742
+contig_1_pilon_743
+contig_1_pilon_744
+contig_1_pilon_745
+contig_1_pilon_746
+contig_1_pilon_747
+contig_1_pilon_748
+contig_1_pilon_749	K01696
+contig_1_pilon_750	K07126
+contig_1_pilon_751	K09013
+contig_1_pilon_752	K09014
+contig_1_pilon_753
+contig_1_pilon_754
+contig_1_pilon_755
+contig_1_pilon_756	K02050
+contig_1_pilon_757	K02049
+contig_1_pilon_758	K03778
+contig_1_pilon_759	K09765
+contig_1_pilon_760	K01755
+contig_1_pilon_761	K00133
+contig_1_pilon_762	K03169
+contig_1_pilon_763	K23144
+contig_1_pilon_764
+contig_1_pilon_765
+contig_1_pilon_766
+contig_1_pilon_767
+contig_1_pilon_768
+contig_1_pilon_769
+contig_1_pilon_770
+contig_1_pilon_771
+contig_1_pilon_772
+contig_1_pilon_773
+contig_1_pilon_774
+contig_1_pilon_775
+contig_1_pilon_776
+contig_1_pilon_777
+contig_1_pilon_778
+contig_1_pilon_779
+contig_1_pilon_780
+contig_1_pilon_781	K07455
+contig_1_pilon_782
+contig_1_pilon_783
+contig_1_pilon_784
+contig_1_pilon_785
+contig_1_pilon_786
+contig_1_pilon_787
+contig_1_pilon_788
+contig_1_pilon_789	K06223
+contig_1_pilon_790
+contig_1_pilon_791	K01963
+contig_1_pilon_792
+contig_1_pilon_793
+contig_1_pilon_794
+contig_1_pilon_795
+contig_1_pilon_796
+contig_1_pilon_797
+contig_1_pilon_798
+contig_1_pilon_799
+contig_1_pilon_800
+contig_1_pilon_801
+contig_1_pilon_802
+contig_1_pilon_803
+contig_1_pilon_804
+contig_1_pilon_805
+contig_1_pilon_806
+contig_1_pilon_807
+contig_1_pilon_808
+contig_1_pilon_809
+contig_1_pilon_810
+contig_1_pilon_811
+contig_1_pilon_812	K06193
+contig_1_pilon_813
+contig_1_pilon_814
+contig_1_pilon_815
+contig_1_pilon_816
+contig_1_pilon_817
+contig_1_pilon_818
+contig_1_pilon_819
+contig_1_pilon_820
+contig_1_pilon_821
+contig_1_pilon_822
+contig_1_pilon_823
+contig_1_pilon_824
+contig_1_pilon_825	K19002
+contig_1_pilon_826	K13678
+contig_1_pilon_827
+contig_1_pilon_828
+contig_1_pilon_829	K00334
+contig_1_pilon_830	K00335
+contig_1_pilon_831	K00123
+contig_1_pilon_832	K03750
+contig_1_pilon_833	K03752
+contig_1_pilon_834
+contig_1_pilon_835	K03753
+contig_1_pilon_836
+contig_1_pilon_837
+contig_1_pilon_838
+contig_1_pilon_839
+contig_1_pilon_840	K01990
+contig_1_pilon_841
+contig_1_pilon_842	K12410
+contig_1_pilon_843
+contig_1_pilon_844
+contig_1_pilon_845
+contig_1_pilon_846
+contig_1_pilon_847
+contig_1_pilon_848	K05995
+contig_1_pilon_849
+contig_1_pilon_850
+contig_1_pilon_851
+contig_1_pilon_852
+contig_1_pilon_853	K26937
+contig_1_pilon_854
+contig_1_pilon_855
+contig_1_pilon_856
+contig_1_pilon_857	K02027
+contig_1_pilon_858
+contig_1_pilon_859
+contig_1_pilon_860
+contig_1_pilon_861
+contig_1_pilon_862	K09861
+contig_1_pilon_863	K26937
+contig_1_pilon_864	K01091
+contig_1_pilon_865
+contig_1_pilon_866
+contig_1_pilon_867	K01955
+contig_1_pilon_868
+contig_1_pilon_869	K03308
+contig_1_pilon_870
+contig_1_pilon_871	K09903
+contig_1_pilon_872	K02838
+contig_1_pilon_873	K00806
+contig_1_pilon_874	K00981
+contig_1_pilon_875	K00099
+contig_1_pilon_876	K11749
+contig_1_pilon_877
+contig_1_pilon_878
+contig_1_pilon_879	K12257
+contig_1_pilon_880	K03549
+contig_1_pilon_881
+contig_1_pilon_882	K09988
+contig_1_pilon_883	K00864
+contig_1_pilon_884
+contig_1_pilon_885
+contig_1_pilon_886
+contig_1_pilon_887
+contig_1_pilon_888
+contig_1_pilon_889	K27862
+contig_1_pilon_890
+contig_1_pilon_891
+contig_1_pilon_892
+contig_1_pilon_893
+contig_1_pilon_894	K01990
+contig_1_pilon_895	K01990
+contig_1_pilon_896
+contig_1_pilon_897
+contig_1_pilon_898
+contig_1_pilon_899
+contig_1_pilon_900
+contig_1_pilon_901	K01151
+contig_1_pilon_902	K01129
+contig_1_pilon_903	K02316
+contig_1_pilon_904	K03086
+contig_1_pilon_905
+contig_1_pilon_906	K00876
+contig_1_pilon_907	K06923
+contig_1_pilon_908	K14170
+contig_1_pilon_909
+contig_1_pilon_910	K00609
+contig_1_pilon_911	K00610
+contig_1_pilon_912	K00077
+contig_1_pilon_913	K26937
+contig_1_pilon_914
+contig_1_pilon_915
+contig_1_pilon_916	K26937
+contig_1_pilon_917
+contig_1_pilon_918	K07402
+contig_1_pilon_919	K02020
+contig_1_pilon_920	K02018
+contig_1_pilon_921
+contig_1_pilon_922
+contig_1_pilon_923	K10907
+contig_1_pilon_924	K00928
+contig_1_pilon_925
+contig_1_pilon_926	K07107
+contig_1_pilon_927
+contig_1_pilon_928
+contig_1_pilon_929
+contig_1_pilon_930
+contig_1_pilon_931	K00849
+contig_1_pilon_932	K00965
+contig_1_pilon_933
+contig_1_pilon_934	K02335
+contig_1_pilon_935	K00859
+contig_1_pilon_936
+contig_1_pilon_937	K07166
+contig_1_pilon_938	K09157
+contig_1_pilon_939
+contig_1_pilon_940	K04758
+contig_1_pilon_941	K04759
+contig_1_pilon_942
+contig_1_pilon_943	K27343
+contig_1_pilon_944	K00925
+contig_1_pilon_945	K07040
+contig_1_pilon_946	K02911
+contig_1_pilon_947
+contig_1_pilon_948	K03621
+contig_1_pilon_949	K02078
+contig_1_pilon_950	K03685
+contig_1_pilon_951	K03529
+contig_1_pilon_952	K03110
+contig_1_pilon_953	K01754
+contig_1_pilon_954
+contig_1_pilon_955
+contig_1_pilon_956	K07138
+contig_1_pilon_957	K09121
+contig_1_pilon_958	K06864
+contig_1_pilon_959
+contig_1_pilon_960
+contig_1_pilon_961	K00371
+contig_1_pilon_962
+contig_1_pilon_963
+contig_1_pilon_964	K09787
+contig_1_pilon_965	K03106
+contig_1_pilon_966	K02959
+contig_1_pilon_967	K06960
+contig_1_pilon_968	K02860
+contig_1_pilon_969	K00554
+contig_1_pilon_970
+contig_1_pilon_971
+contig_1_pilon_972
+contig_1_pilon_973
+contig_1_pilon_974
+contig_1_pilon_975
+contig_1_pilon_976
+contig_1_pilon_977	K03639
+contig_1_pilon_978
+contig_1_pilon_979
+contig_1_pilon_980
+contig_1_pilon_981
+contig_1_pilon_982
+contig_1_pilon_983
+contig_1_pilon_984
+contig_1_pilon_985
+contig_1_pilon_986
+contig_1_pilon_987
+contig_1_pilon_988
+contig_1_pilon_989
+contig_1_pilon_990
+contig_1_pilon_991	K01104
+contig_1_pilon_992
+contig_1_pilon_993
+contig_1_pilon_994	K08600
+contig_1_pilon_995
+contig_1_pilon_996
+contig_1_pilon_997	K01710
+contig_1_pilon_998
+contig_1_pilon_999	K00067
+contig_1_pilon_1000	K00973
+contig_1_pilon_1001
+contig_1_pilon_1002	K02884
+contig_1_pilon_1003	K03100
+contig_1_pilon_1004	K14540
+contig_1_pilon_1005	K03470
+contig_1_pilon_1006	K07460
+contig_1_pilon_1007	K05810
+contig_1_pilon_1008
+contig_1_pilon_1009	K00948
+contig_1_pilon_1010
+contig_1_pilon_1011	K03977
+contig_1_pilon_1012	K08591
+contig_1_pilon_1013	K00057
+contig_1_pilon_1014	K02003
+contig_1_pilon_1015
+contig_1_pilon_1016	K02004
+contig_1_pilon_1017	K23257
+contig_1_pilon_1018	K03547
+contig_1_pilon_1019	K03546
+contig_1_pilon_1020
+contig_1_pilon_1021
+contig_1_pilon_1022	K00297
+contig_1_pilon_1023	K07321
+contig_1_pilon_1024	K00198
+contig_1_pilon_1025	K07321
+contig_1_pilon_1026	K00193
+contig_1_pilon_1027	K00194
+contig_1_pilon_1028	K00197
+contig_1_pilon_1029
+contig_1_pilon_1030
+contig_1_pilon_1031
+contig_1_pilon_1032
+contig_1_pilon_1033	K01500
+contig_1_pilon_1034	K01491
+contig_1_pilon_1035
+contig_1_pilon_1036
+contig_1_pilon_1037	K06398
+contig_1_pilon_1038	K02188
+contig_1_pilon_1039	K03394
+contig_1_pilon_1040	K05936
+contig_1_pilon_1041	K02189
+contig_1_pilon_1042	K05934
+contig_1_pilon_1043	K00595
+contig_1_pilon_1044	K02224
+contig_1_pilon_1045	K00768
+contig_1_pilon_1046	K02231
+contig_1_pilon_1047	K02233
+contig_1_pilon_1048
+contig_1_pilon_1049
+contig_1_pilon_1050	K02227
+contig_1_pilon_1051	K04720
+contig_1_pilon_1052	K02232
+contig_1_pilon_1053	K06042
+contig_1_pilon_1054
+contig_1_pilon_1055
+contig_1_pilon_1056	K02008
+contig_1_pilon_1057	K02009
+contig_1_pilon_1058	K02007
+contig_1_pilon_1059	K02492
+contig_1_pilon_1060	K02302
+contig_1_pilon_1061	K13542
+contig_1_pilon_1062	K01698
+contig_1_pilon_1063	K01845
+contig_1_pilon_1064
+contig_1_pilon_1065	K03469
+contig_1_pilon_1066
+contig_1_pilon_1067
+contig_1_pilon_1068
+contig_1_pilon_1069
+contig_1_pilon_1070	K01872
+contig_1_pilon_1071	K02970
+contig_1_pilon_1072	K06131
+contig_1_pilon_1073
+contig_1_pilon_1074
+contig_1_pilon_1075	K07258
+contig_1_pilon_1076	K26937
+contig_1_pilon_1077
+contig_1_pilon_1078	K03924
+contig_1_pilon_1079
+contig_1_pilon_1080
+contig_1_pilon_1081	K05896
+contig_1_pilon_1082	K06024
+contig_1_pilon_1083
+contig_1_pilon_1084	K06902
+contig_1_pilon_1085	K07258
+contig_1_pilon_1086
+contig_1_pilon_1087
+contig_1_pilon_1088	K13993
+contig_1_pilon_1089
+contig_1_pilon_1090
+contig_1_pilon_1091
+contig_1_pilon_1092
+contig_1_pilon_1093
+contig_1_pilon_1094
+contig_1_pilon_1095	K03310
+contig_1_pilon_1096	K00198
+contig_1_pilon_1097
+contig_1_pilon_1098
+contig_1_pilon_1099	K01866
+contig_1_pilon_1100
+contig_1_pilon_1101
+contig_1_pilon_1102	K01657
+contig_1_pilon_1103	K13497
+contig_1_pilon_1104	K01609
+contig_1_pilon_1105	K01817
+contig_1_pilon_1106	K01696
+contig_1_pilon_1107	K01695
+contig_1_pilon_1108	K01604
+contig_1_pilon_1109
+contig_1_pilon_1110	K23351
+contig_1_pilon_1111	K20509
+contig_1_pilon_1112	K01571
+contig_1_pilon_1113
+contig_1_pilon_1114
+contig_1_pilon_1115	K00945
+contig_1_pilon_1116	K03527
+contig_1_pilon_1117	K02945
+contig_1_pilon_1118
+contig_1_pilon_1119	K07502
+contig_1_pilon_1120
+contig_1_pilon_1121	K03615
+contig_1_pilon_1122	K03614
+contig_1_pilon_1123
+contig_1_pilon_1124	K03613
+contig_1_pilon_1125	K03617
+contig_1_pilon_1126	K03616
+contig_1_pilon_1127	K03734
+contig_1_pilon_1128
+contig_1_pilon_1129
+contig_1_pilon_1130	K03550
+contig_1_pilon_1131	K03551
+contig_1_pilon_1132
+contig_1_pilon_1133	K08303
+contig_1_pilon_1134	K03588
+contig_1_pilon_1135	K05364
+contig_1_pilon_1136
+contig_1_pilon_1137	K23753
+contig_1_pilon_1138
+contig_1_pilon_1139
+contig_1_pilon_1140
+contig_1_pilon_1141	K02902
+contig_1_pilon_1142
+contig_1_pilon_1143	K07030
+contig_1_pilon_1144	K03655
+contig_1_pilon_1145	K02004
+contig_1_pilon_1146
+contig_1_pilon_1147	K06418
+contig_1_pilon_1148	K01734
+contig_1_pilon_1149	K08316
+contig_1_pilon_1150	K00954
+contig_1_pilon_1151
+contig_1_pilon_1152
+contig_1_pilon_1153	K01749
+contig_1_pilon_1154	K01270
+contig_1_pilon_1155	K21472
+contig_1_pilon_1156	K07816
+contig_1_pilon_1157
+contig_1_pilon_1158	K06183
+contig_1_pilon_1159
+contig_1_pilon_1160
+contig_1_pilon_1161	K07124
+contig_1_pilon_1162
+contig_1_pilon_1163	K06179
+contig_1_pilon_1164	K03100
+contig_1_pilon_1165
+contig_1_pilon_1166	K12574
+contig_1_pilon_1167
+contig_1_pilon_1168	K07321
+contig_1_pilon_1169	K19082
+contig_1_pilon_1170
+contig_1_pilon_1171	K11631
+contig_1_pilon_1172
+contig_1_pilon_1173
+contig_1_pilon_1174
+contig_1_pilon_1175
+contig_1_pilon_1176	K04031
+contig_1_pilon_1177	K04029
+contig_1_pilon_1178	K04019
+contig_1_pilon_1179	K03735
+contig_1_pilon_1180	K03736
+contig_1_pilon_1181	K04026
+contig_1_pilon_1182	K04072
+contig_1_pilon_1183	K04027
+contig_1_pilon_1184	K04032
+contig_1_pilon_1185
+contig_1_pilon_1186
+contig_1_pilon_1187
+contig_1_pilon_1188	K04023
+contig_1_pilon_1189	K04030
+contig_1_pilon_1190	K09014
+contig_1_pilon_1191
+contig_1_pilon_1192
+contig_1_pilon_1193
+contig_1_pilon_1194
+contig_1_pilon_1195
+contig_1_pilon_1196
+contig_1_pilon_1197	K04069
+contig_1_pilon_1198
+contig_1_pilon_1199
+contig_1_pilon_1200	K26937
+contig_1_pilon_1201
+contig_1_pilon_1202	K05825
+contig_1_pilon_1203
+contig_1_pilon_1204
+contig_1_pilon_1205
+contig_1_pilon_1206
+contig_1_pilon_1207	K02003
+contig_1_pilon_1208	K02003
+contig_1_pilon_1209
+contig_1_pilon_1210
+contig_1_pilon_1211	K18234
+contig_1_pilon_1212
+contig_1_pilon_1213
+contig_1_pilon_1214
+contig_1_pilon_1215	K01990
+contig_1_pilon_1216
+contig_1_pilon_1217	K00567
+contig_1_pilon_1218
+contig_1_pilon_1219
+contig_1_pilon_1220
+contig_1_pilon_1221
+contig_1_pilon_1222
+contig_1_pilon_1223
+contig_1_pilon_1224
+contig_1_pilon_1225
+contig_1_pilon_1226	K03615
+contig_1_pilon_1227
+contig_1_pilon_1228	K00297
+contig_1_pilon_1229
+contig_1_pilon_1230
+contig_1_pilon_1231
+contig_1_pilon_1232
+contig_1_pilon_1233
+contig_1_pilon_1234	K03574
+contig_1_pilon_1235
+contig_1_pilon_1236	K02888
+contig_1_pilon_1237	K07584
+contig_1_pilon_1238	K02899
+contig_1_pilon_1239	K03979
+contig_1_pilon_1240	K07574
+contig_1_pilon_1241	K00969
+contig_1_pilon_1242
+contig_1_pilon_1243	K09710
+contig_1_pilon_1244	K01356
+contig_1_pilon_1245
+contig_1_pilon_1246
+contig_1_pilon_1247	K02529
+contig_1_pilon_1248
+contig_1_pilon_1249
+contig_1_pilon_1250	K00096
+contig_1_pilon_1251
+contig_1_pilon_1252
+contig_1_pilon_1253
+contig_1_pilon_1254	K01990
+contig_1_pilon_1255
+contig_1_pilon_1256
+contig_1_pilon_1257
+contig_1_pilon_1258	K07699
+contig_1_pilon_1259
+contig_1_pilon_1260
+contig_1_pilon_1261	K07258
+contig_1_pilon_1262	K19350
+contig_1_pilon_1263
+contig_1_pilon_1264	K26937
+contig_1_pilon_1265	K03701
+contig_1_pilon_1266
+contig_1_pilon_1267	K07240
+contig_1_pilon_1268	K07240
+contig_1_pilon_1269	K07137
+contig_1_pilon_1270	K19082
+contig_1_pilon_1271
+contig_1_pilon_1272	K02003
+contig_1_pilon_1273
+contig_1_pilon_1274
+contig_1_pilon_1275	K01210
+contig_1_pilon_1276
+contig_1_pilon_1277
+contig_1_pilon_1278
+contig_1_pilon_1279
+contig_1_pilon_1280
+contig_1_pilon_1281
+contig_1_pilon_1282	K02003
+contig_1_pilon_1283
+contig_1_pilon_1284
+contig_1_pilon_1285
+contig_1_pilon_1286
+contig_1_pilon_1287
+contig_1_pilon_1288	K07670
+contig_1_pilon_1289
+contig_1_pilon_1290
+contig_1_pilon_1291	K03724
+contig_1_pilon_1292
+contig_1_pilon_1293	K26937
+contig_1_pilon_1294
+contig_1_pilon_1295	K02003
+contig_1_pilon_1296
+contig_1_pilon_1297
+contig_1_pilon_1298
+contig_1_pilon_1299	K07497
+contig_1_pilon_1300
+contig_1_pilon_1301	K07560
+contig_1_pilon_1302
+contig_1_pilon_1303	K14058
+contig_1_pilon_1304	K07497
+contig_1_pilon_1305
+contig_1_pilon_1306
+contig_1_pilon_1307	K06180
+contig_1_pilon_1308	K03101
+contig_1_pilon_1309	K01735
+contig_1_pilon_1310
+contig_1_pilon_1311
+contig_1_pilon_1312	K06997
+contig_1_pilon_1313
+contig_1_pilon_1314	K09779
+contig_1_pilon_1315
+contig_1_pilon_1316	K07258
+contig_1_pilon_1317	K01734
+contig_1_pilon_1318	K05837
+contig_1_pilon_1319
+contig_1_pilon_1320	K03609
+contig_1_pilon_1321	K05515
+contig_1_pilon_1322	K01524
+contig_1_pilon_1323	K03570
+contig_1_pilon_1324
+contig_1_pilon_1325	K03630
+contig_1_pilon_1326	K07137
+contig_1_pilon_1327
+contig_1_pilon_1328
+contig_1_pilon_1329	K00791
+contig_1_pilon_1330	K03572
+contig_1_pilon_1331	K03555
+contig_1_pilon_1332	K06168
+contig_1_pilon_1333
+contig_1_pilon_1334	K00931
+contig_1_pilon_1335
+contig_1_pilon_1336
+contig_1_pilon_1337	K07042
+contig_1_pilon_1338
+contig_1_pilon_1339	K06217
+contig_1_pilon_1340	K02342
+contig_1_pilon_1341
+contig_1_pilon_1342
+contig_1_pilon_1343
+contig_1_pilon_1344
+contig_1_pilon_1345
+contig_1_pilon_1346	K02003
+contig_1_pilon_1347	K02004
+contig_1_pilon_1348
+contig_1_pilon_1349
+contig_1_pilon_1350
+contig_1_pilon_1351	K02003
+contig_1_pilon_1352
+contig_1_pilon_1353
+contig_1_pilon_1354
+contig_1_pilon_1355	K01190
+contig_1_pilon_1356	K03292
+contig_1_pilon_1357
+contig_1_pilon_1358
+contig_1_pilon_1359
+contig_1_pilon_1360
+contig_1_pilon_1361
+contig_1_pilon_1362
+contig_1_pilon_1363	K01870
+contig_1_pilon_1364
+contig_1_pilon_1365
+contig_1_pilon_1366
+contig_1_pilon_1367	K01921
+contig_1_pilon_1368	K07260
+contig_1_pilon_1369	K01775
+contig_1_pilon_1370
+contig_1_pilon_1371	K01426
+contig_1_pilon_1372
+contig_1_pilon_1373	K18979
+contig_1_pilon_1374
+contig_1_pilon_1375
+contig_1_pilon_1376	K01809
+contig_1_pilon_1377	K01835
+contig_1_pilon_1378
+contig_1_pilon_1379
+contig_1_pilon_1380	K16212
+contig_1_pilon_1381	K16213
+contig_1_pilon_1382	K18785
+contig_1_pilon_1383
+contig_1_pilon_1384
+contig_1_pilon_1385
+contig_1_pilon_1386
+contig_1_pilon_1387	K07407
+contig_1_pilon_1388
+contig_1_pilon_1389
+contig_1_pilon_1390
+contig_1_pilon_1391
+contig_1_pilon_1392	K00986
+contig_1_pilon_1393
+contig_1_pilon_1394
+contig_1_pilon_1395	K06994
+contig_1_pilon_1396
+contig_1_pilon_1397
+contig_1_pilon_1398	K03763
+contig_1_pilon_1399
+contig_1_pilon_1400
+contig_1_pilon_1401
+contig_1_pilon_1402	K09116
+contig_1_pilon_1403
+contig_1_pilon_1404
+contig_1_pilon_1405
+contig_1_pilon_1406
+contig_1_pilon_1407
+contig_1_pilon_1408	K01714
+contig_1_pilon_1409
+contig_1_pilon_1410
+contig_1_pilon_1411
+contig_1_pilon_1412
+contig_1_pilon_1413	K00783
+contig_1_pilon_1414
+contig_1_pilon_1415	K00266
+contig_1_pilon_1416	K00528
+contig_1_pilon_1417
+contig_1_pilon_1418	K03466
+contig_1_pilon_1419	K06153
+contig_1_pilon_1420
+contig_1_pilon_1421
+contig_1_pilon_1422	K03699
+contig_1_pilon_1423	K00986
+contig_1_pilon_1424
+contig_1_pilon_1425
+contig_1_pilon_1426	K07171
+contig_1_pilon_1427	K01775
+contig_1_pilon_1428	K23997
+contig_1_pilon_1429	K01926
+contig_1_pilon_1430	K06158
+contig_1_pilon_1431
+contig_1_pilon_1432	K25148
+contig_1_pilon_1433
+contig_1_pilon_1434	K00031
+contig_1_pilon_1435
+contig_1_pilon_1436	K05942
+contig_1_pilon_1437
+contig_1_pilon_1438
+contig_1_pilon_1439
+contig_1_pilon_1440
+contig_1_pilon_1441
+contig_1_pilon_1442
+contig_1_pilon_1443
+contig_1_pilon_1444	K00995
+contig_1_pilon_1445	K14441
+contig_1_pilon_1446	K03060
+contig_1_pilon_1447	K00942
+contig_1_pilon_1448	K09777
+contig_1_pilon_1449
+contig_1_pilon_1450
+contig_1_pilon_1451
+contig_1_pilon_1452
+contig_1_pilon_1453	K03407
+contig_1_pilon_1454
+contig_1_pilon_1455	K03411
+contig_1_pilon_1456	K03410
+contig_1_pilon_1457	K03406
+contig_1_pilon_1458	K03413
+contig_1_pilon_1459	K00575
+contig_1_pilon_1460
+contig_1_pilon_1461
+contig_1_pilon_1462	K01869
+contig_1_pilon_1463
+contig_1_pilon_1464	K02355
+contig_1_pilon_1465	K04517
+contig_1_pilon_1466	K00800
+contig_1_pilon_1467
+contig_1_pilon_1468	K10254
+contig_1_pilon_1469	K01745
+contig_1_pilon_1470
+contig_1_pilon_1471	K03518
+contig_1_pilon_1472
+contig_1_pilon_1473	K11178
+contig_1_pilon_1474
+contig_1_pilon_1475
+contig_1_pilon_1476
+contig_1_pilon_1477
+contig_1_pilon_1478
+contig_1_pilon_1479	K00384
+contig_1_pilon_1480	K24119
+contig_1_pilon_1481	K19271
+contig_1_pilon_1482
+contig_1_pilon_1483
+contig_1_pilon_1484
+contig_1_pilon_1485
+contig_1_pilon_1486
+contig_1_pilon_1487
+contig_1_pilon_1488
+contig_1_pilon_1489
+contig_1_pilon_1490
+contig_1_pilon_1491
+contig_1_pilon_1492
+contig_1_pilon_1493
+contig_1_pilon_1494
+contig_1_pilon_1495
+contig_1_pilon_1496
+contig_1_pilon_1497
+contig_1_pilon_1498
+contig_1_pilon_1499
+contig_1_pilon_1500
+contig_1_pilon_1501
+contig_1_pilon_1502
+contig_1_pilon_1503
+contig_1_pilon_1504	K01358
+contig_1_pilon_1505
+contig_1_pilon_1506
+contig_1_pilon_1507
+contig_1_pilon_1508
+contig_1_pilon_1509
+contig_1_pilon_1510
+contig_1_pilon_1511
+contig_1_pilon_1512
+contig_1_pilon_1513
+contig_1_pilon_1514
+contig_1_pilon_1515
+contig_1_pilon_1516
+contig_1_pilon_1517
+contig_1_pilon_1518
+contig_1_pilon_1519
+contig_1_pilon_1520
+contig_1_pilon_1521
+contig_1_pilon_1522
+contig_1_pilon_1523
+contig_1_pilon_1524
+contig_1_pilon_1525
+contig_1_pilon_1526
+contig_1_pilon_1527
+contig_1_pilon_1528
+contig_1_pilon_1529
+contig_1_pilon_1530
+contig_1_pilon_1531
+contig_1_pilon_1532
+contig_1_pilon_1533
+contig_1_pilon_1534
+contig_1_pilon_1535
+contig_1_pilon_1536
+contig_1_pilon_1537
+contig_1_pilon_1538
+contig_1_pilon_1539
+contig_1_pilon_1540
+contig_1_pilon_1541
+contig_1_pilon_1542
+contig_1_pilon_1543
+contig_1_pilon_1544
+contig_1_pilon_1545
+contig_1_pilon_1546
+contig_1_pilon_1547
+contig_1_pilon_1548	K02003
+contig_1_pilon_1549
+contig_1_pilon_1550
+contig_1_pilon_1551
+contig_1_pilon_1552
+contig_1_pilon_1553
+contig_1_pilon_1554
+contig_1_pilon_1555
+contig_1_pilon_1556
+contig_1_pilon_1557
+contig_1_pilon_1558
+contig_1_pilon_1559
+contig_1_pilon_1560
+contig_1_pilon_1561
+contig_1_pilon_1562
+contig_1_pilon_1563
+contig_1_pilon_1564
+contig_1_pilon_1565
+contig_1_pilon_1566
+contig_1_pilon_1567
+contig_1_pilon_1568	K20484
+contig_1_pilon_1569	K06147
+contig_1_pilon_1570	K20483
+contig_1_pilon_1571
+contig_1_pilon_1572
+contig_1_pilon_1573
+contig_1_pilon_1574
+contig_1_pilon_1575
+contig_1_pilon_1576
+contig_1_pilon_1577
+contig_1_pilon_1578
+contig_1_pilon_1579
+contig_1_pilon_1580
+contig_1_pilon_1581
+contig_1_pilon_1582
+contig_1_pilon_1583
+contig_1_pilon_1584
+contig_1_pilon_1585
+contig_1_pilon_1586	K02003
+contig_1_pilon_1587
+contig_1_pilon_1588
+contig_1_pilon_1589
+contig_1_pilon_1590
+contig_1_pilon_1591	K07706
+contig_1_pilon_1592
+contig_1_pilon_1593
+contig_1_pilon_1594
+contig_1_pilon_1595
+contig_1_pilon_1596
+contig_1_pilon_1597
+contig_1_pilon_1598
+contig_1_pilon_1599	K00390
+contig_1_pilon_1600
+contig_1_pilon_1601
+contig_1_pilon_1602	K07497
+contig_1_pilon_1603
+contig_1_pilon_1604
+contig_1_pilon_1605
+contig_1_pilon_1606
+contig_1_pilon_1607	K03630
+contig_1_pilon_1608
+contig_1_pilon_1609
+contig_1_pilon_1610
+contig_1_pilon_1611
+contig_1_pilon_1612	K07667
+contig_1_pilon_1613
+contig_1_pilon_1614
+contig_1_pilon_1615
+contig_1_pilon_1616	K07814
+contig_1_pilon_1617
+contig_1_pilon_1618	K07568
+contig_1_pilon_1619
+contig_1_pilon_1620	K01890
+contig_1_pilon_1621	K01889
+contig_1_pilon_1622	K07058
+contig_1_pilon_1623	K06381
+contig_1_pilon_1624
+contig_1_pilon_1625	K01785
+contig_1_pilon_1626
+contig_1_pilon_1627	K01610
+contig_1_pilon_1628	K01733
+contig_1_pilon_1629
+contig_1_pilon_1630
+contig_1_pilon_1631
+contig_1_pilon_1632	K01649
+contig_1_pilon_1633
+contig_1_pilon_1634
+contig_1_pilon_1635
+contig_1_pilon_1636
+contig_1_pilon_1637
+contig_1_pilon_1638
+contig_1_pilon_1639
+contig_1_pilon_1640	K10947
+contig_1_pilon_1641
+contig_1_pilon_1642
+contig_1_pilon_1643	K01704
+contig_1_pilon_1644	K01703
+contig_1_pilon_1645
+contig_1_pilon_1646	K00053
+contig_1_pilon_1647	K01653
+contig_1_pilon_1648
+contig_1_pilon_1649	K19294
+contig_1_pilon_1650
+contig_1_pilon_1651	K01006
+contig_1_pilon_1652
+contig_1_pilon_1653	K02035
+contig_1_pilon_1654	K02034
+contig_1_pilon_1655	K02033
+contig_1_pilon_1656
+contig_1_pilon_1657
+contig_1_pilon_1658
+contig_1_pilon_1659
+contig_1_pilon_1660
+contig_1_pilon_1661	K01990
+contig_1_pilon_1662
+contig_1_pilon_1663
+contig_1_pilon_1664
+contig_1_pilon_1665
+contig_1_pilon_1666
+contig_1_pilon_1667
+contig_1_pilon_1668
+contig_1_pilon_1669
+contig_1_pilon_1670
+contig_1_pilon_1671
+contig_1_pilon_1672
+contig_1_pilon_1673
+contig_1_pilon_1674
+contig_1_pilon_1675	K01091
+contig_1_pilon_1676	K00661
+contig_1_pilon_1677
+contig_1_pilon_1678
+contig_1_pilon_1679
+contig_1_pilon_1680
+contig_1_pilon_1681	K00287
+contig_1_pilon_1682
+contig_1_pilon_1683	K10112
+contig_1_pilon_1684
+contig_1_pilon_1685	K02025
+contig_1_pilon_1686
+contig_1_pilon_1687
+contig_1_pilon_1688
+contig_1_pilon_1689
+contig_1_pilon_1690
+contig_1_pilon_1691
+contig_1_pilon_1692
+contig_1_pilon_1693
+contig_1_pilon_1694
+contig_1_pilon_1695
+contig_1_pilon_1696
+contig_1_pilon_1697
+contig_1_pilon_1698
+contig_1_pilon_1699
+contig_1_pilon_1700	K01990
+contig_1_pilon_1701
+contig_1_pilon_1702
+contig_1_pilon_1703
+contig_1_pilon_1704	K02346
+contig_1_pilon_1705
+contig_1_pilon_1706
+contig_1_pilon_1707
+contig_1_pilon_1708	K01190
+contig_1_pilon_1709
+contig_1_pilon_1710	K02112
+contig_1_pilon_1711	K02115
+contig_1_pilon_1712	K02111
+contig_1_pilon_1713
+contig_1_pilon_1714
+contig_1_pilon_1715	K02110
+contig_1_pilon_1716	K02108
+contig_1_pilon_1717
+contig_1_pilon_1718	K00384
+contig_1_pilon_1719	K03671
+contig_1_pilon_1720	K01420
+contig_1_pilon_1721	K03292
+contig_1_pilon_1722	K03929
+contig_1_pilon_1723
+contig_1_pilon_1724
+contig_1_pilon_1725	K25307
+contig_1_pilon_1726	K04763
+contig_1_pilon_1727
+contig_1_pilon_1728
+contig_1_pilon_1729	K07467
+contig_1_pilon_1730
+contig_1_pilon_1731
+contig_1_pilon_1732
+contig_1_pilon_1733
+contig_1_pilon_1734	K01990
+contig_1_pilon_1735
+contig_1_pilon_1736
+contig_1_pilon_1737
+contig_1_pilon_1738	K04095
+contig_1_pilon_1739	K03574
+contig_1_pilon_1740
+contig_1_pilon_1741	K07079
+contig_1_pilon_1742	K03324
+contig_1_pilon_1743
+contig_1_pilon_1744
+contig_1_pilon_1745	K01338
+contig_1_pilon_1746	K03704
+contig_1_pilon_1747
+contig_1_pilon_1748
+contig_1_pilon_1749	K04069
+contig_1_pilon_1750	K00656
+contig_1_pilon_1751	K00941
+contig_1_pilon_1752
+contig_1_pilon_1753	K00788
+contig_1_pilon_1754
+contig_1_pilon_1755	K00878
+contig_1_pilon_1756
+contig_1_pilon_1757
+contig_1_pilon_1758
+contig_1_pilon_1759	K00656
+contig_1_pilon_1760	K04069
+contig_1_pilon_1761
+contig_1_pilon_1762
+contig_1_pilon_1763
+contig_1_pilon_1764
+contig_1_pilon_1765
+contig_1_pilon_1766
+contig_1_pilon_1767
+contig_1_pilon_1768	K02346
+contig_1_pilon_1769
+contig_1_pilon_1770
+contig_1_pilon_1771	K07478
+contig_1_pilon_1772
+contig_1_pilon_1773
+contig_1_pilon_1774
+contig_1_pilon_1775
+contig_1_pilon_1776	K18888
+contig_1_pilon_1777	K18887
+contig_1_pilon_1778
+contig_1_pilon_1779
+contig_1_pilon_1780
+contig_1_pilon_1781	K06180
+contig_1_pilon_1782
+contig_1_pilon_1783
+contig_1_pilon_1784
+contig_1_pilon_1785
+contig_1_pilon_1786
+contig_1_pilon_1787
+contig_1_pilon_1788	K01214
+contig_1_pilon_1789
+contig_1_pilon_1790
+contig_1_pilon_1791
+contig_1_pilon_1792	K01623
+contig_1_pilon_1793	K01744
+contig_1_pilon_1794
+contig_1_pilon_1795
+contig_1_pilon_1796	K01990
+contig_1_pilon_1797
+contig_1_pilon_1798
+contig_1_pilon_1799
+contig_1_pilon_1800	K13653
+contig_1_pilon_1801
+contig_1_pilon_1802
+contig_1_pilon_1803
+contig_1_pilon_1804	K09808
+contig_1_pilon_1805	K01990
+contig_1_pilon_1806
+contig_1_pilon_1807
+contig_1_pilon_1808
+contig_1_pilon_1809
+contig_1_pilon_1810
+contig_1_pilon_1811
+contig_1_pilon_1812
+contig_1_pilon_1813
+contig_1_pilon_1814	K26937
+contig_1_pilon_1815
+contig_1_pilon_1816
+contig_1_pilon_1817
+contig_1_pilon_1818
+contig_1_pilon_1819
+contig_1_pilon_1820
+contig_1_pilon_1821	K03088
+contig_1_pilon_1822
+contig_1_pilon_1823
+contig_1_pilon_1824
+contig_1_pilon_1825
+contig_1_pilon_1826	K05349
+contig_1_pilon_1827
+contig_1_pilon_1828
+contig_1_pilon_1829
+contig_1_pilon_1830
+contig_1_pilon_1831
+contig_1_pilon_1832	K03704
+contig_1_pilon_1833
+contig_1_pilon_1834
+contig_1_pilon_1835	K06113
+contig_1_pilon_1836
+contig_1_pilon_1837
+contig_1_pilon_1838	K01990
+contig_1_pilon_1839
+contig_1_pilon_1840
+contig_1_pilon_1841
+contig_1_pilon_1842
+contig_1_pilon_1843
+contig_1_pilon_1844
+contig_1_pilon_1845
+contig_1_pilon_1846	K00789
+contig_1_pilon_1847
+contig_1_pilon_1848	K01990
+contig_1_pilon_1849
+contig_1_pilon_1850	K03639
+contig_1_pilon_1851
+contig_1_pilon_1852
+contig_1_pilon_1853
+contig_1_pilon_1854
+contig_1_pilon_1855
+contig_1_pilon_1856
+contig_1_pilon_1857
+contig_1_pilon_1858	K07707
+contig_1_pilon_1859
+contig_1_pilon_1860	K07706
+contig_1_pilon_1861
+contig_1_pilon_1862
+contig_1_pilon_1863
+contig_1_pilon_1864
+contig_1_pilon_1865
+contig_1_pilon_1866
+contig_1_pilon_1867
+contig_1_pilon_1868
+contig_1_pilon_1869
+contig_1_pilon_1870	K04763
+contig_1_pilon_1871
+contig_1_pilon_1872	K23675
+contig_1_pilon_1873
+contig_1_pilon_1874
+contig_1_pilon_1875
+contig_1_pilon_1876
+contig_1_pilon_1877
+contig_1_pilon_1878	K02357
+contig_1_pilon_1879	K02967
+contig_1_pilon_1880
+contig_1_pilon_1881	K04041
+contig_1_pilon_1882
+contig_1_pilon_1883
+contig_1_pilon_1884	K01887
+contig_1_pilon_1885	K25232
+contig_1_pilon_1886
+contig_1_pilon_1887
+contig_1_pilon_1888
+contig_1_pilon_1889
+contig_1_pilon_1890	K07699
+contig_1_pilon_1891	K00852
+contig_1_pilon_1892	K02026
+contig_1_pilon_1893
+contig_1_pilon_1894	K02027
+contig_1_pilon_1895
+contig_1_pilon_1896
+contig_1_pilon_1897	K00852
+contig_1_pilon_1898
+contig_1_pilon_1899	K07090
+contig_1_pilon_1900	K01876
+contig_1_pilon_1901	K01892
+contig_1_pilon_1902
+contig_1_pilon_1903
+contig_1_pilon_1904	K01069
+contig_1_pilon_1905	K01139
+contig_1_pilon_1906	K00759
+contig_1_pilon_1907	K07462
+contig_1_pilon_1908	K12257
+contig_1_pilon_1909	K06871
+contig_1_pilon_1910
+contig_1_pilon_1911
+contig_1_pilon_1912
+contig_1_pilon_1913
+contig_1_pilon_1914	K03699
+contig_1_pilon_1915
+contig_1_pilon_1916
+contig_1_pilon_1917
+contig_1_pilon_1918	K01192
+contig_1_pilon_1919	K06975
+contig_1_pilon_1920	K26937
+contig_1_pilon_1921	K25232
+contig_1_pilon_1922
+contig_1_pilon_1923
+contig_1_pilon_1924	K03426
+contig_1_pilon_1925	K02003
+contig_1_pilon_1926	K02004
+contig_1_pilon_1927
+contig_1_pilon_1928
+contig_1_pilon_1929	K04079
+contig_1_pilon_1930
+contig_1_pilon_1931
+contig_1_pilon_1932
+contig_1_pilon_1933	K00128
+contig_1_pilon_1934
+contig_1_pilon_1935
+contig_1_pilon_1936	K01091
+contig_1_pilon_1937	K06287
+contig_1_pilon_1938
+contig_1_pilon_1939
+contig_1_pilon_1940	K02049
+contig_1_pilon_1941	K02051
+contig_1_pilon_1942	K02050
+contig_1_pilon_1943
+contig_1_pilon_1944	K00375
+contig_1_pilon_1945	K01886
+contig_1_pilon_1946	K12527
+contig_1_pilon_1947
+contig_1_pilon_1948
+contig_1_pilon_1949
+contig_1_pilon_1950	K02761
+contig_1_pilon_1951	K06173
+contig_1_pilon_1952	K06001
+contig_1_pilon_1953	K26937
+contig_1_pilon_1954
+contig_1_pilon_1955	K01488
+contig_1_pilon_1956	K01839
+contig_1_pilon_1957	K01489
+contig_1_pilon_1958	K00757
+contig_1_pilon_1959	K11105
+contig_1_pilon_1960
+contig_1_pilon_1961	K02026
+contig_1_pilon_1962	K02025
+contig_1_pilon_1963	K02027
+contig_1_pilon_1964
+contig_1_pilon_1965	K03310
+contig_1_pilon_1966	K01624
+contig_1_pilon_1967	K21071
+contig_1_pilon_1968
+contig_1_pilon_1969
+contig_1_pilon_1970	K02032
+contig_1_pilon_1971	K02031
+contig_1_pilon_1972	K12370
+contig_1_pilon_1973	K12369
+contig_1_pilon_1974	K12368
+contig_1_pilon_1975
+contig_1_pilon_1976
+contig_1_pilon_1977
+contig_1_pilon_1978	K07079
+contig_1_pilon_1979	K12952
+contig_1_pilon_1980	K01338
+contig_1_pilon_1981
+contig_1_pilon_1982
+contig_1_pilon_1983	K15738
+contig_1_pilon_1984	K07048
+contig_1_pilon_1985	K01872
+contig_1_pilon_1986	K00003
+contig_1_pilon_1987
+contig_1_pilon_1988
+contig_1_pilon_1989
+contig_1_pilon_1990
+contig_1_pilon_1991	K01678
+contig_1_pilon_1992	K01677
+contig_1_pilon_1993
+contig_1_pilon_1994	K04835
+contig_1_pilon_1995	K19268
+contig_1_pilon_1996
+contig_1_pilon_1997	K01846
+contig_1_pilon_1998	K01643
+contig_1_pilon_1999	K01644
+contig_1_pilon_2000	K01646
+contig_1_pilon_2001
+contig_1_pilon_2002	K00603
+contig_1_pilon_2003	K01468
+contig_1_pilon_2004	K01712
+contig_1_pilon_2005	K01425
+contig_1_pilon_2006	K00384
+contig_1_pilon_2007	K03671
+contig_1_pilon_2008
+contig_1_pilon_2009
+contig_1_pilon_2010
+contig_1_pilon_2011
+contig_1_pilon_2012
+contig_1_pilon_2013
+contig_1_pilon_2014	K01745
+contig_1_pilon_2015
+contig_1_pilon_2016	K25220
+contig_1_pilon_2017
+contig_1_pilon_2018	K25517
+contig_1_pilon_2019
+contig_1_pilon_2020	K25517
+contig_1_pilon_2021	K01745
+contig_1_pilon_2022
+contig_1_pilon_2023
+contig_1_pilon_2024	K14392
+contig_1_pilon_2025	K14083
+contig_1_pilon_2026
+contig_1_pilon_2027
+contig_1_pilon_2028
+contig_1_pilon_2029	K03310
+contig_1_pilon_2030
+contig_1_pilon_2031
+contig_1_pilon_2032
+contig_1_pilon_2033
+contig_1_pilon_2034	K20492
+contig_1_pilon_2035
+contig_1_pilon_2036
+contig_1_pilon_2037	K02026
+contig_1_pilon_2038	K02025
+contig_1_pilon_2039	K02027
+contig_1_pilon_2040
+contig_1_pilon_2041	K01462
+contig_1_pilon_2042	K01712
+contig_1_pilon_2043
+contig_1_pilon_2044
+contig_1_pilon_2045
+contig_1_pilon_2046
+contig_1_pilon_2047	K01745
+contig_1_pilon_2048	K00087
+contig_1_pilon_2049	K13481
+contig_1_pilon_2050	K03518
+contig_1_pilon_2051	K01910
+contig_1_pilon_2052	K05966
+contig_1_pilon_2053
+contig_1_pilon_2054
+contig_1_pilon_2055
+contig_1_pilon_2056
+contig_1_pilon_2057
+contig_1_pilon_2058
+contig_1_pilon_2059
+contig_1_pilon_2060	K02004
+contig_1_pilon_2061	K02003
+contig_1_pilon_2062
+contig_1_pilon_2063
+contig_1_pilon_2064	K02647
+contig_1_pilon_2065
+contig_1_pilon_2066
+contig_1_pilon_2067
+contig_1_pilon_2068
+contig_1_pilon_2069
+contig_1_pilon_2070
+contig_1_pilon_2071
+contig_1_pilon_2072	K05396
+contig_1_pilon_2073	K09022
+contig_1_pilon_2074
+contig_1_pilon_2075
+contig_1_pilon_2076
+contig_1_pilon_2077
+contig_1_pilon_2078
+contig_1_pilon_2079
+contig_1_pilon_2080	K03686
+contig_1_pilon_2081
+contig_1_pilon_2082	K07816
+contig_1_pilon_2083
+contig_1_pilon_2084	K26937
+contig_1_pilon_2085	K01448
+contig_1_pilon_2086	K01734
+contig_1_pilon_2087
+contig_1_pilon_2088
+contig_1_pilon_2089
+contig_1_pilon_2090
+contig_1_pilon_2091
+contig_1_pilon_2092
+contig_1_pilon_2093
+contig_1_pilon_2094
+contig_1_pilon_2095	K26937
+contig_1_pilon_2096
+contig_1_pilon_2097
+contig_1_pilon_2098
+contig_1_pilon_2099
+contig_1_pilon_2100
+contig_1_pilon_2101
+contig_1_pilon_2102
+contig_1_pilon_2103
+contig_1_pilon_2104
+contig_1_pilon_2105
+contig_1_pilon_2106
+contig_1_pilon_2107	K03575
+contig_1_pilon_2108	K06206
+contig_1_pilon_2109
+contig_1_pilon_2110	K07486
+contig_1_pilon_2111
+contig_1_pilon_2112
+contig_1_pilon_2113	K00111
+contig_1_pilon_2114	K02443
+contig_1_pilon_2115
+contig_1_pilon_2116
+contig_1_pilon_2117
+contig_1_pilon_2118
+contig_1_pilon_2119
+contig_1_pilon_2120	K01000
+contig_1_pilon_2121
+contig_1_pilon_2122
+contig_1_pilon_2123	K23393
+contig_1_pilon_2124	K07009
+contig_1_pilon_2125
+contig_1_pilon_2126	K12941
+contig_1_pilon_2127
+contig_1_pilon_2128
+contig_1_pilon_2129
+contig_1_pilon_2130
+contig_1_pilon_2131
+contig_1_pilon_2132
+contig_1_pilon_2133
+contig_1_pilon_2134
+contig_1_pilon_2135
+contig_1_pilon_2136	K04485
+contig_1_pilon_2137
+contig_1_pilon_2138	K03696
+contig_1_pilon_2139
+contig_1_pilon_2140	K01945
+contig_1_pilon_2141	K11175
+contig_1_pilon_2142	K01933
+contig_1_pilon_2143	K01588
+contig_1_pilon_2144
+contig_1_pilon_2145
+contig_1_pilon_2146
+contig_1_pilon_2147
+contig_1_pilon_2148
+contig_1_pilon_2149	K00762
+contig_1_pilon_2150	K17828
+contig_1_pilon_2151	K02823
+contig_1_pilon_2152	K01591
+contig_1_pilon_2153	K01465
+contig_1_pilon_2154	K03704
+contig_1_pilon_2155
+contig_1_pilon_2156
+contig_1_pilon_2157	K13936
+contig_1_pilon_2158
+contig_1_pilon_2159	K00705
+contig_1_pilon_2160	K06173
+contig_1_pilon_2161	K16785
+contig_1_pilon_2162	K16787
+contig_1_pilon_2163	K16786
+contig_1_pilon_2164
+contig_1_pilon_2165	K03978
+contig_1_pilon_2166	K01338
+contig_1_pilon_2167	K03544
+contig_1_pilon_2168	K01358
+contig_1_pilon_2169	K03545
+contig_1_pilon_2170	K03152
+contig_1_pilon_2171
+contig_1_pilon_2172
+contig_1_pilon_2173	K00286
+contig_1_pilon_2174
+contig_1_pilon_2175
+contig_1_pilon_2176
+contig_1_pilon_2177
+contig_1_pilon_2178
+contig_1_pilon_2179	K02051
+contig_1_pilon_2180
+contig_1_pilon_2181
+contig_1_pilon_2182
+contig_1_pilon_2183
+contig_1_pilon_2184
+contig_1_pilon_2185
+contig_1_pilon_2186
+contig_1_pilon_2187
+contig_1_pilon_2188
+contig_1_pilon_2189
+contig_1_pilon_2190
+contig_1_pilon_2191
+contig_1_pilon_2192	K00651
+contig_1_pilon_2193	K00170
+contig_1_pilon_2194
+contig_1_pilon_2195	K00171
+contig_1_pilon_2196	K00172
+contig_1_pilon_2197
+contig_1_pilon_2198
+contig_1_pilon_2199
+contig_1_pilon_2200	K00648
+contig_1_pilon_2201	K00826
+contig_1_pilon_2202
+contig_1_pilon_2203	K00648
+contig_1_pilon_2204
+contig_1_pilon_2205	K00179
+contig_1_pilon_2206	K00648
+contig_1_pilon_2207	K00180
+contig_1_pilon_2208	K00179
+contig_1_pilon_2209
+contig_1_pilon_2210
+contig_1_pilon_2211	K27862
+contig_1_pilon_2212
+contig_1_pilon_2213
+contig_1_pilon_2214
+contig_1_pilon_2215
+contig_1_pilon_2216
+contig_1_pilon_2217
+contig_1_pilon_2218
+contig_1_pilon_2219
+contig_1_pilon_2220
+contig_1_pilon_2221
+contig_1_pilon_2222
+contig_1_pilon_2223
+contig_1_pilon_2224
+contig_1_pilon_2225
+contig_1_pilon_2226	K16907
+contig_1_pilon_2227
+contig_1_pilon_2228
+contig_1_pilon_2229	K02004
+contig_1_pilon_2230	K02003
+contig_1_pilon_2231	K00648
+contig_1_pilon_2232	K00648
+contig_1_pilon_2233
+contig_1_pilon_2234
+contig_1_pilon_2235
+contig_1_pilon_2236
+contig_1_pilon_2237
+contig_1_pilon_2238
+contig_1_pilon_2239
+contig_1_pilon_2240
+contig_1_pilon_2241
+contig_1_pilon_2242
+contig_1_pilon_2243	K15533
+contig_1_pilon_2244	K18218
+contig_1_pilon_2245
+contig_1_pilon_2246
+contig_1_pilon_2247
+contig_1_pilon_2248
+contig_1_pilon_2249
+contig_1_pilon_2250
+contig_1_pilon_2251	K01740
+contig_1_pilon_2252	K01738
+contig_1_pilon_2253
+contig_1_pilon_2254
+contig_1_pilon_2255
+contig_1_pilon_2256
+contig_1_pilon_2257
+contig_1_pilon_2258
+contig_1_pilon_2259
+contig_1_pilon_2260
+contig_1_pilon_2261	K02824
+contig_1_pilon_2262	K01812
+contig_1_pilon_2263	K11690
+contig_1_pilon_2264	K11689
+contig_1_pilon_2265	K11688
+contig_1_pilon_2266	K02529
+contig_1_pilon_2267
+contig_1_pilon_2268	K01685
+contig_1_pilon_2269	K00041
+contig_1_pilon_2270
+contig_1_pilon_2271
+contig_1_pilon_2272	K00648
+contig_1_pilon_2273
+contig_1_pilon_2274
+contig_1_pilon_2275	K01214
+contig_1_pilon_2276	K03281
+contig_1_pilon_2277
+contig_1_pilon_2278	K07045
+contig_1_pilon_2279
+contig_1_pilon_2280
+contig_1_pilon_2281
+contig_1_pilon_2282	K00209
+contig_1_pilon_2283
+contig_1_pilon_2284
+contig_1_pilon_2285	K01520
+contig_1_pilon_2286	K04068
+contig_1_pilon_2287	K00962
+contig_1_pilon_2288	K02956
+contig_1_pilon_2289
+contig_1_pilon_2290	K03324
+contig_1_pilon_2291	K11753
+contig_1_pilon_2292	K03177
+contig_1_pilon_2293	K06881
+contig_1_pilon_2294	K02834
+contig_1_pilon_2295	K02519
+contig_1_pilon_2296
+contig_1_pilon_2297	K07742
+contig_1_pilon_2298	K02600
+contig_1_pilon_2299	K09748
+contig_1_pilon_2300
+contig_1_pilon_2301	K03284
+contig_1_pilon_2302	K02469
+contig_1_pilon_2303	K02470
+contig_1_pilon_2304
+contig_1_pilon_2305
+contig_1_pilon_2306	K03750
+contig_1_pilon_2306	K07219
+contig_1_pilon_2307	K03616
+contig_1_pilon_2308	K05020
+contig_1_pilon_2309	K03738
+contig_1_pilon_2310
+contig_1_pilon_2311	K00027
+contig_1_pilon_2312	K01744
+contig_1_pilon_2313
+contig_1_pilon_2314	K00121
+contig_1_pilon_2315	K01744
+contig_1_pilon_2316
+contig_1_pilon_2317
+contig_1_pilon_2318
+contig_1_pilon_2319
+contig_1_pilon_2320
+contig_1_pilon_2321
+contig_1_pilon_2322	K03750
+contig_1_pilon_2323	K05772
+contig_1_pilon_2324	K05773
+contig_1_pilon_2325	K09817
+contig_1_pilon_2326
+contig_1_pilon_2327	K14083
+contig_1_pilon_2328
+contig_1_pilon_2329	K00675
+contig_1_pilon_2330
+contig_1_pilon_2331	K03326
+contig_1_pilon_2332
+contig_1_pilon_2333
+contig_1_pilon_2334	K03292
+contig_1_pilon_2335
+contig_1_pilon_2336
+contig_1_pilon_2337
+contig_1_pilon_2338	K26937
+contig_1_pilon_2339	K07053
+contig_1_pilon_2340	K00937
+contig_1_pilon_2341	K01524
+contig_1_pilon_2342
+contig_1_pilon_2343
+contig_1_pilon_2344
+contig_1_pilon_2345
+contig_1_pilon_2346	K07718
+contig_1_pilon_2347
+contig_1_pilon_2348	K18675
+contig_1_pilon_2349
+contig_1_pilon_2350
+contig_1_pilon_2351
+contig_1_pilon_2352
+contig_1_pilon_2353
+contig_1_pilon_2354
+contig_1_pilon_2355
+contig_1_pilon_2356
+contig_1_pilon_2357	K00058
+contig_1_pilon_2358
+contig_1_pilon_2359	K02026
+contig_1_pilon_2360	K02025
+contig_1_pilon_2361
+contig_1_pilon_2362
+contig_1_pilon_2363
+contig_1_pilon_2364
+contig_1_pilon_2365
+contig_1_pilon_2366
+contig_1_pilon_2367	K00042
+contig_1_pilon_2368
+contig_1_pilon_2369
+contig_1_pilon_2370
+contig_1_pilon_2371
+contig_1_pilon_2372	K08978
+contig_1_pilon_2373	K03281
+contig_1_pilon_2374	K03315
+contig_1_pilon_2375	K00140
+contig_1_pilon_2376	K01486
+contig_1_pilon_2377
+contig_1_pilon_2378	K03406
+contig_1_pilon_2379
+contig_1_pilon_2380	K00928
+contig_1_pilon_2381
+contig_1_pilon_2382	K26937
+contig_1_pilon_2383
+contig_1_pilon_2384
+contig_1_pilon_2385
+contig_1_pilon_2386
+contig_1_pilon_2387
+contig_1_pilon_2388
+contig_1_pilon_2389	K01990
+contig_1_pilon_2390
+contig_1_pilon_2391
+contig_1_pilon_2392	K07642
+contig_1_pilon_2393
+contig_1_pilon_2394
+contig_1_pilon_2395
+contig_1_pilon_2396
+contig_1_pilon_2397	K03088
+contig_1_pilon_2398
+contig_1_pilon_2399	K01990
+contig_1_pilon_2400
+contig_1_pilon_2401	K12308
+contig_1_pilon_2402
+contig_1_pilon_2403	K02026
+contig_1_pilon_2404	K02025
+contig_1_pilon_2405	K02027
+contig_1_pilon_2406
+contig_1_pilon_2407
+contig_1_pilon_2408	K06871
+contig_1_pilon_2409	K01586
+contig_1_pilon_2410
+contig_1_pilon_2411
+contig_1_pilon_2412
+contig_1_pilon_2413
+contig_1_pilon_2414	K25678
+contig_1_pilon_2415
+contig_1_pilon_2416	K25676
+contig_1_pilon_2417	K07718
+contig_1_pilon_2418
+contig_1_pilon_2419	K00873
+contig_1_pilon_2420
+contig_1_pilon_2421	K03284
+contig_1_pilon_2422	K07404
+contig_1_pilon_2423	K11072
+contig_1_pilon_2424	K11071
+contig_1_pilon_2425	K11069
+contig_1_pilon_2426	K06180
+contig_1_pilon_2427
+contig_1_pilon_2428
+contig_1_pilon_2429	K01867
+contig_1_pilon_2430
+contig_1_pilon_2431
+contig_1_pilon_2432
+contig_1_pilon_2433
+contig_1_pilon_2434	K02026
+contig_1_pilon_2435	K02025
+contig_1_pilon_2436
+contig_1_pilon_2437
+contig_1_pilon_2438
+contig_1_pilon_2439	K07173
+contig_1_pilon_2440
+contig_1_pilon_2441
+contig_1_pilon_2442
+contig_1_pilon_2443	K07402
+contig_1_pilon_2444
+contig_1_pilon_2445	K01464
+contig_1_pilon_2446
+contig_1_pilon_2447
+contig_1_pilon_2448
+contig_1_pilon_2449	K01751
+contig_1_pilon_2450
+contig_1_pilon_2451
+contig_1_pilon_2452	K00926
+contig_1_pilon_2453	K00018
+contig_1_pilon_2454	K23245
+contig_1_pilon_2455	K00615
+contig_1_pilon_2456	K00615
+contig_1_pilon_2457	K11690
+contig_1_pilon_2458
+contig_1_pilon_2459	K11688
+contig_1_pilon_2460
+contig_1_pilon_2461
+contig_1_pilon_2462
+contig_1_pilon_2463
+contig_1_pilon_2464
+contig_1_pilon_2465
+contig_1_pilon_2466
+contig_1_pilon_2467
+contig_1_pilon_2468
+contig_1_pilon_2469
+contig_1_pilon_2470
+contig_1_pilon_2471
+contig_1_pilon_2472
+contig_1_pilon_2473
+contig_1_pilon_2474
+contig_1_pilon_2475
+contig_1_pilon_2476
+contig_1_pilon_2477
+contig_1_pilon_2478
+contig_1_pilon_2479
+contig_1_pilon_2480
+contig_1_pilon_2481
+contig_1_pilon_2482
+contig_1_pilon_2483
+contig_1_pilon_2484
+contig_1_pilon_2485
+contig_1_pilon_2486
+contig_1_pilon_2487
+contig_1_pilon_2488
+contig_1_pilon_2489
+contig_1_pilon_2490
+contig_1_pilon_2491
+contig_1_pilon_2492	K06959
+contig_1_pilon_2493
+contig_1_pilon_2494
+contig_1_pilon_2495
+contig_1_pilon_2496
+contig_1_pilon_2497
+contig_1_pilon_2498
+contig_1_pilon_2499
+contig_1_pilon_2500
+contig_1_pilon_2501
+contig_1_pilon_2502
+contig_1_pilon_2503
+contig_1_pilon_2504
+contig_1_pilon_2505
+contig_1_pilon_2506
+contig_1_pilon_2507
+contig_1_pilon_2508
+contig_1_pilon_2509
+contig_1_pilon_2510	K03699
+contig_1_pilon_2511	K01811
+contig_1_pilon_2512	K17320
+contig_1_pilon_2513	K17319
+contig_1_pilon_2514
+contig_1_pilon_2515
+contig_1_pilon_2516	K07718
+contig_1_pilon_2517	K27000
+contig_1_pilon_2518	K03218
+contig_1_pilon_2519	K11145
+contig_1_pilon_2520	K01883
+contig_1_pilon_2521	K00640
+contig_1_pilon_2522
+contig_1_pilon_2523
+contig_1_pilon_2524	K00262
+contig_1_pilon_2525
+contig_1_pilon_2526	K01770
+contig_1_pilon_2527	K17686
+contig_1_pilon_2528	K21600
+contig_1_pilon_2529
+contig_1_pilon_2530	K07238
+contig_1_pilon_2531
+contig_1_pilon_2532
+contig_1_pilon_2533	K13653
+contig_1_pilon_2534
+contig_1_pilon_2535
+contig_1_pilon_2536
+contig_1_pilon_2537	K03077
+contig_1_pilon_2538	K00853
+contig_1_pilon_2539
+contig_1_pilon_2540
+contig_1_pilon_2541
+contig_1_pilon_2542
+contig_1_pilon_2543
+contig_1_pilon_2544
+contig_1_pilon_2545
+contig_1_pilon_2546
+contig_1_pilon_2547
+contig_1_pilon_2548
+contig_1_pilon_2549
+contig_1_pilon_2550	K25290
+contig_1_pilon_2551	K25289
+contig_1_pilon_2552	K25288
+contig_1_pilon_2553	K25308
+contig_1_pilon_2554
+contig_1_pilon_2555
+contig_1_pilon_2556
+contig_1_pilon_2557
+contig_1_pilon_2558
+contig_1_pilon_2559
+contig_1_pilon_2560
+contig_1_pilon_2561	K06889
+contig_1_pilon_2562
+contig_1_pilon_2563	K03451
+contig_1_pilon_2564	K24012
+contig_1_pilon_2565	K00177
+contig_1_pilon_2566	K00175
+contig_1_pilon_2567	K00174
+contig_1_pilon_2568	K00176
+contig_1_pilon_2569
+contig_1_pilon_2570	K00261
+contig_1_pilon_2571
+contig_1_pilon_2572
+contig_1_pilon_2573
+contig_1_pilon_2574
+contig_1_pilon_2575	K02032
+contig_1_pilon_2576	K15583
+contig_1_pilon_2577	K02034
+contig_1_pilon_2578	K02033
+contig_1_pilon_2579	K02035
+contig_1_pilon_2580
+contig_1_pilon_2581	K07718
+contig_1_pilon_2582	K10117
+contig_1_pilon_2583
+contig_1_pilon_2584
+contig_1_pilon_2585	K11690
+contig_1_pilon_2586
+contig_1_pilon_2587	K11688
+contig_1_pilon_2588
+contig_1_pilon_2589	K02647
+contig_1_pilon_2590
+contig_1_pilon_2591	K01952
+contig_1_pilon_2592
+contig_1_pilon_2593
+contig_1_pilon_2594	K10823
+contig_1_pilon_2595
+contig_1_pilon_2596	K02035
+contig_1_pilon_2597	K02034
+contig_1_pilon_2598
+contig_1_pilon_2599
+contig_1_pilon_2600
+contig_1_pilon_2601	K09022
+contig_1_pilon_2602
+contig_1_pilon_2603	K10844
+contig_1_pilon_2604
+contig_1_pilon_2605	K03593
+contig_1_pilon_2606	K21600
+contig_1_pilon_2607
+contig_1_pilon_2608	K03816
+contig_1_pilon_2609
+contig_1_pilon_2610
+contig_1_pilon_2611
+contig_1_pilon_2612
+contig_1_pilon_2613	K02346
+contig_1_pilon_2614	K07098
+contig_1_pilon_2615
+contig_1_pilon_2616	K01008
+contig_1_pilon_2617
+contig_1_pilon_2618	K01142
+contig_1_pilon_2619
+contig_1_pilon_2620	K00764
+contig_1_pilon_2621
+contig_1_pilon_2622
+contig_1_pilon_2623
+contig_1_pilon_2624
+contig_1_pilon_2625	K03340
+contig_1_pilon_2626	K03308
+contig_1_pilon_2627
+contig_1_pilon_2628
+contig_1_pilon_2629	K00008
+contig_1_pilon_2630	K00602
+contig_1_pilon_2631
+contig_1_pilon_2632	K06969
+contig_1_pilon_2633
+contig_1_pilon_2634
+contig_1_pilon_2635	K01265
+contig_1_pilon_2636
+contig_1_pilon_2637
+contig_1_pilon_2638
+contig_1_pilon_2639
+contig_1_pilon_2640
+contig_1_pilon_2641
+contig_1_pilon_2642
+contig_1_pilon_2643	K03639
+contig_1_pilon_2644
+contig_1_pilon_2645
+contig_1_pilon_2646	K01652
+contig_1_pilon_2647	K01653
+contig_1_pilon_2648
+contig_1_pilon_2649
+contig_1_pilon_2650
+contig_1_pilon_2651
+contig_1_pilon_2652
+contig_1_pilon_2653	K13653
+contig_1_pilon_2654
+contig_1_pilon_2655	K01990
+contig_1_pilon_2656	K01992
+contig_1_pilon_2657	K00986
+contig_1_pilon_2658
+contig_1_pilon_2659
+contig_1_pilon_2660
+contig_1_pilon_2661
+contig_1_pilon_2662
+contig_1_pilon_2663
+contig_1_pilon_2664	K01187
+contig_1_pilon_2665	K03798
+contig_1_pilon_2666	K00760
+contig_1_pilon_2667	K04075
+contig_1_pilon_2668	K06382
+contig_1_pilon_2669
+contig_1_pilon_2670
+contig_1_pilon_2671
+contig_1_pilon_2672
+contig_1_pilon_2673	K03530
+contig_1_pilon_2674	K01835
+contig_1_pilon_2675
+contig_1_pilon_2676	K00974
+contig_1_pilon_2677	K01881
+contig_1_pilon_2678	K01493
+contig_1_pilon_2679	K00761
+contig_1_pilon_2680	K01808
+contig_1_pilon_2681	K07566
+contig_1_pilon_2682	K01448
+contig_1_pilon_2683
+contig_1_pilon_2684
+contig_1_pilon_2685
+contig_1_pilon_2686
+contig_1_pilon_2687
+contig_1_pilon_2688
+contig_1_pilon_2689
+contig_1_pilon_2690
+contig_1_pilon_2691
+contig_1_pilon_2692
+contig_1_pilon_2693	K09936
+contig_1_pilon_2694	K00821
+contig_1_pilon_2695	K00930
+contig_1_pilon_2696	K00620
+contig_1_pilon_2697	K00145
+contig_1_pilon_2698	K01940
+contig_1_pilon_2699
+contig_1_pilon_2700	K21636
+contig_1_pilon_2701
+contig_1_pilon_2702	K03665
+contig_1_pilon_2703
+contig_1_pilon_2704	K05989
+contig_1_pilon_2705
+contig_1_pilon_2706
+contig_1_pilon_2707
+contig_1_pilon_2708
+contig_1_pilon_2709	K03431
+contig_1_pilon_2710
+contig_1_pilon_2711	K01624
+contig_1_pilon_2712
+contig_1_pilon_2713	K02835
+contig_1_pilon_2714	K02493
+contig_1_pilon_2715
+contig_1_pilon_2716	K02909
+contig_1_pilon_2717	K03628
+contig_1_pilon_2718	K01759
+contig_1_pilon_2719	K03544
+contig_1_pilon_2720	K04771
+contig_1_pilon_2721	K00820
+contig_1_pilon_2722
+contig_1_pilon_2723	K01005
+contig_1_pilon_2724
+contig_1_pilon_2725	K00891
+contig_1_pilon_2726	K21739
+contig_1_pilon_2727
+contig_1_pilon_2728
+contig_1_pilon_2729
+contig_1_pilon_2730
+contig_1_pilon_2731	K03544
+contig_1_pilon_2732
+contig_1_pilon_2733
+contig_1_pilon_2734
+contig_1_pilon_2735
+contig_1_pilon_2736
+contig_1_pilon_2737
+contig_1_pilon_2738
+contig_1_pilon_2739
+contig_1_pilon_2740
+contig_1_pilon_2741
+contig_1_pilon_2742
+contig_1_pilon_2743
+contig_1_pilon_2744
+contig_1_pilon_2745
+contig_1_pilon_2746
+contig_1_pilon_2747
+contig_1_pilon_2748	K06897
+contig_1_pilon_2749
+contig_1_pilon_2750
+contig_1_pilon_2751	K02431
+contig_1_pilon_2752
+contig_1_pilon_2753	K00848
+contig_1_pilon_2754	K01818
+contig_1_pilon_2755
+contig_1_pilon_2756	K01897
+contig_1_pilon_2757	K02078
+contig_1_pilon_2758
+contig_1_pilon_2759	K06889
+contig_1_pilon_2760
+contig_1_pilon_2761
+contig_1_pilon_2762
+contig_1_pilon_2763	K21745
+contig_1_pilon_2764	K03292
+contig_1_pilon_2765	K01816
+contig_1_pilon_2766	K00010
+contig_1_pilon_2767	K02529
+contig_1_pilon_2768	K26937
+contig_1_pilon_2769	K01186
+contig_1_pilon_2770
+contig_1_pilon_2771	K02026
+contig_1_pilon_2772	K02025
+contig_1_pilon_2773	K02027
+contig_1_pilon_2774
+contig_1_pilon_2775
+contig_1_pilon_2776
+contig_1_pilon_2777
+contig_1_pilon_2778
+contig_1_pilon_2779
+contig_1_pilon_2780	K04652
+contig_1_pilon_2781
+contig_1_pilon_2782
+contig_1_pilon_2783
+contig_1_pilon_2784
+contig_1_pilon_2785	K03315
+contig_1_pilon_2786	K03603
+contig_1_pilon_2787	K00865
+contig_1_pilon_2788
+contig_1_pilon_2789
+contig_1_pilon_2790
+contig_1_pilon_2791	K00525
+contig_1_pilon_2792
+contig_1_pilon_2793	K01685
+contig_1_pilon_2794	K00041
+contig_1_pilon_2795
+contig_1_pilon_2796
+contig_1_pilon_2797	K03299
+contig_1_pilon_2798
+contig_1_pilon_2799	K26937
+contig_1_pilon_2800
+contig_1_pilon_2801
+contig_1_pilon_2802
+contig_1_pilon_2803
+contig_1_pilon_2804	K05592
+contig_1_pilon_2805
+contig_1_pilon_2806
+contig_1_pilon_2807	K26937
+contig_1_pilon_2808
+contig_1_pilon_2809
+contig_1_pilon_2810	K09927
+contig_1_pilon_2811
+contig_1_pilon_2812
+contig_1_pilon_2813
+contig_1_pilon_2814
+contig_1_pilon_2815	K25156
+contig_1_pilon_2816	K07032
+contig_1_pilon_2817
+contig_1_pilon_2818
+contig_1_pilon_2819	K01246
+contig_1_pilon_2820
+contig_1_pilon_2821
+contig_1_pilon_2822	K07486
+contig_1_pilon_2823
+contig_1_pilon_2824	K09805
+contig_1_pilon_2825
+contig_1_pilon_2826
+contig_1_pilon_2827	K01953
+contig_1_pilon_2828
+contig_1_pilon_2829
+contig_1_pilon_2830
+contig_1_pilon_2831	K06919
+contig_1_pilon_2832
+contig_1_pilon_2833	K07741
+contig_1_pilon_2834	K02334
+contig_1_pilon_2835
+contig_1_pilon_2836
+contig_1_pilon_2837
+contig_1_pilon_2838
+contig_1_pilon_2839
+contig_1_pilon_2840
+contig_1_pilon_2841
+contig_1_pilon_2842
+contig_1_pilon_2843	K03581
+contig_1_pilon_2844
+contig_1_pilon_2845
+contig_1_pilon_2846
+contig_1_pilon_2847	K06223
+contig_1_pilon_2848
+contig_1_pilon_2849	K03215
+contig_1_pilon_2850
+contig_1_pilon_2851	K03657
+contig_1_pilon_2852
+contig_1_pilon_2853
+contig_1_pilon_2854	K01990
+contig_1_pilon_2855
+contig_1_pilon_2856
+contig_1_pilon_2857
+contig_1_pilon_2858	K03294
+contig_1_pilon_2859
+contig_1_pilon_2860
+contig_1_pilon_2861
+contig_1_pilon_2862	K04477
+contig_1_pilon_2863	K00854
+contig_1_pilon_2864
+contig_1_pilon_2865
+contig_1_pilon_2866
+contig_1_pilon_2867	K07139
+contig_1_pilon_2868
+contig_1_pilon_2869	K07478
+contig_1_pilon_2870	K22278
+contig_1_pilon_2871	K11249
+contig_1_pilon_2872	K11690
+contig_1_pilon_2873
+contig_1_pilon_2874	K02887
+contig_1_pilon_2875	K02916
+contig_1_pilon_2876	K02520
+contig_1_pilon_2877	K03308
+contig_1_pilon_2878
+contig_1_pilon_2879	K01868
+contig_1_pilon_2880
+contig_1_pilon_2881
+contig_1_pilon_2882	K03070
+contig_1_pilon_2883
+contig_1_pilon_2884
+contig_1_pilon_2885
+contig_1_pilon_2886
+contig_1_pilon_2887
+contig_1_pilon_2888
+contig_1_pilon_2889
+contig_1_pilon_2890	K01607
+contig_1_pilon_2891
+contig_1_pilon_2892	K03655
+contig_1_pilon_2893	K01198
+contig_1_pilon_2894
+contig_1_pilon_2895
+contig_1_pilon_2896	K02027
+contig_1_pilon_2897
+contig_1_pilon_2898
+contig_1_pilon_2899
+contig_1_pilon_2900	K05989
+contig_1_pilon_2901	K07407
+contig_1_pilon_2902
+contig_1_pilon_2903
+contig_1_pilon_2904
+contig_1_pilon_2905	K07718
+contig_1_pilon_2906
+contig_1_pilon_2907	K02529
+contig_1_pilon_2908	K03292
+contig_1_pilon_2909
+contig_1_pilon_2910	K06605
+contig_1_pilon_2911	K00010
+contig_1_pilon_2912
+contig_1_pilon_2913
+contig_1_pilon_2914
+contig_1_pilon_2915	K01624
+contig_1_pilon_2916
+contig_1_pilon_2917	K02099
+contig_1_pilon_2918
+contig_1_pilon_2919	K00058
+contig_1_pilon_2920	K26602
+contig_1_pilon_2921
+contig_1_pilon_2922
+contig_1_pilon_2923
+contig_1_pilon_2924	K01512
+contig_1_pilon_2925
+contig_1_pilon_2926
+contig_1_pilon_2927
+contig_1_pilon_2928
+contig_1_pilon_2929	K20866
+contig_1_pilon_2930	K01939
+contig_1_pilon_2931
+contig_1_pilon_2932
+contig_1_pilon_2933	K01756
+contig_1_pilon_2934	K01923
+contig_1_pilon_2935
+contig_1_pilon_2936
+contig_1_pilon_2937
+contig_1_pilon_2938	K04720
+contig_1_pilon_2939	K00950
+contig_1_pilon_2940	K00796
+contig_1_pilon_2941
+contig_1_pilon_2942	K01495
+contig_1_pilon_2943	K11754
+contig_1_pilon_2944	K03763
+contig_1_pilon_2945	K03526
+contig_1_pilon_2946
+contig_1_pilon_2947
+contig_1_pilon_2948	K00826
+contig_1_pilon_2949	K00287
+contig_1_pilon_2950	K07486
+contig_1_pilon_2951	K00560
+contig_1_pilon_2952	K03308
+contig_1_pilon_2953
+contig_1_pilon_2954	K03524
+contig_1_pilon_2955	K23536
+contig_1_pilon_2956	K23535
+contig_1_pilon_2957	K23537
+contig_1_pilon_2958	K07335
+contig_1_pilon_2959
+contig_1_pilon_2960
+contig_1_pilon_2961
+contig_1_pilon_2962	K07150
+contig_1_pilon_2963
+contig_1_pilon_2964
+contig_1_pilon_2965
+contig_1_pilon_2966
+contig_1_pilon_2967
+contig_1_pilon_2968
+contig_1_pilon_2969	K11249
+contig_1_pilon_2970
+contig_1_pilon_2971
+contig_1_pilon_2972	K01990
+contig_1_pilon_2973
+contig_1_pilon_2974	K01811
+contig_1_pilon_2975
+contig_1_pilon_2976	K01811
+contig_1_pilon_2977	K01811
+contig_1_pilon_2978	K02026
+contig_1_pilon_2979	K02025
+contig_1_pilon_2980	K02027
+contig_1_pilon_2981
+contig_1_pilon_2982
+contig_1_pilon_2983
+contig_1_pilon_2984	K00088
+contig_1_pilon_2985
+contig_1_pilon_2986	K04077
+contig_1_pilon_2987	K04078
+contig_1_pilon_2988	K03706
+contig_1_pilon_2989	K03168
+contig_1_pilon_2990	K04096
+contig_1_pilon_2991	K07391
+contig_1_pilon_2992
+contig_1_pilon_2993
+contig_1_pilon_2994	K03091
+contig_1_pilon_2995	K08303
+contig_1_pilon_2996
+contig_1_pilon_2997
+contig_1_pilon_2998
+contig_1_pilon_2999	K12574
+contig_1_pilon_3000
+contig_1_pilon_3001	K07447
+contig_1_pilon_3002
+contig_1_pilon_3003	K15865
+contig_1_pilon_3004
+contig_1_pilon_3005	K03151
+contig_1_pilon_3006	K04487
+contig_1_pilon_3007	K09761
+contig_1_pilon_3008	K02687
+contig_1_pilon_3009
+contig_1_pilon_3010	K03294
+contig_1_pilon_3011
+contig_1_pilon_3012
+contig_1_pilon_3013
+contig_1_pilon_3014
+contig_1_pilon_3015
+contig_1_pilon_3016	K18887
+contig_1_pilon_3017
+contig_1_pilon_3018	K18888
+contig_1_pilon_3019
+contig_1_pilon_3020	K03686
+contig_1_pilon_3021	K04043
+contig_1_pilon_3022	K03687
+contig_1_pilon_3023	K03705
+contig_1_pilon_3024
+contig_1_pilon_3025
+contig_1_pilon_3026	K03702
+contig_1_pilon_3027
+contig_1_pilon_3028
+contig_1_pilon_3029
+contig_1_pilon_3030
+contig_1_pilon_3031
+contig_1_pilon_3032
+contig_1_pilon_3033
+contig_1_pilon_3034
+contig_1_pilon_3035
+contig_1_pilon_3036
+contig_1_pilon_3037
+contig_1_pilon_3038	K03088
+contig_1_pilon_3039
+contig_1_pilon_3040
+contig_1_pilon_3041
+contig_1_pilon_3042
+contig_1_pilon_3043
+contig_1_pilon_3044
+contig_1_pilon_3045
+contig_1_pilon_3046	K01163
+contig_1_pilon_3047
+contig_1_pilon_3048
+contig_1_pilon_3049	K03292
+contig_1_pilon_3050	K06605
+contig_1_pilon_3051
+contig_1_pilon_3052	K03335
+contig_1_pilon_3053
+contig_1_pilon_3054	K01629
+contig_1_pilon_3055	K01813
+contig_1_pilon_3056	K00848
+contig_1_pilon_3057
+contig_1_pilon_3058	K07814
+contig_1_pilon_3059	K25232
+contig_1_pilon_3060	K03797
+contig_1_pilon_3061	K09811
+contig_1_pilon_3062	K09812
+contig_1_pilon_3063	K02647
+contig_1_pilon_3064
+contig_1_pilon_3065
+contig_1_pilon_3066	K06889
+contig_1_pilon_3067
+contig_1_pilon_3068	K10773
+contig_1_pilon_3069
+contig_1_pilon_3070	K03406
+contig_1_pilon_3071
+contig_1_pilon_3072	K03406
+contig_1_pilon_3073	K03215
+contig_1_pilon_3074
+contig_1_pilon_3075
+contig_1_pilon_3076	K01915
+contig_1_pilon_3077
+contig_1_pilon_3078	K07029
+contig_1_pilon_3079	K02879
+contig_1_pilon_3080	K03040
+contig_1_pilon_3081	K02986
+contig_1_pilon_3082	K02948
+contig_1_pilon_3083	K02952
+contig_1_pilon_3084	K02518
+contig_1_pilon_3085
+contig_1_pilon_3086	K01265
+contig_1_pilon_3087	K00939
+contig_1_pilon_3088	K03076
+contig_1_pilon_3089	K02876
+contig_1_pilon_3090	K02907
+contig_1_pilon_3091	K02988
+contig_1_pilon_3092	K02881
+contig_1_pilon_3093	K02933
+contig_1_pilon_3094	K02994
+contig_1_pilon_3095	K02954
+contig_1_pilon_3096	K02931
+contig_1_pilon_3097	K02895
+contig_1_pilon_3098	K02874
+contig_1_pilon_3099	K02961
+contig_1_pilon_3100	K02904
+contig_1_pilon_3101	K02878
+contig_1_pilon_3102	K02982
+contig_1_pilon_3103	K02890
+contig_1_pilon_3104	K02965
+contig_1_pilon_3105	K02886
+contig_1_pilon_3106	K02892
+contig_1_pilon_3107	K02926
+contig_1_pilon_3108	K02906
+contig_1_pilon_3109	K02946
+contig_1_pilon_3110	K00027
+contig_1_pilon_3111
+contig_1_pilon_3112
+contig_1_pilon_3113	K01191
+contig_1_pilon_3114	K02026
+contig_1_pilon_3115	K02025
+contig_1_pilon_3116	K02027
+contig_1_pilon_3117	K02027
+contig_1_pilon_3118
+contig_1_pilon_3119	K07718
+contig_1_pilon_3120
+contig_1_pilon_3121	K01804
+contig_1_pilon_3122
+contig_1_pilon_3123
+contig_1_pilon_3124	K02784
+contig_1_pilon_3125	K09762
+contig_1_pilon_3126	K06958
+contig_1_pilon_3127	K00075
+contig_1_pilon_3128	K22132
+contig_1_pilon_3129	K06407
+contig_1_pilon_3130	K06406
+contig_1_pilon_3131	K06405
+contig_1_pilon_3132	K07816
+contig_1_pilon_3133	K01192
+contig_1_pilon_3134	K09988
+contig_1_pilon_3135	K17318
+contig_1_pilon_3136	K17320
+contig_1_pilon_3137	K17319
+contig_1_pilon_3138
+contig_1_pilon_3139
+contig_1_pilon_3140	K01255
+contig_1_pilon_3141	K01191
+contig_1_pilon_3142	K01222
+contig_1_pilon_3143
+contig_1_pilon_3144	K17320
+contig_1_pilon_3145
+contig_1_pilon_3146	K17319
+contig_1_pilon_3147
+contig_1_pilon_3148	K07053
+contig_1_pilon_3149
+contig_1_pilon_3150
+contig_1_pilon_3151	K07718
+contig_1_pilon_3152
+contig_1_pilon_3153
+contig_1_pilon_3154
+contig_1_pilon_3155	K07718
+contig_1_pilon_3156
+contig_1_pilon_3157	K01191
+contig_1_pilon_3158	K09704
+contig_1_pilon_3159	K10563
+contig_1_pilon_3160
+contig_1_pilon_3161
+contig_1_pilon_3162
+contig_1_pilon_3163
+contig_1_pilon_3164	K03091
+contig_1_pilon_3165	K06379
+contig_1_pilon_3166	K06378
+contig_1_pilon_3167
+contig_1_pilon_3168
+contig_1_pilon_3169	K11754
+contig_1_pilon_3170
+contig_1_pilon_3171	K01873
+contig_1_pilon_3172
+contig_1_pilon_3173
+contig_1_pilon_3174
+contig_1_pilon_3175
+contig_1_pilon_3176
+contig_1_pilon_3177	K10947
+contig_1_pilon_3178
+contig_1_pilon_3179	K18888
+contig_1_pilon_3180	K18887
+contig_1_pilon_3181
+contig_1_pilon_3182
+contig_1_pilon_3183	K03310
+contig_1_pilon_3184	K16898
+contig_1_pilon_3185	K16899
+contig_1_pilon_3186
+contig_1_pilon_3187
+contig_1_pilon_3188	K07273
+contig_1_pilon_3189
+contig_1_pilon_3190	K02025
+contig_1_pilon_3191
+contig_1_pilon_3192
+contig_1_pilon_3193	K01187
+contig_1_pilon_3194
+contig_1_pilon_3195	K18369
+contig_1_pilon_3196	K01950
+contig_1_pilon_3197	K04083
+contig_1_pilon_3198
+contig_1_pilon_3199	K05349
+contig_1_pilon_3200
+contig_1_pilon_3201
+contig_1_pilon_3202	K17320
+contig_1_pilon_3203	K17319
+contig_1_pilon_3204	K17318
+contig_1_pilon_3205
+contig_1_pilon_3206
+contig_1_pilon_3207	K03695
+contig_1_pilon_3208	K07718
+contig_1_pilon_3209
+contig_1_pilon_3210
+contig_1_pilon_3211	K17320
+contig_1_pilon_3212	K17319
+contig_1_pilon_3213	K05349
+contig_1_pilon_3214
+contig_1_pilon_3215
+contig_1_pilon_3216	K01811
+contig_1_pilon_3217
+contig_1_pilon_3218
+contig_1_pilon_3219
+contig_1_pilon_3220
+contig_1_pilon_3221
+contig_1_pilon_3222	K00180
+contig_1_pilon_3223	K00179
+contig_1_pilon_3224	K01912
+contig_1_pilon_3225
+contig_1_pilon_3226	K03294
+contig_1_pilon_3227	K00013
+contig_1_pilon_3228
+contig_1_pilon_3229	K03292
+contig_1_pilon_3230
+contig_1_pilon_3231	K00986
+contig_1_pilon_3232
+contig_1_pilon_3233
+contig_1_pilon_3234
+contig_1_pilon_3235
+contig_1_pilon_3236	K03518
+contig_1_pilon_3237
+contig_1_pilon_3238	K26937
+contig_1_pilon_3239	K03111
+contig_1_pilon_3240	K06898
+contig_1_pilon_3241	K01914
+contig_1_pilon_3242	K26937
+contig_1_pilon_3243	K01209
+contig_1_pilon_3244	K02026
+contig_1_pilon_3245
+contig_1_pilon_3246
+contig_1_pilon_3247
+contig_1_pilon_3248	K01209
+contig_1_pilon_3249
+contig_1_pilon_3250
+contig_1_pilon_3251
+contig_1_pilon_3252	K03292
+contig_1_pilon_3253
+contig_1_pilon_3254	K00600
+contig_1_pilon_3255
+contig_1_pilon_3256	K03719
+contig_1_pilon_3257	K01480
+contig_1_pilon_3258
+contig_1_pilon_3259
+contig_1_pilon_3260
+contig_1_pilon_3261	K01421
+contig_1_pilon_3262
+contig_1_pilon_3263
+contig_1_pilon_3264
+contig_1_pilon_3265
+contig_1_pilon_3266	K02217
+contig_1_pilon_3267
+contig_1_pilon_3268
+contig_1_pilon_3269
+contig_1_pilon_3270
+contig_1_pilon_3271
+contig_1_pilon_3272	K01686
+contig_1_pilon_3273	K00040
+contig_1_pilon_3274
+contig_1_pilon_3275
+contig_1_pilon_3276
+contig_1_pilon_3277
+contig_1_pilon_3278
+contig_1_pilon_3279
+contig_1_pilon_3280
+contig_1_pilon_3281
+contig_1_pilon_3282	K05989
+contig_1_pilon_3283
+contig_1_pilon_3284
+contig_1_pilon_3285
+contig_1_pilon_3286
+contig_1_pilon_3287
+contig_1_pilon_3288	K03496
+contig_1_pilon_3289
+contig_1_pilon_3290
+contig_1_pilon_3291
+contig_1_pilon_3292
+contig_1_pilon_3293
+contig_1_pilon_3294
+contig_1_pilon_3295
+contig_1_pilon_3296
+contig_1_pilon_3297
+contig_1_pilon_3298
+contig_1_pilon_3299
+contig_1_pilon_3300
+contig_1_pilon_3301	K07784
+contig_1_pilon_3302
+contig_1_pilon_3303	K03630
+contig_1_pilon_3304
+contig_1_pilon_3305
+contig_1_pilon_3306
+contig_1_pilon_3307
+contig_1_pilon_3308
+contig_1_pilon_3309
+contig_1_pilon_3310
+contig_1_pilon_3311
+contig_1_pilon_3312	K01714
+contig_1_pilon_3313	K00058
+contig_1_pilon_3314	K22129
+contig_1_pilon_3315	K22024
+contig_1_pilon_3316
+contig_1_pilon_3317
+contig_1_pilon_3318	K11690
+contig_1_pilon_3319
+contig_1_pilon_3320	K11688
+contig_1_pilon_3321
+contig_1_pilon_3322
+contig_1_pilon_3323
+contig_1_pilon_3324
+contig_1_pilon_3325
+contig_1_pilon_3326
+contig_1_pilon_3327
+contig_1_pilon_3328	K13280
+contig_1_pilon_3329
+contig_1_pilon_3330
+contig_1_pilon_3331
+contig_1_pilon_3332
+contig_1_pilon_3333
+contig_1_pilon_3334
+contig_1_pilon_3335
+contig_1_pilon_3336
+contig_1_pilon_3337
+contig_1_pilon_3338
+contig_1_pilon_3339
+contig_1_pilon_3340
+contig_1_pilon_3341
+contig_1_pilon_3342
+contig_1_pilon_3343	K17320
+contig_1_pilon_3344	K17319
+contig_1_pilon_3345	K17318
+contig_1_pilon_3346
+contig_1_pilon_3347	K07720
+contig_1_pilon_3348
+contig_1_pilon_3349	K05349
+contig_1_pilon_3350
+contig_1_pilon_3351	K01198
+contig_1_pilon_3352
+contig_1_pilon_3353
+contig_1_pilon_3354	K01181
+contig_1_pilon_3355	K03785
+contig_1_pilon_3356
+contig_1_pilon_3357
+contig_1_pilon_3358
+contig_1_pilon_3359	K07486
+contig_1_pilon_3360
+contig_1_pilon_3361
+contig_1_pilon_3362
+contig_1_pilon_3363
+contig_1_pilon_3364
+contig_1_pilon_3365
+contig_1_pilon_3366
+contig_1_pilon_3367	K00558
+contig_1_pilon_3368	K00558
+contig_1_pilon_3369
+contig_1_pilon_3370
+contig_1_pilon_3371
+contig_1_pilon_3372
+contig_1_pilon_3373
+contig_1_pilon_3374
+contig_1_pilon_3375
+contig_1_pilon_3376
+contig_1_pilon_3377
+contig_1_pilon_3378
+contig_1_pilon_3379
+contig_1_pilon_3380
+contig_1_pilon_3381
+contig_1_pilon_3382
+contig_1_pilon_3383	K03546
+contig_1_pilon_3384
+contig_1_pilon_3385
+contig_1_pilon_3386
+contig_1_pilon_3387	K01678
+contig_1_pilon_3388	K01677
+contig_1_pilon_3389	K00239
+contig_1_pilon_3390
+contig_1_pilon_3391
+contig_1_pilon_3392
+contig_1_pilon_3393
+contig_1_pilon_3394	K14127
+contig_1_pilon_3395	K03388
+contig_1_pilon_3396
+contig_1_pilon_3397	K03389
+contig_1_pilon_3398	K00016
+contig_1_pilon_3399
+contig_1_pilon_3400
+contig_1_pilon_3401
+contig_1_pilon_3402	K01182
+contig_1_pilon_3403
+contig_1_pilon_3404	K02025
+contig_1_pilon_3405
+contig_1_pilon_3406	K02529
+contig_1_pilon_3407
+contig_1_pilon_3408
+contig_1_pilon_3409
+contig_1_pilon_3410
+contig_1_pilon_3411	K06950
+contig_1_pilon_3412	K00615
+contig_1_pilon_3413	K00615
+contig_1_pilon_3414	K00616
+contig_1_pilon_3415	K02529
+contig_1_pilon_3416	K06187
+contig_1_pilon_3417	K09747
+contig_1_pilon_3418	K02343
+contig_1_pilon_3419	K21071
+contig_1_pilon_3420
+contig_1_pilon_3421
+contig_1_pilon_3422	K00548
+contig_1_pilon_3423	K11991
+contig_1_pilon_3424	K04069
+contig_1_pilon_3425
+contig_1_pilon_3426
+contig_1_pilon_3427	K13936
+contig_1_pilon_3428	K02529
+contig_1_pilon_3429
+contig_1_pilon_3430
+contig_1_pilon_3431
+contig_1_pilon_3432
+contig_1_pilon_3433	K06412
+contig_1_pilon_3434	K00975
+contig_1_pilon_3435	K00975
+contig_1_pilon_3436	K01924
+contig_1_pilon_3437
+contig_1_pilon_3438	K02315
+contig_1_pilon_3439	K00948
+contig_1_pilon_3440
+contig_1_pilon_3441
+contig_1_pilon_3442	K03547
+contig_1_pilon_3443	K01893
+contig_1_pilon_3444
+contig_1_pilon_3445	K03088
+contig_1_pilon_3446
+contig_1_pilon_3447	K02026
+contig_1_pilon_3448	K02025
+contig_1_pilon_3449	K02027
+contig_1_pilon_3450
+contig_1_pilon_3451
+contig_1_pilon_3452
+contig_1_pilon_3453	K19689
+contig_1_pilon_3454
+contig_1_pilon_3455
+contig_1_pilon_3456
+contig_1_pilon_3457
+contig_1_pilon_3458
+contig_1_pilon_3459	K03545
+contig_1_pilon_3460
+contig_1_pilon_3461
+contig_1_pilon_3462	K01776
+contig_1_pilon_3463	K06387
+contig_1_pilon_3464
+contig_1_pilon_3465
+contig_1_pilon_3466	K06310
+contig_1_pilon_3467
+contig_1_pilon_3468	K00919
+contig_1_pilon_3469
+contig_1_pilon_3470
+contig_1_pilon_3471	K26937
+contig_1_pilon_3472	K00655
+contig_1_pilon_3473	K26937
+contig_1_pilon_3474	K09951
+contig_1_pilon_3475	K15342
+contig_1_pilon_3476	K07464
+contig_1_pilon_3477	K19118
+contig_1_pilon_3478	K19117
+contig_1_pilon_3479	K19119
+contig_1_pilon_3480	K07012
+contig_1_pilon_3481
+contig_1_pilon_3482	K02011
+contig_1_pilon_3483
+contig_1_pilon_3484
+contig_1_pilon_3485
+contig_1_pilon_3486
+contig_1_pilon_3487
+contig_1_pilon_3488
+contig_1_pilon_3489
+contig_1_pilon_3490
+contig_1_pilon_3491	K07497
+contig_1_pilon_3492
+contig_1_pilon_3493
+contig_1_pilon_3494
+contig_1_pilon_3495
+contig_1_pilon_3496	K01620
+contig_1_pilon_3497
+contig_1_pilon_3498
+contig_1_pilon_3499
+contig_1_pilon_3500
+contig_1_pilon_3501
+contig_1_pilon_3502
+contig_1_pilon_3503	K05396
+contig_1_pilon_3504
+contig_1_pilon_3505
+contig_1_pilon_3506
+contig_1_pilon_3507
+contig_1_pilon_3508
+contig_1_pilon_3509
+contig_1_pilon_3510	K01929
+contig_1_pilon_3511	K01921
+contig_1_pilon_3512
+contig_1_pilon_3513
+contig_1_pilon_3514
+contig_1_pilon_3515
+contig_1_pilon_3516
+contig_1_pilon_3517	K01537
+contig_1_pilon_3518	K06969
+contig_1_pilon_3519
+contig_1_pilon_3520
+contig_1_pilon_3521
+contig_1_pilon_3522
+contig_1_pilon_3523	K01424
+contig_1_pilon_3524	K01736
+contig_1_pilon_3525
+contig_1_pilon_3526
+contig_1_pilon_3527
+contig_1_pilon_3528
+contig_1_pilon_3529
+contig_1_pilon_3530
+contig_1_pilon_3531	K01209
+contig_1_pilon_3532	K07718
+contig_1_pilon_3533
+contig_1_pilon_3534
+contig_1_pilon_3535
+contig_1_pilon_3536	K00929
+contig_1_pilon_3537
+contig_1_pilon_3538
+contig_1_pilon_3539
+contig_1_pilon_3540
+contig_1_pilon_3541
+contig_1_pilon_3542	K10188
+contig_1_pilon_3543	K01785
+contig_1_pilon_3544	K12308
+contig_1_pilon_3545
+contig_1_pilon_3546
+contig_1_pilon_3547	K06200
+contig_1_pilon_3548
+contig_1_pilon_3549	K07005
+contig_1_pilon_3550	K05601
+contig_1_pilon_3551
+contig_1_pilon_3552
+contig_1_pilon_3553	K01843
+contig_1_pilon_3554	K00657
+contig_1_pilon_3555
+contig_1_pilon_3556	K11104
+contig_1_pilon_3557
+contig_1_pilon_3558
+contig_1_pilon_3559	K00059
+contig_1_pilon_3560	K00615
+contig_1_pilon_3561	K00615
+contig_1_pilon_3562	K11690
+contig_1_pilon_3563
+contig_1_pilon_3564	K11688
+contig_1_pilon_3565
+contig_1_pilon_3566	K03088
+contig_1_pilon_3567
+contig_1_pilon_3568
+contig_1_pilon_3569	K02003
+contig_1_pilon_3570
+contig_1_pilon_3571
+contig_1_pilon_3572
+contig_1_pilon_3573	K07727
+contig_1_pilon_3574
+contig_1_pilon_3575
+contig_1_pilon_3576
+contig_1_pilon_3577
+contig_1_pilon_3578
+contig_1_pilon_3579
+contig_1_pilon_3580
+contig_1_pilon_3581	K26937
+contig_1_pilon_3582	K10188
+contig_1_pilon_3583
+contig_1_pilon_3584	K10189
+contig_1_pilon_3585	K12111
+contig_1_pilon_3586
+contig_1_pilon_3587	K10708
+contig_1_pilon_3588
+contig_1_pilon_3589	K10947
+contig_1_pilon_3590
+contig_1_pilon_3591
+contig_1_pilon_3592	K26937
+contig_1_pilon_3593	K00633
+contig_1_pilon_3594
+contig_1_pilon_3595
+contig_1_pilon_3596
+contig_1_pilon_3597	K02025
+contig_1_pilon_3598
+contig_1_pilon_3599
+contig_1_pilon_3600
+contig_1_pilon_3601
+contig_1_pilon_3602
+contig_1_pilon_3603
+contig_1_pilon_3604
+contig_1_pilon_3605	K07456
+contig_1_pilon_3606	K11261
+contig_1_pilon_3607
+contig_1_pilon_3608	K02358
+contig_1_pilon_3609	K02355
+contig_1_pilon_3610	K02992
+contig_1_pilon_3611	K02950
+contig_1_pilon_3612	K01207
+contig_1_pilon_3613	K03046
+contig_1_pilon_3614	K03043
+contig_1_pilon_3615
+contig_1_pilon_3616
+contig_1_pilon_3617	K02935
+contig_1_pilon_3618	K02864
+contig_1_pilon_3619
+contig_1_pilon_3620
+contig_1_pilon_3621
+contig_1_pilon_3622	K06306
+contig_1_pilon_3623
+contig_1_pilon_3624	K04763
+contig_1_pilon_3625	K00986
+contig_1_pilon_3626
+contig_1_pilon_3627	K02863
+contig_1_pilon_3628	K02867
+contig_1_pilon_3629	K02601
+contig_1_pilon_3630
+contig_1_pilon_3631
+contig_1_pilon_3632
+contig_1_pilon_3633
+contig_1_pilon_3634
+contig_1_pilon_3635	K06889
+contig_1_pilon_3636	K05350
+contig_1_pilon_3637
+contig_1_pilon_3638	K05606
+contig_1_pilon_3639
+contig_1_pilon_3640
+contig_1_pilon_3641	K02025
+contig_1_pilon_3642
+contig_1_pilon_3643
+contig_1_pilon_3644	K05606
+contig_1_pilon_3645
+contig_1_pilon_3646
+contig_1_pilon_3647	K02032
+contig_1_pilon_3648	K02031
+contig_1_pilon_3649
+contig_1_pilon_3650
+contig_1_pilon_3651
+contig_1_pilon_3652	K12368
+contig_1_pilon_3653
+contig_1_pilon_3654
+contig_1_pilon_3655
+contig_1_pilon_3656
+contig_1_pilon_3657
+contig_1_pilon_3658
+contig_1_pilon_3659
+contig_1_pilon_3660
+contig_1_pilon_3661
+contig_1_pilon_3662	K26937
+contig_1_pilon_3663
+contig_1_pilon_3664	K02003
+contig_1_pilon_3665
+contig_1_pilon_3666
+contig_1_pilon_3667
+contig_1_pilon_3668
+contig_1_pilon_3669	K01206
+contig_1_pilon_3670
+contig_1_pilon_3671
+contig_1_pilon_3672	K07318
+contig_1_pilon_3673
+contig_1_pilon_3674	K07452
+contig_1_pilon_3675
+contig_1_pilon_3676	K01874
+contig_1_pilon_3677
+contig_1_pilon_3678
+contig_1_pilon_3679
+contig_1_pilon_3680
+contig_1_pilon_3681
+contig_1_pilon_3682
+contig_1_pilon_3683
+contig_1_pilon_3684
+contig_1_pilon_3685
+contig_1_pilon_3686
+contig_1_pilon_3687
+contig_1_pilon_3688	K03581
+contig_1_pilon_3689
+contig_1_pilon_3690
+contig_1_pilon_3691
+contig_1_pilon_3692
+contig_1_pilon_3693	K01868
+contig_1_pilon_3694
+contig_1_pilon_3695
+contig_1_pilon_3696
+contig_1_pilon_3697
+contig_1_pilon_3698
+contig_1_pilon_3699
+contig_1_pilon_3700
+contig_1_pilon_3701
+contig_1_pilon_3702
+contig_1_pilon_3703
+contig_1_pilon_3704
+contig_1_pilon_3705
+contig_1_pilon_3706
+contig_1_pilon_3707
+contig_1_pilon_3708
+contig_1_pilon_3709	K06940
+contig_1_pilon_3710
+contig_1_pilon_3711
+contig_1_pilon_3712
+contig_1_pilon_3713
+contig_1_pilon_3714
+contig_1_pilon_3715
+contig_1_pilon_3716	K01689
+contig_1_pilon_3717	K01972
+contig_1_pilon_3718
+contig_1_pilon_3719
+contig_1_pilon_3720	K03427
+contig_1_pilon_3721
+contig_1_pilon_3722
+contig_1_pilon_3723
+contig_1_pilon_3724
+contig_1_pilon_3725	K21903
+contig_1_pilon_3726
+contig_1_pilon_3727	K01534
+contig_1_pilon_3728
+contig_1_pilon_3729	K17686
+contig_1_pilon_3730	K21600
+contig_1_pilon_3731	K26937
+contig_1_pilon_3732
+contig_1_pilon_3733
+contig_1_pilon_3734
+contig_1_pilon_3735
+contig_1_pilon_3736
+contig_1_pilon_3737
+contig_1_pilon_3738
+contig_1_pilon_3739
+contig_1_pilon_3740	K08600
+contig_1_pilon_3741	K04763
+contig_1_pilon_3742
+contig_1_pilon_3743
+contig_1_pilon_3744
+contig_1_pilon_3745
+contig_1_pilon_3746
+contig_1_pilon_3747
+contig_1_pilon_3748
+contig_1_pilon_3749
+contig_1_pilon_3750
+contig_1_pilon_3751
+contig_1_pilon_3752
+contig_1_pilon_3753
+contig_1_pilon_3754
+contig_1_pilon_3755	K06213
+contig_1_pilon_3756	K08641
+contig_1_pilon_3757	K01921
+contig_1_pilon_3758	K03778
+contig_1_pilon_3759	K07258
+contig_1_pilon_3760
+contig_1_pilon_3761
+contig_1_pilon_3762
+contig_1_pilon_3763
+contig_1_pilon_3764
+contig_1_pilon_3765
+contig_1_pilon_3766
+contig_1_pilon_3767
+contig_1_pilon_3768
+contig_1_pilon_3769
+contig_1_pilon_3770
+contig_1_pilon_3771	K02003
+contig_1_pilon_3772
+contig_1_pilon_3773
+contig_1_pilon_3774
+contig_1_pilon_3775
+contig_1_pilon_3776	K07814
+contig_1_pilon_3777
+contig_1_pilon_3778
+contig_1_pilon_3779
+contig_1_pilon_3780
+contig_1_pilon_3781
+contig_1_pilon_3782
+contig_1_pilon_3783	K01304
+contig_1_pilon_3784
+contig_1_pilon_3785
+contig_1_pilon_3786
+contig_1_pilon_3787	K10112
+contig_1_pilon_3788
+contig_1_pilon_3789	K02025
+contig_1_pilon_3790
+contig_1_pilon_3791
+contig_1_pilon_3792
+contig_1_pilon_3793
+contig_1_pilon_3794
+contig_1_pilon_3795
+contig_1_pilon_3796
+contig_1_pilon_3797
+contig_1_pilon_3798
+contig_1_pilon_3799	K01209
+contig_1_pilon_3800	K02026
+contig_1_pilon_3801	K02025
+contig_1_pilon_3802	K02027
+contig_1_pilon_3803	K06888
+contig_1_pilon_3804	K07258
+contig_1_pilon_3805
+contig_1_pilon_3806
+contig_1_pilon_3807
+contig_1_pilon_3808
+contig_1_pilon_3809
+contig_1_pilon_3810
+contig_1_pilon_3811
+contig_1_pilon_3812
+contig_1_pilon_3813
+contig_1_pilon_3814
+contig_1_pilon_3815
+contig_1_pilon_3816
+contig_1_pilon_3817
+contig_1_pilon_3818
+contig_1_pilon_3819	K26937
+contig_1_pilon_3820
+contig_1_pilon_3821
+contig_1_pilon_3822
+contig_1_pilon_3823
+contig_1_pilon_3824
+contig_1_pilon_3825
+contig_1_pilon_3826
+contig_1_pilon_3827
+contig_1_pilon_3828	K07776
+contig_1_pilon_3829
+contig_1_pilon_3830	K02003
+contig_1_pilon_3831	K02004
+contig_1_pilon_3832
+contig_1_pilon_3833
+contig_1_pilon_3834
+contig_1_pilon_3835
+contig_1_pilon_3836
+contig_1_pilon_3837
+contig_1_pilon_3838
+contig_1_pilon_3839
+contig_1_pilon_3840
+contig_1_pilon_3841
+contig_1_pilon_3842
+contig_1_pilon_3843
+contig_1_pilon_3844
+contig_1_pilon_3845
+contig_1_pilon_3846
+contig_1_pilon_3847
+contig_1_pilon_3848
+contig_1_pilon_3849
+contig_1_pilon_3850	K01092
+contig_1_pilon_3851
+contig_1_pilon_3852
+contig_1_pilon_3853
+contig_1_pilon_3854
+contig_1_pilon_3855
+contig_1_pilon_3856
+contig_1_pilon_3857
+contig_1_pilon_3858
+contig_1_pilon_3859
+contig_1_pilon_3860
+contig_1_pilon_3861	K03100
+contig_1_pilon_3862
+contig_1_pilon_3863
+contig_1_pilon_3864
+contig_1_pilon_3865	K04095
+contig_1_pilon_3866
+contig_1_pilon_3867
+contig_1_pilon_3868	K02945
+contig_1_pilon_3869
+contig_1_pilon_3870
+contig_1_pilon_3871
+contig_1_pilon_3872
+contig_1_pilon_3873
+contig_1_pilon_3874
+contig_1_pilon_3875
+contig_1_pilon_3876
+contig_1_pilon_3877
+contig_1_pilon_3878
+contig_1_pilon_3879
+contig_1_pilon_3880
+contig_1_pilon_3881
+contig_1_pilon_3882
+contig_1_pilon_3883
+contig_1_pilon_3884
+contig_1_pilon_3885
+contig_1_pilon_3886
+contig_1_pilon_3887
+contig_1_pilon_3888	K04763
+contig_1_pilon_3889
+contig_1_pilon_3890
+contig_1_pilon_3891	K02003
+contig_1_pilon_3892	K02004
+contig_1_pilon_3893
+contig_1_pilon_3894
+contig_1_pilon_3895	K06147
+contig_1_pilon_3896
+contig_1_pilon_3897
+contig_1_pilon_3898	K06871
+contig_1_pilon_3899
+contig_1_pilon_3900
+contig_1_pilon_3901
+contig_1_pilon_3902
+contig_1_pilon_3903
+contig_1_pilon_3904
+contig_1_pilon_3905
+contig_1_pilon_3906
+contig_1_pilon_3907
+contig_1_pilon_3908	K03169
+contig_1_pilon_3909
+contig_1_pilon_3910
+contig_1_pilon_3911
+contig_1_pilon_3912	K08600
+contig_1_pilon_3913
+contig_1_pilon_3914
+contig_1_pilon_3915
+contig_1_pilon_3916
+contig_1_pilon_3917	K00986
+contig_1_pilon_3918
+contig_1_pilon_3919
+contig_1_pilon_3920
+contig_1_pilon_3921
+contig_1_pilon_3922
+contig_1_pilon_3923
+contig_1_pilon_3924
+contig_1_pilon_3925
+contig_1_pilon_3926
+contig_1_pilon_3927
+contig_1_pilon_3928
+contig_1_pilon_3929
+contig_1_pilon_3930
+contig_1_pilon_3931
+contig_1_pilon_3932
+contig_1_pilon_3933	K03497
+contig_1_pilon_3934	K03496
+contig_1_pilon_3935
+contig_1_pilon_3936
+contig_1_pilon_3937	K04567
+contig_1_pilon_3938	K03624
+contig_1_pilon_3939	K05540
+contig_1_pilon_3940	K03525
+contig_1_pilon_3941
+contig_1_pilon_3942	K03524
+contig_1_pilon_3943	K00611
+contig_1_pilon_3944	K07001
+contig_1_pilon_3945
+contig_1_pilon_3946
+contig_1_pilon_3947	K02004
+contig_1_pilon_3948	K02003
+contig_1_pilon_3949	K06901
+contig_1_pilon_3950
+contig_1_pilon_3951
+contig_1_pilon_3952
+contig_1_pilon_3953
+contig_1_pilon_3954	K03437
+contig_1_pilon_3955	K03499
+contig_1_pilon_3956	K03498
+contig_1_pilon_3957	K00850
+contig_1_pilon_3958	K02337
+contig_1_pilon_3959
+contig_1_pilon_3960	K00243
+contig_1_pilon_3961
+contig_1_pilon_3962
+contig_1_pilon_3963
+contig_1_pilon_3964
+contig_1_pilon_3965
+contig_1_pilon_3966
+contig_1_pilon_3967
+contig_1_pilon_3968
+contig_1_pilon_3969
+contig_1_pilon_3970
+contig_1_pilon_3971
+contig_1_pilon_3972
+contig_1_pilon_3973	K00018
+contig_1_pilon_3974	K11690
+contig_1_pilon_3975	K11689
+contig_1_pilon_3976	K11688
+contig_1_pilon_3977	K00854
+contig_1_pilon_3978	K16306
+contig_1_pilon_3979	K00060
+contig_1_pilon_3980
+contig_1_pilon_3981	K07260
+contig_1_pilon_3982	K00763
+contig_1_pilon_3983	K04769
+contig_1_pilon_3984
+contig_1_pilon_3985
+contig_1_pilon_3986
+contig_1_pilon_3987
+contig_1_pilon_3988	K14155
+contig_1_pilon_3989
+contig_1_pilon_3990	K07406
+contig_1_pilon_3991
+contig_1_pilon_3992
+contig_1_pilon_3993
+contig_1_pilon_3994	K01567
+contig_1_pilon_3995
+contig_1_pilon_3996	K07406
+contig_1_pilon_3997
+contig_1_pilon_3998	K00849
+contig_1_pilon_3999
+contig_1_pilon_4000
+contig_1_pilon_4001
+contig_1_pilon_4002	K00661
+contig_1_pilon_4003
+contig_1_pilon_4004
+contig_1_pilon_4005
+contig_1_pilon_4006
+contig_1_pilon_4007
+contig_1_pilon_4008
+contig_1_pilon_4009
+contig_1_pilon_4010
+contig_1_pilon_4011	K07271
+contig_1_pilon_4012
+contig_1_pilon_4013
+contig_1_pilon_4014
+contig_1_pilon_4015
+contig_1_pilon_4016
+contig_1_pilon_4017	K13012
+contig_1_pilon_4018
+contig_1_pilon_4019	K08600
+contig_1_pilon_4020
+contig_1_pilon_4021
+contig_1_pilon_4022	K00903
+contig_1_pilon_4023
+contig_1_pilon_4024
+contig_1_pilon_4025
+contig_1_pilon_4026
+contig_1_pilon_4027
+contig_1_pilon_4028	K07407
+contig_1_pilon_4029	K07486
+contig_1_pilon_4030	K02026
+contig_1_pilon_4031	K02025
+contig_1_pilon_4032	K02027
+contig_1_pilon_4033
+contig_1_pilon_4034
+contig_1_pilon_4035
+contig_1_pilon_4036	K02025
+contig_1_pilon_4037
+contig_1_pilon_4038
+contig_1_pilon_4039	K15545
+contig_1_pilon_4040
+contig_1_pilon_4041
+contig_1_pilon_4042	K01182
+contig_1_pilon_4043	K10238
+contig_1_pilon_4044	K10237
+contig_1_pilon_4045	K10236
+contig_1_pilon_4046
+contig_1_pilon_4047	K00548
+contig_1_pilon_4048
+contig_1_pilon_4049	K07407
+contig_1_pilon_4050
+contig_1_pilon_4051
+contig_1_pilon_4052
+contig_1_pilon_4053	K02647
+contig_1_pilon_4054	K02647
+contig_1_pilon_4055
+contig_1_pilon_4056
+contig_1_pilon_4057	K00633
+contig_1_pilon_4058	K01838
+contig_1_pilon_4059
+contig_1_pilon_4060
+contig_1_pilon_4061	K11068
+contig_1_pilon_4062	K05343
+contig_1_pilon_4063
+contig_1_pilon_4064	K25026
+contig_1_pilon_4065
+contig_1_pilon_4066
+contig_1_pilon_4067
+contig_1_pilon_4068
+contig_1_pilon_4069
+contig_1_pilon_4070	K09825
+contig_1_pilon_4071
+contig_1_pilon_4072
+contig_1_pilon_4073
+contig_1_pilon_4074	K03307
+contig_1_pilon_4075	K01639
+contig_1_pilon_4076	K01788
+contig_1_pilon_4077	K01443
+contig_1_pilon_4078	K07461
+contig_1_pilon_4079
+contig_1_pilon_4080
+contig_1_pilon_4081	K06381
+contig_1_pilon_4082
+contig_1_pilon_4083	K01740
+contig_1_pilon_4084	K26937
+contig_1_pilon_4085
+contig_1_pilon_4086
+contig_1_pilon_4087
+contig_1_pilon_4088	K01448
+contig_1_pilon_4089
+contig_1_pilon_4090
+contig_1_pilon_4091
+contig_1_pilon_4092
+contig_1_pilon_4093
+contig_1_pilon_4094
+contig_1_pilon_4095
+contig_1_pilon_4096
+contig_1_pilon_4097
+contig_1_pilon_4098
+contig_1_pilon_4099
+contig_1_pilon_4100
+contig_1_pilon_4101
+contig_1_pilon_4102
+contig_1_pilon_4103
+contig_1_pilon_4104
+contig_1_pilon_4105
+contig_1_pilon_4106
+contig_1_pilon_4107
+contig_1_pilon_4108
+contig_1_pilon_4109
+contig_1_pilon_4110
+contig_1_pilon_4111
+contig_1_pilon_4112
+contig_1_pilon_4113
+contig_1_pilon_4114
+contig_1_pilon_4115
+contig_1_pilon_4116
+contig_1_pilon_4117
+contig_1_pilon_4118
+contig_1_pilon_4119
+contig_1_pilon_4120
+contig_1_pilon_4121	K06890
+contig_1_pilon_4122
+contig_1_pilon_4123
+contig_1_pilon_4124
+contig_1_pilon_4125
+contig_1_pilon_4126
+contig_1_pilon_4127
+contig_1_pilon_4128
+contig_1_pilon_4129	K02334
+contig_1_pilon_4130
+contig_1_pilon_4131
+contig_1_pilon_4132
+contig_1_pilon_4133
+contig_1_pilon_4134
+contig_1_pilon_4135
+contig_1_pilon_4136
+contig_1_pilon_4137
+contig_1_pilon_4138
+contig_1_pilon_4139
+contig_1_pilon_4140
+contig_1_pilon_4141
+contig_1_pilon_4142
+contig_1_pilon_4143
+contig_1_pilon_4144
+contig_1_pilon_4145	K00655
+contig_1_pilon_4146
+contig_1_pilon_4147	K02469
+contig_1_pilon_4148	K02470
+contig_1_pilon_4149	K03629
+contig_1_pilon_4150	K14761
+contig_1_pilon_4151	K02338
+contig_1_pilon_4152	K02313
+contig_1_pilon_4153	K02914
+contig_1_pilon_4154	K03536
+contig_1_pilon_4155	K03217
+contig_1_pilon_4156	K06346
+contig_1_pilon_4157	K03650
+contig_1_pilon_4158	K03495
+contig_1_pilon_4159	K03501
+contig_1_pilon_4160
+contig_1_pilon_4161
+contig_1_pilon_4162
+contig_1_pilon_4163	K07443
+contig_1_pilon_4164	K25152
+contig_1_pilon_4165
+contig_1_pilon_4166
+contig_1_pilon_4167
+contig_1_pilon_4168
+contig_1_pilon_4169
+contig_1_pilon_4170	K03496
+contig_1_pilon_4171	K03497
+contig_1_pilon_4172
+contig_1_pilon_4173	K01875
+contig_1_pilon_4174
+contig_1_pilon_4175
+contig_1_pilon_4176
+contig_1_pilon_4177	K07718
+contig_1_pilon_4178
+contig_1_pilon_4179	K02027
+contig_1_pilon_4180	K02025
+contig_1_pilon_4181	K02026
+contig_1_pilon_4182
+contig_1_pilon_4183
+contig_1_pilon_4184	K02111
+contig_1_pilon_4185
+contig_1_pilon_4186
+contig_1_pilon_4187
+contig_1_pilon_4188
+contig_1_pilon_4189
+contig_1_pilon_4190
+contig_1_pilon_4191
+contig_1_pilon_4192
+contig_1_pilon_4193	K07467
+contig_1_pilon_4194
+contig_1_pilon_4195
+contig_1_pilon_4196
+contig_1_pilon_4197
+contig_1_pilon_4198
+contig_1_pilon_4199
+contig_1_pilon_4200
+contig_1_pilon_4201
+contig_1_pilon_4202
+contig_1_pilon_4203
+contig_1_pilon_4204
+contig_1_pilon_4205
+contig_1_pilon_4206
+contig_1_pilon_4207
+contig_1_pilon_4208
+contig_1_pilon_4209
+contig_1_pilon_4210	K03320
+contig_1_pilon_4211	K00764
+contig_1_pilon_4212	K01915
+contig_1_pilon_4213
+contig_1_pilon_4214	K01937
+contig_1_pilon_4215	K00265
+contig_1_pilon_4216	K00266
+contig_1_pilon_4217
+contig_1_pilon_4218	K03654
+contig_1_pilon_4219
+contig_1_pilon_4220
+contig_1_pilon_4221
+contig_1_pilon_4222
+contig_1_pilon_4223	K02654
+contig_1_pilon_4224
+contig_1_pilon_4225
+contig_1_pilon_4226
+contig_1_pilon_4227
+contig_1_pilon_4228	K02669
+contig_1_pilon_4229
+contig_1_pilon_4230
+contig_1_pilon_4231
+contig_1_pilon_4232
+contig_1_pilon_4233	K01915
+contig_1_pilon_4234
+contig_1_pilon_4235	K10206
+contig_1_pilon_4236	K09759
+contig_1_pilon_4237
+contig_1_pilon_4238	K02433
+contig_1_pilon_4239	K02434
+contig_1_pilon_4240	K03086
+contig_1_pilon_4241	K03798
+contig_1_pilon_4242
+contig_1_pilon_4243
+contig_1_pilon_4244	K07258
+contig_1_pilon_4245
+contig_1_pilon_4246	K01990
+contig_1_pilon_4247
+contig_1_pilon_4248
+contig_1_pilon_4249
+contig_1_pilon_4250	K01870
+contig_1_pilon_4251	K00688
+contig_1_pilon_4252
+contig_1_pilon_4253	K02528
+contig_1_pilon_4254
+contig_1_pilon_4255	K11072
+contig_1_pilon_4256	K02011
+contig_1_pilon_4257	K02012
+contig_1_pilon_4258	K03430
+contig_1_pilon_4259	K05306
+contig_1_pilon_4260
+contig_1_pilon_4261
+contig_1_pilon_4262	K01195
+contig_1_pilon_4263	K03292
+contig_1_pilon_4264
+contig_1_pilon_4265
+contig_1_pilon_4266	K07816
+contig_1_pilon_4267	K07035
+contig_1_pilon_4268	K02945
+contig_1_pilon_4269	K15986
+contig_1_pilon_4270
+contig_1_pilon_4271
+contig_1_pilon_4272
+contig_1_pilon_4273	K00891
+contig_1_pilon_4274	K00790
+contig_1_pilon_4275
+contig_1_pilon_4276
+contig_1_pilon_4277
+contig_1_pilon_4278
+contig_1_pilon_4279
+contig_1_pilon_4280	K10240
+contig_1_pilon_4281
+contig_1_pilon_4282
+contig_1_pilon_4283
+contig_1_pilon_4284	K08322
+contig_1_pilon_4285
+contig_1_pilon_4286	K03299
+contig_1_pilon_4287
+contig_1_pilon_4288	K01687
+contig_1_pilon_4289	K00065
+contig_1_pilon_4290	K00789
+contig_1_pilon_4291
+contig_1_pilon_4292	K06921
+contig_1_pilon_4293
+contig_1_pilon_4294
+contig_1_pilon_4295
+contig_1_pilon_4296
+contig_1_pilon_4297
+contig_1_pilon_4298
+contig_1_pilon_4299
+contig_1_pilon_4300
+contig_1_pilon_4301
+contig_1_pilon_4302	K01881
+contig_1_pilon_4303	K01585
+contig_1_pilon_4304
+contig_1_pilon_4305	K02343
+contig_1_pilon_4306
+contig_1_pilon_4307
+contig_1_pilon_4308	K07056
+contig_1_pilon_4309
+contig_1_pilon_4310	K11206
+contig_1_pilon_4311	K06373
+contig_1_pilon_4312	K02529
+contig_1_pilon_4313	K02529
+contig_1_pilon_4314
+contig_1_pilon_4315	K15552
+contig_1_pilon_4316	K15552
+contig_1_pilon_4317
+contig_1_pilon_4318
+contig_1_pilon_4319
+contig_1_pilon_4320	K00615
+contig_1_pilon_4321	K00615
+contig_1_pilon_4322
+contig_1_pilon_4323	K01783
+contig_1_pilon_4324	K03077
+contig_1_pilon_4325	K01803
+contig_1_pilon_4326
+contig_1_pilon_4327
+contig_1_pilon_4328
+contig_1_pilon_4329
+contig_1_pilon_4330	K22083
+contig_1_pilon_4331	K26937
+contig_1_pilon_4332
+contig_1_pilon_4333
+contig_1_pilon_4334
+contig_1_pilon_4335
+contig_1_pilon_4336
+contig_1_pilon_4337
+contig_1_pilon_4338	K07718
+contig_1_pilon_4339	K12308
+contig_1_pilon_4340
+contig_1_pilon_4341
+contig_1_pilon_4342
+contig_1_pilon_4343
+contig_1_pilon_4344
+contig_1_pilon_4345	K06605
+contig_1_pilon_4346	K03292
+contig_1_pilon_4347
+contig_1_pilon_4348
+contig_1_pilon_4349	K01874
+contig_1_pilon_4350	K02529
+contig_1_pilon_4351	K01222
+contig_1_pilon_4352
+contig_1_pilon_4353	K02027
+contig_1_pilon_4354	K10118
+contig_1_pilon_4355
+contig_1_pilon_4356
+contig_1_pilon_4357	K02099
+contig_1_pilon_4358
+contig_1_pilon_4359	K01104
+contig_1_pilon_4360	K01537
+contig_1_pilon_4361
+contig_1_pilon_4362	K03424
+contig_1_pilon_4363
+contig_1_pilon_4364	K01208
+contig_1_pilon_4365	K00700
+contig_1_pilon_4366	K04771
+contig_1_pilon_4367	K20074
+contig_1_pilon_4368
+contig_1_pilon_4369
+contig_1_pilon_4370
+contig_1_pilon_4371
+contig_1_pilon_4372	K12132
+contig_1_pilon_4373
+contig_1_pilon_4374
+contig_1_pilon_4375
+contig_1_pilon_4376
+contig_1_pilon_4377	K03466
+contig_1_pilon_4378
+contig_1_pilon_4379
+contig_1_pilon_4380
+contig_1_pilon_4381
+contig_1_pilon_4382
+contig_1_pilon_4383
+contig_1_pilon_4384	K00265
+contig_1_pilon_4385
+contig_1_pilon_4386
+contig_1_pilon_4387
+contig_1_pilon_4388
+contig_1_pilon_4389
+contig_1_pilon_4390
+contig_1_pilon_4391
+contig_1_pilon_4392	K01273
+contig_1_pilon_4393	K00788
+contig_1_pilon_4394	K03150
+contig_1_pilon_4395	K03149
+contig_1_pilon_4396
+contig_1_pilon_4397	K03154
+contig_1_pilon_4398	K03147
+contig_1_pilon_4399	K01811
+contig_1_pilon_4400
+contig_1_pilon_4401	K01620
+contig_1_pilon_4402
+contig_1_pilon_4403	K00013
+contig_1_pilon_4404
+contig_1_pilon_4405	K03315
+contig_1_pilon_4406
+contig_1_pilon_4407
+contig_1_pilon_4408	K02003
+contig_1_pilon_4409
+contig_1_pilon_4410
+contig_1_pilon_4411
+contig_1_pilon_4412	K01056
+contig_1_pilon_4413	K03723
+contig_1_pilon_4414
+contig_1_pilon_4415
+contig_1_pilon_4416
+contig_1_pilon_4417	K07240
+contig_1_pilon_4418
+contig_1_pilon_4419
+contig_1_pilon_4420
+contig_1_pilon_4421
+contig_1_pilon_4422
+contig_1_pilon_4423	K02502
+contig_1_pilon_4424	K00765
+contig_1_pilon_4425	K00817
+contig_1_pilon_4426	K01693
+contig_1_pilon_4427	K02501
+contig_1_pilon_4428	K01814
+contig_1_pilon_4429	K02500
+contig_1_pilon_4430
+contig_1_pilon_4431
+contig_1_pilon_4432
+contig_1_pilon_4433
+contig_1_pilon_4434
+contig_1_pilon_4435	K02025
+contig_1_pilon_4436	K02026
+contig_1_pilon_4437	K07406
+contig_1_pilon_4438
+contig_1_pilon_4439	K07486
+contig_1_pilon_4440
+contig_1_pilon_4441
+contig_1_pilon_4442
+contig_1_pilon_4443
+contig_1_pilon_4444
+contig_1_pilon_4445	K00882
+contig_1_pilon_4446	K02770
+contig_1_pilon_4447	K02784
+contig_1_pilon_4448	K08483
+contig_1_pilon_4449	K03436
+contig_1_pilon_4450	K16907
+contig_1_pilon_4451
+contig_1_pilon_4452
+contig_1_pilon_4453
+contig_1_pilon_4454
+contig_1_pilon_4455	K00384
+contig_1_pilon_4456	K00849
+contig_1_pilon_4457	K07636
+contig_1_pilon_4458
+contig_1_pilon_4459	K02039
+contig_1_pilon_4460	K02036
+contig_1_pilon_4461	K02038
+contig_1_pilon_4462	K02037
+contig_1_pilon_4463	K02040
+contig_1_pilon_4464
+contig_1_pilon_4465
+contig_1_pilon_4466	K02118
+contig_1_pilon_4467	K02117
+contig_1_pilon_4468
+contig_1_pilon_4469
+contig_1_pilon_4470
+contig_1_pilon_4471	K02123
+contig_1_pilon_4472
+contig_1_pilon_4473
+contig_1_pilon_4474	K03439
+contig_1_pilon_4475
+contig_1_pilon_4476	K03671
+contig_1_pilon_4477
+contig_1_pilon_4478
+contig_1_pilon_4479
+contig_1_pilon_4480	K09117
+contig_1_pilon_4481
+contig_1_pilon_4482	K03308
+contig_1_pilon_4483
+contig_1_pilon_4484
+contig_1_pilon_4485
+contig_1_pilon_4486
+contig_1_pilon_4487
+contig_1_pilon_4488	K27494
+contig_1_pilon_4489
+contig_1_pilon_4490	K00027
+contig_1_pilon_4491
+contig_1_pilon_4492
+contig_1_pilon_4493	K01738
+contig_1_pilon_4494	K26937
+contig_1_pilon_4495	K03976
+contig_1_pilon_4496
+contig_1_pilon_4497
+contig_1_pilon_4498
+contig_1_pilon_4499	K02283
+contig_1_pilon_4500
+contig_1_pilon_4501
+contig_1_pilon_4502
+contig_1_pilon_4503	K00088
+contig_1_pilon_4504
+contig_1_pilon_4505
+contig_1_pilon_4506
+contig_1_pilon_4507
+contig_1_pilon_4508
+contig_1_pilon_4509
+contig_1_pilon_4510	K02503
+contig_1_pilon_4511
+contig_1_pilon_4512	K02563
+contig_1_pilon_4513
+contig_1_pilon_4514
+contig_1_pilon_4515	K07576
+contig_1_pilon_4516	K01915
+contig_1_pilon_4517
+contig_1_pilon_4518
+contig_1_pilon_4519
+contig_1_pilon_4520	K10947
+contig_1_pilon_4521
+contig_1_pilon_4522
+contig_1_pilon_4523
+contig_1_pilon_4524
+contig_1_pilon_4525	K25144
+contig_1_pilon_4526
+contig_1_pilon_4527	K08303
+contig_1_pilon_4528
+contig_1_pilon_4529
+contig_1_pilon_4530
+contig_1_pilon_4531
+contig_1_pilon_4532	K01990
+contig_1_pilon_4533
+contig_1_pilon_4534
+contig_1_pilon_4535
+contig_1_pilon_4536
+contig_1_pilon_4537
+contig_1_pilon_4538
+contig_1_pilon_4539
+contig_1_pilon_4540
+contig_1_pilon_4541
+contig_1_pilon_4542
+contig_1_pilon_4543
+contig_1_pilon_4544
+contig_1_pilon_4545
+contig_1_pilon_4546
+contig_1_pilon_4547
+contig_1_pilon_4548
+contig_1_pilon_4549
+contig_1_pilon_4550
+contig_1_pilon_4551
+contig_1_pilon_4552
+contig_1_pilon_4553
+contig_1_pilon_4554	K13280
+contig_1_pilon_4555
+contig_1_pilon_4556
+contig_1_pilon_4557	K01687
+contig_1_pilon_4558
+contig_1_pilon_4559	K01912
+contig_1_pilon_4560	K06937
+contig_1_pilon_4561
+contig_1_pilon_4562
+contig_1_pilon_4563
+contig_1_pilon_4564
+contig_1_pilon_4565
+contig_1_pilon_4566
+contig_1_pilon_4567
+contig_1_pilon_4568
+contig_1_pilon_4569
+contig_1_pilon_4570	K01243
+contig_1_pilon_4571
+contig_1_pilon_4572	K01810
+contig_1_pilon_4573
+contig_1_pilon_4574
+contig_1_pilon_4575
+contig_1_pilon_4576
+contig_1_pilon_4577	K10112
+contig_1_pilon_4578
+contig_1_pilon_4579
+contig_1_pilon_4580
+contig_1_pilon_4581	K06180
+contig_1_pilon_4582
+contig_1_pilon_4583
+contig_1_pilon_4584
+contig_1_pilon_4585	K02123
+contig_1_pilon_4586	K02124
+contig_1_pilon_4587
+contig_1_pilon_4588	K02109
+contig_1_pilon_4589
+contig_1_pilon_4590	K02122
+contig_1_pilon_4591	K02117
+contig_1_pilon_4592	K02118
+contig_1_pilon_4593	K02120
+contig_1_pilon_4594
+contig_1_pilon_4595
+contig_1_pilon_4596
+contig_1_pilon_4597	K05349
+contig_1_pilon_4598
+contig_1_pilon_4599	K07404
+contig_1_pilon_4600	K26937
+contig_1_pilon_4601	K23518
+contig_1_pilon_4602
+contig_1_pilon_4603
+contig_1_pilon_4604
+contig_1_pilon_4605	K06283
+contig_1_pilon_4606
+contig_1_pilon_4607	K01951
+contig_1_pilon_4608
+contig_1_pilon_4609
+contig_1_pilon_4610	K01951
+contig_1_pilon_4611	K00986
+contig_1_pilon_4612
+contig_1_pilon_4613
+contig_1_pilon_4614
+contig_1_pilon_4615
+contig_1_pilon_4616
+contig_1_pilon_4617	K25026
+contig_1_pilon_4618	K03786
+contig_1_pilon_4619
+contig_1_pilon_4620	K01091
+contig_1_pilon_4621	K01735
+contig_1_pilon_4622
+contig_1_pilon_4623
+contig_1_pilon_4624	K03639
+contig_1_pilon_4625	K02078
+contig_1_pilon_4626
+contig_1_pilon_4627
+contig_1_pilon_4628
+contig_1_pilon_4629
+contig_1_pilon_4630	K07486
+contig_1_pilon_4631
+contig_1_pilon_4632
+contig_1_pilon_4633
+contig_1_pilon_4634
+contig_1_pilon_4635
+contig_1_pilon_4636
+contig_1_pilon_4637
+contig_1_pilon_4638	K00789
+contig_1_pilon_4639
+contig_1_pilon_4640	K14441
+contig_1_pilon_4641	K25156
+contig_1_pilon_4642	K25155
+contig_1_pilon_4643
+contig_1_pilon_4644
+contig_1_pilon_4645
+contig_1_pilon_4646
+contig_1_pilon_4647
+contig_1_pilon_4648
+contig_1_pilon_4649
+contig_1_pilon_4650	K27862
+contig_1_pilon_4651
+contig_1_pilon_4652	K04763
+contig_1_pilon_4653
+contig_1_pilon_4654
+contig_1_pilon_4655
+contig_1_pilon_4656
+contig_1_pilon_4657
+contig_1_pilon_4658
+contig_1_pilon_4659
+contig_1_pilon_4660
+contig_1_pilon_4661
+contig_1_pilon_4662
+contig_1_pilon_4663
+contig_1_pilon_4664	K17319
+contig_1_pilon_4665	K17320
+contig_1_pilon_4666
+contig_1_pilon_4667	K01193
+contig_1_pilon_4668
+contig_1_pilon_4669	K01191
+contig_1_pilon_4670
+contig_1_pilon_4671	K07718
+contig_1_pilon_4672
+contig_1_pilon_4673	K02027
+contig_1_pilon_4674	K02025
+contig_1_pilon_4675	K02026
+contig_1_pilon_4676	K01811
+contig_1_pilon_4677	K09955
+contig_1_pilon_4678
+contig_1_pilon_4679
+contig_1_pilon_4680
+contig_1_pilon_4681
+contig_1_pilon_4682	K01990
+contig_1_pilon_4683
+contig_1_pilon_4684
+contig_1_pilon_4685	K00433
+contig_1_pilon_4686
+contig_1_pilon_4687
+contig_1_pilon_4688
+contig_1_pilon_4689
+contig_1_pilon_4690
+contig_1_pilon_4691
+contig_1_pilon_4692
+contig_1_pilon_4693
+contig_1_pilon_4694
+contig_1_pilon_4695	K10117
+contig_1_pilon_4696	K10117
+contig_1_pilon_4697
+contig_1_pilon_4698
+contig_1_pilon_4699	K07718
+contig_1_pilon_4700
+contig_1_pilon_4701	K05349
+contig_1_pilon_4702
+contig_1_pilon_4703
+contig_1_pilon_4704
+contig_1_pilon_4705
+contig_1_pilon_4706
+contig_1_pilon_4707
+contig_1_pilon_4708	K01198
+contig_1_pilon_4709	K23242
+contig_1_pilon_4710
+contig_1_pilon_4711	K03310
+contig_1_pilon_4712	K22278
+contig_1_pilon_4713	K08681
+contig_1_pilon_4714	K04072
+contig_1_pilon_4715	K06207
+contig_1_pilon_4716
+contig_1_pilon_4717	K19221
+contig_1_pilon_4718	K01714
+contig_1_pilon_4719	K00215
+contig_1_pilon_4720
+contig_1_pilon_4721	K05808
+contig_1_pilon_4722
+contig_1_pilon_4723
+contig_1_pilon_4724	K03070
+contig_1_pilon_4725
+contig_1_pilon_4726	K02836
+contig_1_pilon_4727	K06209
+contig_1_pilon_4728	K00003
+contig_1_pilon_4729	K15635
+contig_1_pilon_4730
+contig_1_pilon_4731
+contig_1_pilon_4732
+contig_1_pilon_4733
+contig_1_pilon_4734	K00854
+contig_1_pilon_4735	K06959
+contig_1_pilon_4736	K01262
+contig_1_pilon_4737
+contig_1_pilon_4738	K07718
+contig_1_pilon_4739
+contig_1_pilon_4740	K02529
+contig_1_pilon_4741	K17319
+contig_1_pilon_4742	K17320
+contig_1_pilon_4743	K17318
+contig_1_pilon_4744	K12308
+contig_1_pilon_4745
+contig_1_pilon_4746	K26937
+contig_1_pilon_4747	K01190
+contig_1_pilon_4748
+contig_1_pilon_4749	K18581
+contig_1_pilon_4750
+contig_1_pilon_4751	K07407
+contig_1_pilon_4752
+contig_1_pilon_4753	K01448
+contig_1_pilon_4754
+contig_1_pilon_4755	K09955
+contig_1_pilon_4756
+contig_1_pilon_4757
+contig_1_pilon_4758	K01815
+contig_1_pilon_4759	K00046
+contig_1_pilon_4760
+contig_1_pilon_4761
+contig_1_pilon_4762	K00986
+contig_1_pilon_4763
+contig_1_pilon_4764	K07718
+contig_1_pilon_4765	K25676
+contig_1_pilon_4766
+contig_1_pilon_4767
+contig_1_pilon_4768	K01235
+contig_1_pilon_4769
+contig_1_pilon_4770
+contig_1_pilon_4771
+contig_1_pilon_4772
+contig_1_pilon_4773
+contig_1_pilon_4774	K04763
+contig_1_pilon_4775	K23675
+contig_1_pilon_4776
+contig_1_pilon_4777
+contig_1_pilon_4778	K03498
+contig_1_pilon_4779	K03499
+contig_1_pilon_4780	K07646
+contig_1_pilon_4781	K07667
+contig_1_pilon_4782
+contig_1_pilon_4783	K03740
+contig_1_pilon_4784
+contig_1_pilon_4785	K03739
+contig_1_pilon_4786	K03367
+contig_1_pilon_4787	K00847
+contig_1_pilon_4788	K01938
+contig_1_pilon_4789	K02598
+contig_1_pilon_4790
+contig_1_pilon_4791	K06147
+contig_1_pilon_4792
+contig_1_pilon_4793
+contig_1_pilon_4794
+contig_1_pilon_4795
+contig_1_pilon_4796	K02027
+contig_1_pilon_4797	K02025
+contig_1_pilon_4798	K02026
+contig_1_pilon_4799	K01191
+contig_1_pilon_4800	K25026
+contig_1_pilon_4801	K03271
+contig_1_pilon_4802	K01192
+contig_1_pilon_4803	K03604
+contig_1_pilon_4804
+contig_1_pilon_4805	K02027
+contig_1_pilon_4806	K02025
+contig_1_pilon_4807	K10119
+contig_1_pilon_4808	K01811
+contig_1_pilon_4809
+contig_1_pilon_4810
+contig_1_pilon_4811
+contig_1_pilon_4812	K07095
+contig_1_pilon_4813	K07444
+contig_1_pilon_4814	K01519
+contig_1_pilon_4815	K07095
+contig_1_pilon_4816
+contig_1_pilon_4817
+contig_1_pilon_4818
+contig_1_pilon_4819
+contig_1_pilon_4820
+contig_1_pilon_4821
+contig_1_pilon_4822
+contig_1_pilon_4823
+contig_1_pilon_4824
+contig_1_pilon_4825
+contig_1_pilon_4826
+contig_1_pilon_4827
+contig_1_pilon_4828
+contig_1_pilon_4829
+contig_1_pilon_4830
+contig_1_pilon_4831	K07455
+contig_1_pilon_4832
+contig_1_pilon_4833
+contig_1_pilon_4834
+contig_1_pilon_4835
+contig_1_pilon_4836
+contig_1_pilon_4837
+contig_1_pilon_4838
+contig_1_pilon_4839	K06223
+contig_1_pilon_4840
+contig_1_pilon_4841
+contig_1_pilon_4842
+contig_1_pilon_4843
+contig_1_pilon_4844
+contig_1_pilon_4845
+contig_1_pilon_4846	K06890
+contig_1_pilon_4847
+contig_1_pilon_4848
+contig_1_pilon_4849
+contig_1_pilon_4850
+contig_1_pilon_4851
+contig_1_pilon_4852
+contig_1_pilon_4853
+contig_1_pilon_4854
+contig_1_pilon_4855
+contig_1_pilon_4856
+contig_1_pilon_4857
+contig_1_pilon_4858
+contig_1_pilon_4859
+contig_1_pilon_4860
+contig_1_pilon_4861
+contig_1_pilon_4862
+contig_1_pilon_4863
+contig_1_pilon_4864
+contig_1_pilon_4865
+contig_1_pilon_4866
+contig_1_pilon_4867
+contig_1_pilon_4868
+contig_1_pilon_4869	K04763
+contig_1_pilon_4870	K00163
+contig_1_pilon_4871
+contig_1_pilon_4872
+contig_1_pilon_4873
+contig_1_pilon_4874
+contig_1_pilon_4875
+contig_1_pilon_4876
+contig_1_pilon_4877
+contig_1_pilon_4878
+contig_1_pilon_4879
+contig_1_pilon_4880
+contig_1_pilon_4881
+contig_1_pilon_4882
+contig_1_pilon_4883
+contig_1_pilon_4884
+contig_1_pilon_4885	K07795
+contig_1_pilon_4886
+contig_1_pilon_4887	K07793
+contig_1_pilon_4888	K00606
+contig_1_pilon_4889
+contig_1_pilon_4890
+contig_1_pilon_4891
+contig_1_pilon_4892
+contig_1_pilon_4893	K03338
+contig_1_pilon_4894	K03336
+contig_1_pilon_4895	K03337
+contig_1_pilon_4896
+contig_1_pilon_4897
+contig_1_pilon_4898	K03292
+contig_1_pilon_4899
+contig_1_pilon_4900	K00010
+contig_1_pilon_4901	K07718
+contig_1_pilon_4902
+contig_1_pilon_4903	K03335
+contig_1_pilon_4904
+contig_1_pilon_4905
+contig_1_pilon_4906
+contig_1_pilon_4907
+contig_1_pilon_4908	K00010
+contig_1_pilon_4909	K03335
+contig_1_pilon_4910
+contig_1_pilon_4911
+contig_1_pilon_4912	K01624
+contig_1_pilon_4913
+contig_1_pilon_4914
+contig_1_pilon_4915	K02027
+contig_1_pilon_4916	K02025
+contig_1_pilon_4917	K02026
+contig_1_pilon_4918	K09955
+contig_1_pilon_4919
+contig_1_pilon_4920
+contig_1_pilon_4921
+contig_1_pilon_4922	K01745
+contig_1_pilon_4923	K03315
+contig_1_pilon_4924
+contig_1_pilon_4925
+contig_1_pilon_4926
+contig_1_pilon_4927
+contig_1_pilon_4928
+contig_1_pilon_4929	K01778
+contig_1_pilon_4930	K26937
+contig_1_pilon_4931	K21636
+contig_1_pilon_4932	K26730
+contig_1_pilon_4933
+contig_1_pilon_4934	K04759
+contig_1_pilon_4935
+contig_1_pilon_4936
+contig_1_pilon_4937	K10773
+contig_1_pilon_4938
+contig_1_pilon_4939
+contig_1_pilon_4940	K04655
+contig_1_pilon_4941	K03216
+contig_1_pilon_4942
+contig_1_pilon_4943
+contig_1_pilon_4944	K07456
+contig_1_pilon_4945	K04771
+contig_1_pilon_4946	K03698
+contig_1_pilon_4947	K03215
+contig_1_pilon_4948
+contig_1_pilon_4949
+contig_1_pilon_4950
+contig_1_pilon_4951
+contig_1_pilon_4952
+contig_1_pilon_4953
+contig_1_pilon_4954
+contig_1_pilon_4955
+contig_1_pilon_4956
+contig_1_pilon_4957
+contig_1_pilon_4958
+contig_1_pilon_4959
+contig_1_pilon_4960
+contig_1_pilon_4961	K01156
+contig_1_pilon_4962	K15580
+contig_1_pilon_4963	K15581
+contig_1_pilon_4964	K15582
+contig_1_pilon_4965	K15583
+contig_1_pilon_4966	K10823
+contig_1_pilon_4967	K01206
+contig_1_pilon_4968
+contig_1_pilon_4969	K01255
+contig_1_pilon_4970	K06201
+contig_1_pilon_4971
+contig_1_pilon_4972
+contig_1_pilon_4973	K05970
+contig_1_pilon_4974	K01190
+contig_1_pilon_4975	K01235
+contig_1_pilon_4976	K17319
+contig_1_pilon_4977	K17320
+contig_1_pilon_4978	K17318
+contig_1_pilon_4979
+contig_1_pilon_4980
+contig_1_pilon_4981
+contig_1_pilon_4982
+contig_1_pilon_4983	K07712
+contig_1_pilon_4984
+contig_1_pilon_4985
+contig_1_pilon_4986	K02025
+contig_1_pilon_4987	K02026
+contig_1_pilon_4988	K01206
+contig_1_pilon_4989
+contig_1_pilon_4990
+contig_1_pilon_4991
+contig_1_pilon_4992
+contig_1_pilon_4993
+contig_1_pilon_4994	K01807
+contig_1_pilon_4995	K07404
+contig_1_pilon_4996	K00033
+contig_1_pilon_4997	K00036
+contig_1_pilon_4998
+contig_1_pilon_4999	K03088
+contig_1_pilon_5000
+contig_1_pilon_5001
+contig_1_pilon_5002
+contig_1_pilon_5003	K26605
+contig_1_pilon_5004	K26606
+contig_1_pilon_5005
+contig_1_pilon_5006
+contig_1_pilon_5007
+contig_1_pilon_5008	K06901
+contig_1_pilon_5009	K01486
+contig_1_pilon_5010
+contig_1_pilon_5011	K00876
+contig_1_pilon_5012
+contig_1_pilon_5013
+contig_1_pilon_5014	K01192
+contig_1_pilon_5015
+contig_1_pilon_5016
+contig_1_pilon_5017	K01012
+contig_1_pilon_5018
+contig_1_pilon_5019
+contig_1_pilon_5020
+contig_1_pilon_5021	K02871
+contig_1_pilon_5022	K02996
+contig_1_pilon_5023
+contig_1_pilon_5024
+contig_1_pilon_5025
+contig_1_pilon_5026
+contig_1_pilon_5027	K01546
+contig_1_pilon_5028	K01547
+contig_1_pilon_5029	K01548
+contig_1_pilon_5030	K07646
+contig_1_pilon_5031
+contig_1_pilon_5032
+contig_1_pilon_5033
+contig_1_pilon_5034
+contig_1_pilon_5035
+contig_1_pilon_5036
+contig_1_pilon_5037
+contig_1_pilon_5038
+contig_1_pilon_5039
+contig_1_pilon_5040
+contig_1_pilon_5041
+contig_1_pilon_5042
+contig_1_pilon_5043
+contig_1_pilon_5044	K07095
+contig_1_pilon_5045	K26937
+contig_1_pilon_5046
+contig_1_pilon_5047
+contig_1_pilon_5048
+contig_1_pilon_5049	K03517
+contig_1_pilon_5050	K00278
+contig_1_pilon_5051	K00767
+contig_1_pilon_5052	K07105
+contig_1_pilon_5053	K03624
+contig_1_pilon_5054
+contig_1_pilon_5055
+contig_1_pilon_5056	K01619
+contig_1_pilon_5057
+contig_1_pilon_5058	K03783
+contig_1_pilon_5059
+contig_1_pilon_5060	K03324
+contig_1_pilon_5061	K07657
+contig_1_pilon_5062	K07636
+contig_1_pilon_5063
+contig_1_pilon_5064
+contig_1_pilon_5065
+contig_1_pilon_5066
+contig_1_pilon_5067	K06334
+contig_1_pilon_5068	K03498
+contig_1_pilon_5069	K03499
+contig_1_pilon_5070
+contig_1_pilon_5071	K01534
+contig_1_pilon_5072	K02003
+contig_1_pilon_5073	K00147
+contig_1_pilon_5074
+contig_1_pilon_5075	K07729
+contig_1_pilon_5076
+contig_1_pilon_5077	K01990
+contig_1_pilon_5078	K01992
+contig_1_pilon_5079	K02564
+contig_1_pilon_5080
+contig_1_pilon_5081
+contig_1_pilon_5082
+contig_1_pilon_5083
+contig_1_pilon_5084
+contig_1_pilon_5085
+contig_1_pilon_5086
+contig_1_pilon_5087
+contig_1_pilon_5088
+contig_1_pilon_5089
+contig_1_pilon_5090
+contig_1_pilon_5091
+contig_1_pilon_5092
+contig_1_pilon_5093
+contig_1_pilon_5094
+contig_1_pilon_5095
+contig_1_pilon_5096
+contig_1_pilon_5097
+contig_1_pilon_5098
+contig_1_pilon_5099
+contig_1_pilon_5100
+contig_1_pilon_5101
+contig_1_pilon_5102
+contig_1_pilon_5103
+contig_1_pilon_5104
+contig_1_pilon_5105
+contig_1_pilon_5106
+contig_1_pilon_5107
+contig_1_pilon_5108
+contig_1_pilon_5109
+contig_1_pilon_5110
+contig_1_pilon_5111
+contig_1_pilon_5112
+contig_1_pilon_5113
+contig_1_pilon_5114
+contig_1_pilon_5115
+contig_1_pilon_5116
+contig_1_pilon_5117
+contig_1_pilon_5118
+contig_1_pilon_5119
+contig_1_pilon_5120
+contig_1_pilon_5121
+contig_1_pilon_5122
+contig_1_pilon_5123
+contig_1_pilon_5124
+contig_1_pilon_5125
+contig_1_pilon_5126
+contig_1_pilon_5127
+contig_1_pilon_5128
+contig_1_pilon_5129
+contig_1_pilon_5130
+contig_1_pilon_5131
+contig_1_pilon_5132
+contig_1_pilon_5133
+contig_1_pilon_5134
+contig_1_pilon_5135
+contig_1_pilon_5136	K00656
+contig_1_pilon_5137
+contig_1_pilon_5138
+contig_1_pilon_5139
+contig_2_pilon_1
+contig_2_pilon_2
+contig_2_pilon_3
+contig_2_pilon_4
+contig_2_pilon_5
+contig_2_pilon_6
+contig_3_pilon_1
+contig_3_pilon_2
+contig_3_pilon_3
+contig_3_pilon_4
+contig_3_pilon_5
+contig_3_pilon_6

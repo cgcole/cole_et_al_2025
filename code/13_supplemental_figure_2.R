@@ -1,4 +1,70 @@
 
+# Create contig databases and extract gene calls
+system("prodigal -i fasta_files/Blautia_pseudococcoides_SCSK.fasta \
+-a data/Blautia_pseudococcoides_SCSK-genes.fa \
+-o data/Blautia_pseudococcoides_SCSK-genes.gbk \
+-p single")
+
+system("prodigal -i fasta_files/Blautia_producta_KH6.fasta \
+-a data/Blautia_producta_KH6-genes.fa \
+-o data/Blautia_producta_KH6-genes.gbk \
+-p single")
+
+#Run genes.fa files through the GhostKoala online portal
+
+#Compile all of the ghostkoala results to a single table
+ghostkoala_results <- read_tsv("data/Blautia_pseudococcoides_SCSK-ghostkoala.txt", col_types = "cc") %>%
+  mutate(locus_id = "Blautia_pseudococcoides_SCSK") %>% 
+  full_join(read_tsv("data/Blautia_producta_KH6-ghostkoala.txt", col_types = "cc") %>%
+              mutate(locus_id = "Blautia_producta_KH6")) 
+
+
+#Generate the matrix for the GMM functions
+KO_matrix <- ghostkoala_results %>%
+  filter(!is.na(KO), !is.na(locus_tag)) %>% 
+  group_by(locus_id, KO) %>% 
+  summarise(frequency = n()) %>% 
+  distinct() %>% 
+  pivot_wider(id_cols = KO, names_from = locus_id, values_from = frequency, values_fill = 0)
+
+
+#Load GMM database
+gmm_db <- loadDB("GMMs.v1.07")
+
+# Run the module mapping on the loaded table.
+module_annotation <- rpm(KO_matrix, minimum.coverage=0, annotation = 1, 
+                         threads = 6, module.db = gmm_db)
+
+
+# get the abundance|coverage as a data.frame with module id and description
+module_coverage <- asDataFrame(module_annotation, "coverage")
+
+
+module_table <- module_coverage %>% 
+  pivot_longer(!1:2, names_to = "locus_id", values_to = "pathway_completeness") %>% 
+  mutate(pathway_presence = ifelse(pathway_completeness == 1, 1, 0)) %>% 
+  mutate(module_description = paste0(Module, ": ", Description)) %>% 
+  mutate(module_number = as.numeric(str_replace(Module, "MF", ""))) %>% 
+  arrange(module_description) 
+
+
+#Generate heatmap table that contains the presence and absence for all modules
+heatmap_matrix <- module_table %>% 
+  select(locus_id, module_description, pathway_presence) %>% 
+  pivot_wider(id_cols = module_description, names_from = locus_id, values_from = pathway_presence) %>% 
+  column_to_rownames(var = "module_description")
+
+
+heatmap <- pheatmap(heatmap_matrix, cluster_rows = FALSE, cluster_cols = FALSE, fontsize = 12,
+                    legend = FALSE)
+
+save_pheatmap_pdf(heatmap, "plots/supplemental_figure2a.pdf", width = 6, height = 30)
+
+
+rm(module_annotation, module_coverage, gmm_db, module_table, heatmap, heatmap_matrix, ghostkoala_results, KO_matrix)
+
+
+
 #Read in timeline
 timeline <- read_csv("./mouse_timelines/supplemental_figure_2_timeline.csv") %>% 
   mutate(size = if_else(is.na(important), small_circle_size,
@@ -21,10 +87,10 @@ t_subset <- seq_table_filtered %>%
   mutate(group = factor(group, levels = c("PBS", "BpKH6", "BpSCSK"))) %>% 
   arrange(day) %>% 
   mutate(day = factor(day, levels = unique(day))) %>% 
+  filter(!samplename %in% c("SM.51_CC33", "SM.51_CC19"))  %>% #Sequencing reads were too low for inclusion
   group_by(group, day) %>% 
   mutate(mouse.total = n_distinct(mouse.number)) %>% 
   ungroup()
-
 
 
 #Figure S2A 
@@ -48,7 +114,7 @@ group_1_timeline %>%
   scale_color_manual(values = timeline_colors) +
   scale_size_identity() +
   scale_x_continuous(expand = expansion(mult = 0.3))
-ggsave("./plots/supplemental_figure2a.pdf", 
+ggsave("./plots/supplemental_figure2b.pdf", 
        device = "pdf",
        width = group_1_range * .215,
        height = 2.5,
@@ -114,9 +180,9 @@ sf2b_2 <- t_subset %>%
   mutate(CI_ymin = ifelse(CI_ymin < 0, 0, CI_ymin)) %>% 
   ggplot(aes(x=day,y=mean_rel_abundance)) +
   geom_bar(aes(fill=Strain), stat="identity", na.rm = TRUE) +
- # geom_errorbar(aes(ymin = SD_ymin, 
- #                   ymax = mean_rel_abundance + SD),
- #               width = 0.4, linewidth = .5) +
+  # geom_errorbar(aes(ymin = SD_ymin, 
+  #                   ymax = mean_rel_abundance + SD),
+  #               width = 0.4, linewidth = .5) +
   scale_fill_manual(values=figure_colors) +
   facet_grid(. ~ group, scales = "free",space = "free", labeller = labeller(.multi_line = FALSE), drop = TRUE) +
   ylab("16S Relative Abundance") +
@@ -127,8 +193,9 @@ sf2b_2 <- t_subset %>%
   scale_y_continuous(expand = c(0.0015,0.0015), limits = c(0, 1), breaks = c(0.00, 0.25,0.50, 0.75, 1.00))
 
 
-pdf(file = "./plots/supplemental_figure2b.pdf", height = 2.1, width = 2.5)
+pdf(file = "./plots/supplemental_figure2c.pdf", height = 2.1, width = 2.5)
 ggstack <- gg.stack(sf2b_1,sf2b_2,heights=c(4,2.5), newpage = F, gap = 2)
 dev.off()
 
 rm(t_subset, sf2b_1, sf2b_2, timeline, group_1_timeline, group_1_range)
+

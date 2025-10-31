@@ -104,8 +104,8 @@ f3b_1 <- t_subset %>%
   mutate(tax.label = if_else(rel_abundance >= .1, tax.label, "")) %>%
   ggplot(aes(x=day,y=rel_abundance)) +
   geom_bar(aes(fill=Genus),stat="identity") +
-#  geom_text(aes(y=1-y.text,x=day,label=tax.label), angle=90,
-#            lineheight=0.6, size.unit = "pt", size = 3) +
+  #  geom_text(aes(y=1-y.text,x=day,label=tax.label), angle=90,
+  #            lineheight=0.6, size.unit = "pt", size = 3) +
   scale_fill_manual(values=pal) +
   facet_grid(. ~ group, scales = "free",space = "free") +
   ylab("16S Relative Abundance") +
@@ -177,12 +177,12 @@ f3c <- alpha_diversity %>%
                 width = 2, linewidth = error_bar_linewidth, alpha = .75) +
   guides(color = guide_legend(title="Group"))  +
   labs(x = "Day", y = "Unique ASVs") +
-  scale_x_continuous(limits = c(-3, 29), breaks = c(-2, 1, 3, 7, 14, 28)) +
+  scale_x_continuous(limits = c(-3, 40), breaks = c(-2, 1, 3, 7, 14, 28)) +
   scale_y_continuous(limits = c(0, 250), breaks = seq(0, 250, 50)) +
   scale_color_manual(values=figure_colors) 
 ggsave("./plots/figure3c.pdf", 
        device = "pdf",
-       width = 4.9,
+       width = 5.2,
        height = 3.1,
        units = "cm")
 
@@ -207,12 +207,12 @@ f3d <- alpha_diversity %>%
                 width = 2, linewidth = error_bar_linewidth, alpha = .75) +
   guides(color = guide_legend(title="Group"))  +
   labs(x = "Day", y = "Shannon Diversity") +
-  scale_x_continuous(limits = c(-3, 29), breaks = c(-2, 1, 3, 7, 14, 28)) +
+  scale_x_continuous(limits = c(-3, 40), breaks = c(-2, 1, 3, 7, 14, 28)) +
   scale_y_continuous(limits = c(0, 5), breaks = seq(0, 4.5, 1)) +
   scale_color_manual(values=figure_colors) 
 ggsave("./plots/figure3d.pdf", 
        device = "pdf",
-       width = 4.7,
+       width = 5.2,
        height = 3.1,
        units = "cm")
 
@@ -250,11 +250,66 @@ ggsave("./plots/figure3e.pdf",
 
 
 
-
-
 rm(f3b_1, f3b_2, f3c, f3d, f3e, t_subset, phy_subset, ggstack,
    ord, ord_data, eigvec, fracvar, percvar, timeline, group_1_timeline,
    group_2_timeline, group_1_range, group_2_range)
+
+
+
+
+#Subsetting the data
+t_subset <- seq_table_filtered %>% 
+  filter(experiment %in% c("CCME11", "CCME16")) %>% 
+  filter(sample.type == "Fecal") %>% 
+  filter(day == 28) %>% 
+  filter(group %in% c("SPF", "PBS", "BpKH6", "BpSCSK")) %>% 
+  mutate(group = factor(group, levels = c("SPF", "PBS", "BpKH6", "BpSCSK"))) %>% 
+  arrange(day) %>% 
+  mutate(day = factor(day, levels = unique(day))) %>% 
+  group_by(group, day) %>% 
+  mutate(mouse.total = n_distinct(mouse.number)) %>% 
+  ungroup()
+
+
+figure3_alpha_diversity <- alpha_diversity %>% 
+  mutate(group = factor(group, levels = c("SPF", "PBS", "BpKH6", "BpSCSK"))) %>% 
+  filter(samplename %in% t_subset$samplename) 
+
+
+#Figure 3C stats
+
+lm_model <- lm(Observed ~ group, figure3_alpha_diversity)
+residuals <- residuals(lm_model)
+shapiro.test(residuals)
+qqnorm(residuals)
+qqline(residuals, col = "red") #Was not normal
+
+levene_test(figure3_alpha_diversity, Observed ~ group, center = median)
+
+#not normal and unequal variance
+kruskal_test(figure3_alpha_diversity, Observed ~ group)
+figure3_observed_dunn <- dunn_test(figure3_alpha_diversity, Observed ~ group, p.adjust.method = "none")
+
+figure3_observed_dunn$p.adj <- p.adjust(figure3_observed_dunn$p, method = "BH")
+
+
+#Figure 3D stats
+
+lm_model <- lm(Shannon ~ group, figure3_alpha_diversity)
+residuals <- residuals(lm_model)
+shapiro.test(residuals)
+qqnorm(residuals)
+qqline(residuals, col = "red") #Is normal
+
+bartlett.test(Shannon ~ group, figure3_alpha_diversity)
+
+#Normal and Equal variance
+aov_model <- aov(figure3_alpha_diversity$Shannon ~ figure3_alpha_diversity$group)
+summary(aov_model)
+TukeyHSD(aov_model)
+
+
+
 
 
 

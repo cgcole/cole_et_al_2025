@@ -19,7 +19,7 @@ t_subset <- seq_table_filtered %>%
   filter(experiment %in% c("CCME11")) %>% 
   filter(sample.type == "Fecal") %>% 
   filter(day >= 44) %>%
-  filter(day <= 58) %>% 
+  filter(day <= 56) %>% 
   filter(group %in% c("SPF", "BpSCSK")) %>% 
   mutate(group = factor(group, levels = c("SPF", "BpSCSK"))) %>%
   arrange(day) %>% 
@@ -55,8 +55,6 @@ ggsave("./plots/figure6a.pdf",
        width = group_1_range * .16,
        height = 2.5,
        units = "cm")
-
-
 
 
 
@@ -155,7 +153,7 @@ f6c <- alpha_diversity %>%
                 width = 1, linewidth = error_bar_linewidth, alpha = .75) +
   guides(color = guide_legend(title="Group"))  +
   labs(x = "Day", y = "Unique ASVs") +
-  scale_x_continuous(limits = c(43, 59), breaks = c(44,46,48,50,52,54,56,58)) +
+  scale_x_continuous(limits = c(43, 58), breaks = c(44,46,48,50,52,54,56)) +
   scale_y_continuous(limits = c(0, 325), breaks = seq(0, 325, 50)) +
   scale_color_manual(values=figure_colors) 
 ggsave("./plots/figure6c.pdf", 
@@ -186,7 +184,7 @@ f6d <- alpha_diversity %>%
                 width = 1, linewidth = error_bar_linewidth, alpha = .75) +
   guides(color = guide_legend(title="Group"))  +
   labs(x = "Day", y = "Shannon Diversity") +
-  scale_x_continuous(limits = c(43, 59), breaks = c(44,46,48,50,52,54,56,58)) +
+  scale_x_continuous(limits = c(43, 58), breaks = c(44,46,48,50,52,54,56)) +
   scale_y_continuous(limits = c(0, 5), breaks = seq(0, 4.5, 1)) +
   scale_color_manual(values=figure_colors) 
 ggsave("./plots/figure6d.pdf", 
@@ -232,3 +230,51 @@ ggsave("./plots/figure6e.pdf",
 
 rm(f6b_1, f6b_2, f6c, f6d, f6e, t_subset, phy_subset, ggstack,
    ord, ord_data, eigvec, fracvar, percvar, group_1_timeline, group_1_range, timeline)
+
+
+#Subsetting the data
+t_subset <- seq_table_filtered %>% 
+  filter(experiment %in% c("CCME11")) %>% 
+  filter(sample.type == "Fecal") %>% 
+  filter(day == 56) %>% 
+  filter(group %in% c("SPF", "BpSCSK")) %>% 
+  mutate(group = factor(group, levels = c("SPF", "BpSCSK"))) %>%
+  arrange(day) %>% 
+  mutate(day = factor(day, levels = unique(day))) %>% 
+  group_by(group, day) %>% 
+  mutate(mouse.total = n_distinct(mouse.number)) %>% 
+  ungroup() 
+
+
+figure6_alpha_diversity <- alpha_diversity %>% 
+  mutate(group = factor(group, levels = c("SPF", "BpSCSK"))) %>% 
+  filter(samplename %in% t_subset$samplename) 
+
+
+#Figure 6C stats
+lm_model <- lm(Observed ~ group, figure6_alpha_diversity)
+residuals <- residuals(lm_model)
+shapiro.test(residuals)
+qqnorm(residuals)
+qqline(residuals, col = "red") #Is normal
+
+
+bartlett.test(Observed ~ group, figure6_alpha_diversity)
+
+#Normal but not equal variance
+figure6c_welch <- pairwise.t.test(figure6_alpha_diversity$Observed, figure6_alpha_diversity$group, p.adjust.method = "none", pool.sd = FALSE)
+
+
+#Figure 6D stats
+lm_model <- lm(Shannon ~ group, figure6_alpha_diversity)
+residuals <- residuals(lm_model)
+shapiro.test(residuals)
+qqnorm(residuals)
+qqline(residuals, col = "red") #Is normal
+
+bartlett.test(Shannon ~ group, figure6_alpha_diversity)
+
+
+#Normal and not equal variance
+figure6d_welch <- pairwise.t.test(figure6_alpha_diversity$Shannon, figure6_alpha_diversity$group, p.adjust.method = "none", pool.sd = FALSE)
+

@@ -22,12 +22,14 @@ t_subset <- seq_table_filtered %>%
   mutate(group = factor(group, levels = c("ARM", "CBBP"))) %>% 
   arrange(day) %>% 
   mutate(day = factor(day, levels = unique(day))) %>% 
+  filter(!samplename %in% c("MMF.16S.175_CC30", "MMF.16S.175_CC31")) %>%  #Reads are too low for inclusion
   group_by(group, day) %>% 
   mutate(mouse.total = n_distinct(mouse.number)) %>% 
-  ungroup()
+  ungroup() 
 
 
-#Figure S7A 
+
+#Figure S6A 
 #Group CBBP
 group_1_timeline <- timeline %>% 
   filter(group == "CBBP")
@@ -47,7 +49,7 @@ group_1_timeline %>%
   scale_color_manual(values = timeline_colors) +
   scale_size_identity() +
   scale_x_continuous(expand = expansion(mult = 0.2))
-ggsave("./plots/supplemental_figure7a.pdf", 
+ggsave("./plots/supplemental_figure6a.pdf", 
        device = "pdf",
        width = group_1_range * .2,
        height = 2.5,
@@ -56,8 +58,8 @@ ggsave("./plots/supplemental_figure7a.pdf",
 
 
 
-##Figure S7B
-sf7b_1 <- t_subset %>%
+##Figure S6B
+sf6b_1 <- t_subset %>%
   group_by(Kingdom, Phylum, Class, Order, Family, Genus, group,
            day) %>%
   summarise(rel_abundance=sum(rel_abundance/mouse.total)) %>%
@@ -76,8 +78,8 @@ sf7b_1 <- t_subset %>%
   mutate(tax.label = if_else(rel_abundance >= .1, tax.label, "")) %>%
   ggplot(aes(x=day,y=rel_abundance)) +
   geom_bar(aes(fill=Genus),stat="identity") +
-#  geom_text(aes(y=1-y.text,x=day,label=tax.label), angle=90,
-#            lineheight=0.6,size=3, size.unit = "pt") +
+  #  geom_text(aes(y=1-y.text,x=day,label=tax.label), angle=90,
+  #            lineheight=0.6,size=3, size.unit = "pt") +
   scale_fill_manual(values=pal) +
   facet_grid(. ~ group, scales = "free",space = "free") +
   ylab("16S Relative Abundance") +
@@ -87,7 +89,7 @@ sf7b_1 <- t_subset %>%
 
 
 
-sf7b_2 <- t_subset %>%
+sf6b_2 <- t_subset %>%
   mutate(Strain = ifelse(seq %in% BpSCSK, "B. pseudococcoides SCSK", 
                          ifelse(seq %in% PdCBBP, "P. distasonis CBBP", 
                                 ifelse(seq %in% CbCBBP, "C. bolteae CBBP",
@@ -128,15 +130,15 @@ sf7b_2 <- t_subset %>%
   scale_y_continuous(expand = c(0.001,0.001), limits = c(0, 1))
 
 
-pdf(file = "./plots/supplemental_figure7b.pdf", height = 2.1, width = 2.7559)
+pdf(file = "./plots/supplemental_figure6b.pdf", height = 2.1, width = 2.7559)
 ggstack <- gg.stack(sf7b_1,sf7b_2,heights=c(4,2.5), newpage = F, gap = 2)
 dev.off()
 
 
 
 
-#Figure S7C
-sf7c <- alpha_diversity %>% 
+#Figure S6C
+sf6c <- alpha_diversity %>% 
   filter(samplename %in% t_subset$samplename) %>% 
   mutate(group = factor(group, levels = c("ARM", "CBBP"))) %>% 
   group_by(day, group) %>% 
@@ -162,15 +164,15 @@ sf7c <- alpha_diversity %>%
   scale_x_continuous(limits = c(-1, 15), breaks = c(0,6,10,14)) +
   scale_y_continuous(limits = c(0, 150), breaks = seq(0, 350, 50)) +
   scale_color_manual(values=figure_colors) 
-ggsave("./plots/supplemental_figure7c.pdf", 
+ggsave("./plots/supplemental_figure6c.pdf", 
        device = "pdf",
        width = 4.8,
        height = 3.1,
        units = "cm")
 
 
-#Figure S7D
-sf7d <- alpha_diversity %>% 
+#Figure S6D
+sf6d <- alpha_diversity %>% 
   filter(samplename %in% t_subset$samplename) %>% 
   mutate(group = factor(group, levels = c("ARM", "CBBP"))) %>% 
   group_by(day, group) %>% 
@@ -196,7 +198,7 @@ sf7d <- alpha_diversity %>%
   scale_x_continuous(limits = c(-1, 15), breaks = c(0,6,10,14)) +
   scale_y_continuous(limits = c(0, 4.5), breaks = seq(0, 4, 1)) +
   scale_color_manual(values=figure_colors) 
-ggsave("./plots/supplemental_figure7d.pdf", 
+ggsave("./plots/supplemental_figure6d.pdf", 
        device = "pdf",
        width = 4.7,
        height = 3.1,
@@ -204,5 +206,63 @@ ggsave("./plots/supplemental_figure7d.pdf",
 
 
 
-rm(sf7b_1, sf7b_2, sf7c, sf7d, t_subset, ggstack,
+rm(sf6b_1, sf6b_2, sf6c, sf6d, t_subset, ggstack,
    timeline, group_1_timeline, group_1_range)
+
+
+
+
+#Subsetting the data
+
+pfbbr_quant_subset <- pfbbr_quant %>% 
+  filter(experiment == "CCME6") %>% 
+  mutate(group = factor(group, levels = c("ARM", "CBBP"))) %>% 
+  arrange(day) %>% 
+  mutate(day = factor(day, levels = unique(day))) %>% 
+  arrange(compound) %>% 
+  mutate(compound = factor(compound, levels =  unique(compound)))
+
+
+bile_acid_quant_subset <- bile_acid_quant %>% 
+  filter(experiment == "CCME6") %>% 
+  mutate(group = factor(group, levels = c("ARM", "CBBP"))) %>% 
+  arrange(day) %>% 
+  mutate(day = factor(day, levels = unique(day)))%>% 
+  arrange(desc(compound)) %>% 
+  mutate(compound = factor(compound, levels =  unique(compound))) 
+
+
+# Figure S6A
+pfbbr_quant_subset %>%
+  ggplot(aes(x=day, y=concentration_mM)) +
+  geom_bar(aes(fill = compound),stat="summary", alpha = .9, fun = "mean") +
+  geom_point(size = .3)+
+  facet_grid(compound_class+compound ~ group, scales = "free", space = "free_x") +
+  # facet_grid(compound_class ~ group, scales = "free_y", space = "free") + 
+  ylab("Concentration (mM)") +
+  xlab("Day") +
+  theme(legend.position = "none") +
+  scale_fill_manual(values = metabolite_figure_colors)
+ggsave("./plots/supplemental_figure6e.pdf", 
+       height=2.75, 
+       width=3.5,
+       units = "in")
+
+
+
+# Figure S6F
+bile_acid_quant_subset %>%
+  ggplot(aes(x=day, y=concentration_µM)) +
+  geom_bar(aes(fill = compound),stat="summary", alpha = .9, fun = "mean") +
+  geom_point(size = .3)+
+  facet_grid(compound_class + compound ~ group, scales = "free", space = "free_x") +
+  ylab("Concentration (µM)") +
+  xlab("Day") +
+  theme(legend.position = "none") +
+  scale_fill_manual(values = metabolite_figure_colors)
+ggsave("./plots/supplemental_figure6f.pdf", 
+       height=4.75, 
+       width=4.25, 
+       units = "in")
+
+rm(pfbbr_quant_subset, bile_acid_quant_subset)
