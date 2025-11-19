@@ -29,7 +29,8 @@ pacman::p_load(
   seqinr,
   umap,
   msa,
-  pheatmap
+  pheatmap,
+  ggtext
 )
 pacman::p_load_gh("ying14/yingtools2")
 

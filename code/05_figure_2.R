@@ -1,4 +1,8 @@
 
+fitness_data <- tibble("patient_ID" = NA, "ID"= NA, "shotgunSeq_id"= NA, "genus_species"= NA, 
+                       "pctseqs"= NA, "lan_gene"= NA, "n"= NA, "mean_nonproducer_pctseqs"= NA, 
+                       "n_nonproducers"= NA, "predicted_class" = NA,"label" = NA, "lanthipeptide" = NA)
+
 
 figure2A_stats_results <- data.frame()
 
@@ -154,6 +158,7 @@ fitness_results <- fitness_data %>%
 
 
 
+
 #Figure 2A
 f2a <- fitness_results %>% 
   arrange(log2_mean_fold_change) %>% 
@@ -196,8 +201,7 @@ lanA_sequences <- clinical_donor_t %>%
 write.fasta(as.list(lanA_sequences$aa_sequence), lanA_sequences$lan_gene, "./fasta_files/clinical_lanA_aa_sequences.fa")
 
 
-
-
+set.seed(834344)  
 
 sequences <- readAAStringSet("./fasta_files/clinical_lanA_aa_sequences.fa")
 alignment <- msa(sequences, method = "Muscle")
@@ -223,7 +227,7 @@ umap_data <- umap_data %>%
   mutate(predicted_class = if_else(is.na(predicted_class), "Unknown", as.character(predicted_class))) %>% 
   mutate(predicted_class = factor(predicted_class, levels = c("I", "II", "III", "Unknown"))) %>% 
   left_join(fitness_data %>% 
-              select(lan_gene, advantage, log2_mean_fold_change)) %>% 
+              select(lan_gene, log2_mean_fold_change)) %>% 
   mutate(advantage = if_else(is.na(advantage), "no", advantage))
 
 
@@ -255,81 +259,6 @@ ggsave("./plots/figure2b.pdf",
 rm(f2a, f2b,
    producing_strains, nonproducing_strains, fitness_data, 
    lanA_sequences, sequences, alignment, alignment_converted,
-   dist_matrix, umap_result, umap_data, dunn_result, figure2A_stats_results,
-   fitness_data, fc_table)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Determine fitness ratio
-producing_strains <- clinical_donor_t %>% 
-  mutate(blast_genus_species = if_else(str_detect(blast_genus_species," sp\\."), paste0(blast_genus_species, " ", 
-                                                                                        blast_taxid), blast_genus_species)) %>% 
-  mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
-                                                                             taxid), genus_species)) %>% #add taxids to samples with no specified species for matching
-  filter(blast_genus_species == genus_species) %>% 
-  group_by(lan_gene, blast_genus_species, genus_species) %>% 
-  mutate(n = n()) %>% 
-  ungroup() %>% 
-  filter(n >= 5)
-
-
-nonproducing_strains <- clinical_donor_t %>% 
-  mutate(blast_genus_species = if_else(blast_species == " sp\\.", paste0(blast_genus_species, " ", 
-                                                                         blast_taxid), blast_genus_species)) %>% 
-  mutate(genus_species = if_else(str_detect(genus_species, " sp\\."), paste0(genus_species, " ", 
-                                                                             taxid), genus_species)) %>%
-  filter(blast_genus_species != genus_species | is.na(blast_genus_species) | is.na(genus_species)) %>%
-  select(patient_ID, ID, shotgunSeq_id, genus_species, pctseqs) %>% 
-  distinct() %>% 
-  group_by(genus_species) %>% 
-  summarise(mean_nonproducer_pctseqs = mean(pctseqs),
-            n_nonproducer = n()) %>% 
-  ungroup() %>% 
-  filter(n_nonproducer >= 5)
-
-
-fitness_data <- producing_strains %>% 
-  left_join(nonproducing_strains) %>% 
-  filter(!is.na(mean_nonproducer_pctseqs)) %>% 
-  mutate(fold_change = pctseqs/mean_nonproducer_pctseqs) %>% 
-  group_by(lan_gene, predicted_class,label, lanthipeptide) %>% 
-  summarise(mean_fold_change = mean(fold_change),
-            n_lan_gene = n()) %>% 
-  ungroup() %>% 
-  mutate(lan_gene = if_else(!is.na(label), label, lan_gene)) %>% 
-  mutate(log2_mean_fold_change = log2(mean_fold_change)) %>% 
-  arrange(desc(log2_mean_fold_change)) %>% 
-  mutate(lan_gene = factor(lan_gene, levels = unique(lan_gene)))  %>% 
-  mutate(predicted_class = if_else(is.na(predicted_class), "Unknown", as.character(predicted_class))) %>% 
-  mutate(predicted_class = factor(predicted_class, levels = c("I", "II", "III", "Unknown"))) %>% 
-  mutate(advantage = if_else(log2_mean_fold_change > 0, "yes", "no")) 
-
-
+   dist_matrix, umap_result, umap_data)
 
 
