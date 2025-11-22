@@ -5,6 +5,9 @@ DOI: https://doi.org/10.1016/j.chom.2025.11.007
 
 For any inquires regarding the contents of this repo, please reach out to Cody Cole (cgcole@uchicago.edu).
 
+This repository is archived at Zenodo:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10461278.svg)](https://doi.org/10.5281/zenodo.10461278)
+
 ## Folder structure
 
 1. **code**: contains all R scripts for generating figures. 

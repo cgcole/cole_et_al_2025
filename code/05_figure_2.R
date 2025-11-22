@@ -152,7 +152,8 @@ fitness_results <- fitness_data %>%
   ungroup() %>% 
   mutate(log2_mean_fold_change = log2(mean_fold_change)) %>% 
   left_join(figure2A_stats_results) %>% 
-  mutate(species_lan_label = paste0("<i>", genus_species, "</i> ", lan_gene))
+  mutate(species_lan_label = paste0("<i>", genus_species, "</i> ", lan_gene)) %>% 
+  mutate(advantage = if_else(log2_mean_fold_change > 0, "yes", "no")) 
 
 
 
@@ -180,7 +181,7 @@ f2a <- fitness_results %>%
     limits = c(-2.5, 4),
     expand = expansion(mult = c(0.05, .1))  # add 5% space on left, 20% on right
   )
-ggsave("./plots/figure2a_updated.pdf", 
+ggsave("./plots/figure2a.pdf", 
        device = "pdf",
        width = 10,
        height = 18,
@@ -226,8 +227,8 @@ umap_data <- umap_data %>%
               distinct(lanthipeptide, .keep_all = TRUE)) %>% 
   mutate(predicted_class = if_else(is.na(predicted_class), "Unknown", as.character(predicted_class))) %>% 
   mutate(predicted_class = factor(predicted_class, levels = c("I", "II", "III", "Unknown"))) %>% 
-  left_join(fitness_data %>% 
-              select(lan_gene, log2_mean_fold_change)) %>% 
+  left_join(fitness_results %>% 
+              select(lan_gene, log2_mean_fold_change, advantage)) %>% 
   mutate(advantage = if_else(is.na(advantage), "no", advantage))
 
 
@@ -245,14 +246,14 @@ f2b <- umap_data %>%
          fill = "none")  +
   scale_size_manual(values = c("yes" = .75, "no" = .25)) +
   geom_text_repel(size = 1.5, na.rm = TRUE, show.legend = FALSE, 
-                  max.overlaps = 100, max.time = 60, segment.size = .15,
-                  force = 5) +
+                  max.overlaps = Inf, max.time = 200, segment.size = .15,
+                  force = 100, box.padding = 0.5) +
   coord_cartesian(clip = "off", ylim = c(min(umap_data$UMAP2), max(umap_data$UMAP2) * 1.2)) 
 
 ggsave("./plots/figure2b.pdf", 
        device = "pdf",
-       width = 9.5,
-       height = 7,
+       width = 11.5,
+       height = 9,
        units = "cm")
 
 
