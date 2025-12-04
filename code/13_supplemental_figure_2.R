@@ -1,21 +1,15 @@
 
 # Create contig databases and extract gene calls
-system("prodigal -i fasta_files/Blautia_pseudococcoides_SCSK.fasta \
--a data/Blautia_pseudococcoides_SCSK-genes.fa \
--o data/Blautia_pseudococcoides_SCSK-genes.gbk \
--p single")
+#system("prodigal -i fasta_files/Blautia_pseudococcoides_SCSK.fasta -a data/Blautia_pseudococcoides_SCSK-genes.fa -o data/Blautia_pseudococcoides_SCSK-genes.gbk -p single")
 
-system("prodigal -i fasta_files/Blautia_producta_KH6.fasta \
--a data/Blautia_producta_KH6-genes.fa \
--o data/Blautia_producta_KH6-genes.gbk \
--p single")
+#system("prodigal -i fasta_files/Blautia_producta_KH6.fasta -a data/Blautia_producta_KH6-genes.fa -o data/Blautia_producta_KH6-genes.gbk -p single")
 
 #Run genes.fa files through the GhostKoala online portal
 
 #Compile all of the ghostkoala results to a single table
-ghostkoala_results <- read_tsv("data/Blautia_pseudococcoides_SCSK-ghostkoala.txt", col_types = "cc") %>%
+ghostkoala_results <- read_tsv("data/Blautia_pseudococcoides_SCSK-ghostkoala.txt") %>%
   mutate(locus_id = "Blautia_pseudococcoides_SCSK") %>% 
-  full_join(read_tsv("data/Blautia_producta_KH6-ghostkoala.txt", col_types = "cc") %>%
+  full_join(read_tsv("data/Blautia_producta_KH6-ghostkoala.txt") %>%
               mutate(locus_id = "Blautia_producta_KH6")) 
 
 

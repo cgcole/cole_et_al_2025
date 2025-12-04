@@ -34,9 +34,10 @@ pacman::p_load(
 )
 pacman::p_load_gh("ying14/yingtools2")
 
-rm(bioc_pkgs, pkg)
-
 # Visit https://github.com/omixer/omixer-rpmR for instructions to install Omixer
+pacman::p_load(omixerRpm)
+
+rm(bioc_pkgs, pkg)
 
 
 ## Generate folders to store generated tables and plots
@@ -148,4 +149,12 @@ getRdpPal <- function(tax) {
 }
 
 
+save_pheatmap_pdf <- function(x, filename, width=7, height=7) {
+  stopifnot(!missing(x))
+  stopifnot(!missing(filename))
+  pdf(filename, width=width, height=height)
+  grid::grid.newpage()
+  grid::grid.draw(x$gtable)
+  dev.off()
+}
 

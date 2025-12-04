@@ -86,11 +86,11 @@ theme_set(theme_bw() +
   axis.text = element_text(size = 5),
   title = element_text(face = "bold", size = 5), 
   # Axis ticks
-  axis.ticks = element_line(color = "black", size = .25),  # Set the tick line width to 0.5, same as axis border
+  axis.ticks = element_line(color = "black", linewidth = .25),  # Set the tick line width to 0.5, same as axis border
   axis.ticks.length = unit(3, "pt"),  # Adjust length of ticks to fit inside plot
   # Grid lines
-  panel.grid.major = element_line(color = "gray80", size = 0.15),
-  panel.grid.minor = element_line(color = "gray90", size = 0.1),
+  panel.grid.major = element_line(color = "gray80", linewidth = 0.15),
+  panel.grid.minor = element_line(color = "gray90", linewidth = 0.1),
   # Facets (strips)
   strip.background = element_blank(),
   strip.text = element_text(face = "bold", color = "black", size = 5),

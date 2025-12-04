@@ -131,7 +131,7 @@ sf6b_2 <- t_subset %>%
 
 
 pdf(file = "./plots/supplemental_figure6b.pdf", height = 2.1, width = 2.7559)
-ggstack <- gg.stack(sf7b_1,sf7b_2,heights=c(4,2.5), newpage = F, gap = 2)
+ggstack <- gg.stack(sf6b_1,sf6b_2,heights=c(4,2.5), newpage = F, gap = 2)
 dev.off()
 
 

@@ -1,12 +1,13 @@
 # Data Repo for Cole et al., 2025
 
 Title: Lantibiotic-producing bacteria impact microbiome resilience and colonization resistance
+
 DOI: https://doi.org/10.1016/j.chom.2025.11.007
 
 For any inquires regarding the contents of this repo, please reach out to Cody Cole (cgcole@uchicago.edu).
 
 This repository is archived at Zenodo:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10461278.svg)](https://doi.org/10.5281/zenodo.10461278)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17668614.svg)](https://doi.org/10.5281/zenodo.17668614)
 
 ## Folder structure
 
